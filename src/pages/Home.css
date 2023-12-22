@@ -1,0 +1,33 @@
+#home-container {
+    color: white;
+}
+
+#home-content {
+    position: relative;
+}
+
+#nav-bar {
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#nav-bar a {
+    color: white;
+    font-family: 'Lexend';
+    font-weight: 800;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+p {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
+    background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+    padding: 20px 40px;
+    width: 50%;
+}
