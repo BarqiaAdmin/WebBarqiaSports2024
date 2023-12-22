@@ -14,7 +14,7 @@ const Home = () => (
             <a href=''>case studies</a>
             <a href=''>contact</a>
         </div>
-        <img src='/img/Logo_inicio_Reflejo.png' style={{ marginLeft: '40px' }} />
+        <img src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px' }} />
         <h1 style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
             WELCOME TO
         </h1>
