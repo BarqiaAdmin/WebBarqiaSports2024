@@ -8,7 +8,7 @@ import { Row, Col } from 'react-bootstrap';
 const Home = () => (
     <Container id='home-container'>
         <img id='navbar-laser' src='/img/navbar_laser.png' />
-        <div id='nav-bar'>
+        <div id='nav-bar' style={{ padding: '20px 30px'}}>
             <div style={{ display: 'inline-block' }}>
                 <img src='/img/barqia-symbol.png' />
             </div>
