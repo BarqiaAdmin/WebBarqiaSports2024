@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+#nav-bar img {
+    display: none;
+}
+
 p {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
     background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -30,4 +34,41 @@ p {
     margin: auto;
     padding: 20px 40px;
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    p  {
+        background: none;
+        width: 75%;
+    }
+
+    #nav-bar {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    #nav-bar a {
+        display: block;
+    }
+
+    #nav-bar img {
+        display: block;
+    }
+
+    #navbar-laser {
+        display: none;
+    }
+    
+    #home-container .container div img {
+        width: 100%;
+    }
+    
+    #logo-inicio-reflejo {
+        display: none;
+    }
+    
+    #barqia-symbol-gif-container {
+        display: none;
+    }
 }
