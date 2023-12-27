@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Home from './pages/Home.tsx';
-//import AboutUs from './pages/AboutUs.tsx';
+import AboutUs from './pages/AboutUs.tsx';
 //import WhatWeDo from './pages/WhatWeDo.tsx';
 //import RaceWithUs from './pages/RaceWithUs.tsx';
 //import CaseStudies from './pages/CaseStudies.tsx';
@@ -17,8 +17,8 @@ function App() {
     <div className="App" style={{background: 'black'}}>
       <Routes>
           <Route path='' index element={<Home />} />
-          {/**
           <Route path='AboutUs' element={<AboutUs />} />
+          {/**
           <Route path='WhatWeDo' element={<WhatWeDo />} />
           <Route path='RaceWithUs' element={<RaceWithUs />} />
           <Route path='CaseStudies' element={<CaseStudies />} />

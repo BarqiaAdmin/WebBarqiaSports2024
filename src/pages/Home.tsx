@@ -7,19 +7,22 @@ import { Row, Col } from 'react-bootstrap';
 
 const Home = () => (
     <Container id='home-container'>
+
         <img id='navbar-laser' src='/img/navbar_laser.png' />
         <div id='nav-bar' style={{ padding: '20px 30px'}}>
             <div style={{ display: 'inline-block' }}>
                 <img src='/img/barqia-symbol.png' />
             </div>
             <div style={{ float: 'right' }}>
-                <a href=''>what we do</a>
-                <a href=''>about us</a>
+                <a href='/'>home</a>
+                <a href='WhatWeDo'>what we do</a>
+                <a href='AboutUs'>about us</a>
                 <a href=''>case studies</a>
                 <a href=''>contact</a>
             </div>
         </div>
         <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px' }} />
+
         <h1 style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
             WELCOME TO BARQIA
         </h1>
