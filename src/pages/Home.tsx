@@ -16,8 +16,8 @@ const Home = () => (
                 <a href='/' style={{ textDecoration: 'underline' }}>home</a>
                 <a href='WhatWeDo'>what we do</a>
                 <a href='WhatWeDo'>about us</a>
-                <a href=''>case studies</a>
-                <a href=''>contact</a>
+                <a href='CaseStudies'>case studies</a>
+                <a href='Contact'>contact</a>
             </div>
         </div>
         <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px' }} />

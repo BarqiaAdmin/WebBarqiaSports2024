@@ -16,7 +16,7 @@ const CaseStudies = () => {
                     <a href='WhatWeDo'>what we do</a>
                     <a href='AboutUs'>about us</a>
                     <a href='CaseStudies' style={{ textDecoration: 'underline' }}>case studies</a>
-                    <a href=''>contact</a>
+                    <a href='Contact'>contact</a>
                 </div>
             </div>
             <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px', position: 'relative', zIndex: '1' }} />
