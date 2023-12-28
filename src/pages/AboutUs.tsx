@@ -48,6 +48,10 @@ const AboutUs = () => {
                 We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
             </p>
 
+            <h1>
+                ABOUT US
+            </h1>
+
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>

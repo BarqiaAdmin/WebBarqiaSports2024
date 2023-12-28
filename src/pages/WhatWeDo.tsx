@@ -54,9 +54,23 @@ const WhatWeDo = () => {
                                 <img id='img-search' src='/img/search.png' />
                             </div>
 
-                            <img id='img-cascos-1' src='/img/cascos-1.png' style={{ width: '100%'}} />
+                            <div>
+                                <img id='img-cascos-1' src='/img/cascos-1.png' style={{ width: '100%'}} />
+                                <p style={{color: 'white'}}>
+                                    Technology consulting
+                                </p>
+                            </div>
                             
-                            <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ width: '100%'}} />
+                            <div>
+                                <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ width: '100%'}} />
+                                <p style={{color: 'white'}}>
+                                    Events
+                                </p>
+                            </div>
+
+                            <p style={{color: 'white'}}>
+                                ABOUT US
+                            </p>
                         </div>
                     </Col>
                 </Row>
