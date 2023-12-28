@@ -16,7 +16,7 @@ const Home = () => (
             <div style={{ float: 'right' }}>
                 <a href='/'>home</a>
                 <a href='WhatWeDo'>what we do</a>
-                <a href='AboutUs'>about us</a>
+                <a href='WhatWeDo'>about us</a>
                 <a href=''>case studies</a>
                 <a href=''>contact</a>
             </div>
