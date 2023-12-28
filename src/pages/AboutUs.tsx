@@ -33,35 +33,61 @@ const AboutUs = () => {
                 <p style={{ color: 'white' }}>
                     Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                 </p>
-
-                <p style={{ color: 'white' }}>
-                    We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
-                </p>
+                <div>
+                    <p style={{ color: 'white' }}>
+                        We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
+                    </p>
+                </div>
 
                 <div style={{position: 'relative'}}>
-                    <img src='/img/laser-2.png' style={{width: '100%'}} />
-                    <img src='/img/poligono_4.png' style={{width: '100%'}} />
-                    <img src='/img/panel_3_i.png' style={{width: '100%'}} />
-                    <img src='/img/panel_3_n_i.png' style={{transform: 'rotate(180deg)', width: '100%'}} />
-                    <img src='/img/panel_4_i.png' style={{width: '100%'}} />
-                    <div id='div-img-story-title'>
-                        <img src='/img/story-title.png' />
+                    <img className='hide-on-desktop' src='/img/laser-2.png' style={{width: '100%'}} />
+                    <img className='hide-on-desktop' src='/img/poligono_4.png' style={{width: '100%'}} />
+                    <img className='poligonos' src='/img/panel_3_i.png' style={{width: '100%'}} />
+                    <img className='poligonos' src='/img/panel_3_n_i.png' style={{transform: 'rotate(180deg)', width: '100%'}} />
+                    <img className='poligonos' src='/img/panel_4_i.png' style={{width: '100%'}} />
+
+                    <div id='story-mobile'>
+                        <div id='about-us-content'>
+                            <div id='div-img-story-title'>
+                                <img src='/img/story-title.png' />
+                                <div style={{ textAlign: 'center'}}>
+                                    <video autoPlay muted loop style={{width: '100%'}}>
+                                        <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                            <p style={{ color: 'white' }}>
+                                Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
+                            </p>
+                            <p style={{ color: 'white' }}>
+                                We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
+                            </p>
+                        </div>
                     </div>
-                    <div id='about-us-text-2'>
-                        <p style={{ color: 'white' }}>
-                            Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
-                        </p>
-                        <p style={{ color: 'white' }}>
-                            We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
-                        </p>
+
+                    <div id='story-desktop' className='hide-on-mobile' style={{position: 'relative'}}>
+                        <img src='/img/laser-2.png' style={{width: '100%'}} />
+                        <img src='/img/poligono_4.png' style={{width: '100%'}} />
+                        <div id='div-img-story-title' style={{position: 'absolute', top: '10%', left: '5%'}}>
+                            <img src='/img/story-title.png' />
+                            <div style={{ textAlign: 'center'}}>
+                                <video autoPlay muted loop style={{width: '100%'}}>
+                                    <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
+                        <div id='about-us-content' style={{position: 'absolute', top: '10%', right: '10%', width: '50%'}}>
+                            <p style={{ color: 'white', fontSize: '36px', lineHeight: '63px', width: '100%'}}>
+                                Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
+                            </p>
+                            <p style={{ color: 'white', width: '100%' }}>
+                                We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div style={{ textAlign: 'center'}}>
-                    <video autoPlay muted loop style={{width: '100%'}}>
-                        <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
-                    </video>
-                </div>
+                
 
                 <h1>
                     ABOUT US
