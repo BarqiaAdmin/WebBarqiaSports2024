@@ -7,14 +7,13 @@ import { Row, Col } from 'react-bootstrap';
 
 const Home = () => (
     <Container id='home-container'>
-
         <img id='navbar-laser' src='/img/navbar_laser.png' />
         <div id='nav-bar' style={{ padding: '20px 30px'}}>
             <div style={{ display: 'inline-block' }}>
                 <img src='/img/barqia-symbol.png' />
             </div>
             <div style={{ float: 'right' }}>
-                <a href='/'>home</a>
+                <a href='/' style={{ textDecoration: 'underline' }}>home</a>
                 <a href='WhatWeDo'>what we do</a>
                 <a href='WhatWeDo'>about us</a>
                 <a href=''>case studies</a>
@@ -34,7 +33,7 @@ const Home = () => (
             <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
                 <img src='/img/barqia-symbol-gif.gif' style={{ marginTop: '-100px' }} />
             </div>
-            <p style={{ position: 'relative', zIndex: '1' }}>
+            <p style={{ marginTop: '-90px', position: 'relative', zIndex: '1' }}>
                 Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
                 We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
             </p>
