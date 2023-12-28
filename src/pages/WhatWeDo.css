@@ -1,0 +1,13 @@
+#img-about-us {
+    margin-top: 298px;
+    position: relative;
+    width: 100%;
+    z-index: '0';
+}
+
+@media screen and (max-width: 600px) {
+    #img-about-us {
+        margin-top: 0px;
+    }
+}
+

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './WhatWeDo.css';
+
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 
@@ -15,13 +17,12 @@ const WhatWeDo = () => {
                     <a href='/'>home</a>
                     <a href='WhatWeDo' style={{ textDecoration: 'underline' }}>what we do</a>
                     <a href='AboutUs'>about us</a>
-                    <a href='CaseStudies'>case studies</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>
             <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px', position: 'relative', zIndex: '1' }} />
 
-            <img src='/img/about-us.png' style={{ marginTop: '-298px', position: 'relative', width: '100%', zIndex: '0' }} />
+            <img id='img-about-us' src='/img/about-us.png' />
 
             <h1 style={{ background: '#060C17', color: 'white', textAlign: 'center' }} >
                 WHAT WE DO
