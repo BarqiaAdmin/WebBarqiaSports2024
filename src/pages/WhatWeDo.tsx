@@ -15,7 +15,7 @@ const WhatWeDo = () => {
                     <a href='/'>home</a>
                     <a href='WhatWeDo' style={{ textDecoration: 'underline' }}>what we do</a>
                     <a href='AboutUs'>about us</a>
-                    <a href=''>case studies</a>
+                    <a href='CaseStudies'>case studies</a>
                     <a href=''>contact</a>
                 </div>
             </div>

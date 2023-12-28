@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import WhatWeDo from './pages/WhatWeDo.tsx';
 import AboutUs from './pages/AboutUs.tsx';
-//import WhatWeDo from './pages/WhatWeDo.tsx';
+import CaseStudies from './pages/CaseStudies.tsx';
 //import RaceWithUs from './pages/RaceWithUs.tsx';
-//import CaseStudies from './pages/CaseStudies.tsx';
 //import Events from './pages/Events.tsx';
 //import DecemberHackJam from './pages/Events/DecemberHackJam.tsx';
 //import Contact from './pages/Contact.tsx';
@@ -19,9 +18,9 @@ function App() {
           <Route path='' index element={<Home />} />
           <Route path='WhatWeDo' element={<WhatWeDo />} />
           <Route path='AboutUs' element={<AboutUs />} />
+          <Route path='CaseStudies' element={<CaseStudies />} />
           {/**
           <Route path='RaceWithUs' element={<RaceWithUs />} />
-          <Route path='CaseStudies' element={<CaseStudies />} />
           <Route path='Events' element={<Events />} />
           <Route path='Events/DecemberHackJam' element={<DecemberHackJam />} />
           <Route path='Contact' element={<Contact />} />
