@@ -1,13 +1,42 @@
 #img-about-us {
-    margin-top: -298px;
+    margin-top: -296px;
     position: relative;
     width: 100%;
     z-index: '0';
 }
 
+#img-search {
+    width: 350px;
+    position: absolute;
+    top: 65px;
+    left: 36%;
+}
+
 @media screen and (max-width: 600px) {
+    #container-what-we-do p {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
+        background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: 600;
+        margin: auto;
+        padding: 20px 40px;
+        width: 75%;
+    }
+
     #img-about-us {
-        margin-top: 0px;
+        margin-top: 15px;
+    }
+
+    #img-search-1, #img-cascos-1, #img-hackaton-esports {
+        width: 100%;
+    }
+
+    #img-search {
+        position: absolute;
+        left: 36%;
+        top: 1.5%;
+        width: 100px;
     }
 }
 

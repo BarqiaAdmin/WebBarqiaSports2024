@@ -37,8 +37,12 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    #h1-welcome-to-barqia {
+        margin-top: 43px;
+    }
+
     p  {
-        background: none;
+        background: rgba(0, 0, 0, 0.7);
         width: 75%;
     }
 

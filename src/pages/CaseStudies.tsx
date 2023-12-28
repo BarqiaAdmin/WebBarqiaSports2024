@@ -13,8 +13,8 @@ const CaseStudies = () => {
                 </div>
                 <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
                     <a href='/'>home</a>
-                    <a href='WhatWeDo'>what we do</a>
                     <a href='AboutUs'>about us</a>
+                    <a href='WhatWeDo'>what we do</a>
                     <a href='CaseStudies' style={{ textDecoration: 'underline' }}>case studies</a>
                     <a href='Contact'>contact</a>
                 </div>

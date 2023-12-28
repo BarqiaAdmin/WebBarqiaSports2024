@@ -14,15 +14,15 @@ const Home = () => (
             </div>
             <div style={{ float: 'right' }}>
                 <a href='/' style={{ textDecoration: 'underline' }}>home</a>
+                <a href='AboutUs'>about us</a>
                 <a href='WhatWeDo'>what we do</a>
-                <a href='WhatWeDo'>about us</a>
                 <a href='CaseStudies'>case studies</a>
                 <a href='Contact'>contact</a>
             </div>
         </div>
         <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px' }} />
 
-        <h1 style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
             WELCOME TO BARQIA
         </h1>
         <video autoPlay muted loop style={{ width: '100%' }} >
