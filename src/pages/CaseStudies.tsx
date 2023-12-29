@@ -15,16 +15,27 @@ const CaseStudies = () => {
                     <a href='/'>home</a>
                     <a href='AboutUs'>about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='CaseStudies' style={{ textDecoration: 'underline' }}>case studies</a>
+                    <a href='CaseStudies' className='nav-bar-selected-link' >case studies</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>
-            <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px', position: 'relative', zIndex: '1' }} />
+
+            <Container>
+                <Row>
+                    <Col>
+                        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+                            Case Studies
+                        </h1>
+                    </Col>
+                </Row>
+            </Container>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
-                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px' }} />
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                        </div>
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />

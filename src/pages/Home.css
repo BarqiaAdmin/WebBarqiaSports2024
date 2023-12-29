@@ -6,13 +6,6 @@
     position: relative;
 }
 
-#nav-bar {
-    font-size: 25px;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-}
-
 #nav-bar a {
     color: white;
     font-family: 'Lexend';

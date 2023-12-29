@@ -13,26 +13,22 @@ const Home = () => (
                 <img src='/img/barqia-symbol.png' />
             </div>
             <div style={{ float: 'right' }}>
-                <a href='/' style={{ textDecoration: 'underline' }}>home</a>
+                <a href='/' className='nav-bar-selected-link' >home</a>
                 <a href='AboutUs'>about us</a>
                 <a href='WhatWeDo'>what we do</a>
                 <a href='CaseStudies'>case studies</a>
                 <a href='Contact'>contact</a>
             </div>
         </div>
-        <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px' }} />
-
-        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
-            WELCOME TO BARQIA
-        </h1>
-        <video autoPlay muted loop style={{ width: '100%' }} >
+        <video autoPlay muted loop style={{ marginTop: '-115px', width: '100%' }} >
             <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
         </video>
+        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', marginBottom: '110px', textAlign: 'center' }} >
+            WELCOME TO BARQIA
+        </h1>
         <Container style={{ position: 'relative' }}>
             <img src='/img/poligonos.png' style={{ position: 'absolute', top: '0', width: '100%', zIndex: '0' }} />
-            <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                <img src='/img/barqia-symbol-gif.gif' style={{ marginTop: '-100px' }} />
-            </div>
+
             <p style={{ marginTop: '-90px', position: 'relative', zIndex: '1' }}>
                 Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
                 We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
@@ -57,7 +53,9 @@ const Home = () => (
         <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
             <Row>
                 <Col style={{ textAlign: 'center' }}>
-                    <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px' }} />
+                    <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                        <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                    </div>
                 </Col>
             </Row>
             <hr style={{ margin: '40px 0' }} />

@@ -15,20 +15,19 @@ const AboutUs = () => {
                 </div>
                 <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
                     <a href='/'>home</a>
-                    <a href='AboutUs' style={{ textDecoration: 'underline' }}>about us</a>
+                    <a href='AboutUs' className='nav-bar-selected-link' >about us</a>
                     <a href='WhatWeDo'>what we do</a>
                     <a href='CaseStudies'>case studies</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>
-            <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px', position: 'relative', zIndex: '1' }} />
 
             <Container>
-                <h1 id='h1-about-us-our-mission' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >
+                <img src='/img/our-mission.jpg' style={{ marginTop: '-115px', width: '100%'}} />
+                
+                <h1 id='h1-about-us-our-mission' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
                     OUR MISSION
                 </h1>
-
-                <img src='/img/our-mission.jpg' style={{width: '100%'}} />
 
                 <p style={{ color: 'white' }}>
                     Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
@@ -77,10 +76,10 @@ const AboutUs = () => {
                             </div>
                         </div>
                         <div id='about-us-content' style={{position: 'absolute', top: '10%', right: '10%', width: '50%'}}>
-                            <p style={{ color: 'white', fontSize: '36px', lineHeight: '63px', width: '100%'}}>
+                            <p style={{ color: 'white', marginTop: '5px', width: '100%'}}>
                                 Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                             </p>
-                            <p style={{ color: 'white', width: '100%' }}>
+                            <p style={{ color: 'white', marginTop: '65px', width: '100%' }}>
                                 We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                             </p>
                         </div>
@@ -97,7 +96,9 @@ const AboutUs = () => {
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
-                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px' }} />
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                        </div>
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />

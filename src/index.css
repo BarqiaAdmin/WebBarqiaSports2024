@@ -13,3 +13,44 @@ p {
   padding: 20px 40px;
   width: 75%;
 }
+
+#navbar-laser {
+  position: relative;
+  z-index: 1;
+  width: 1365px;
+}
+
+#nav-bar {
+    font-size: 18px;
+    position: relative;
+    top: -125px;
+    right: 50px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#nav-bar a {
+  transition: 0.2s
+}
+
+#nav-bar a.nav-bar-selected-link {
+  border-bottom: 5px solid white;
+}
+
+#nav-bar a:hover {
+  border-bottom: 5px solid white;
+}
+
+#nav-bar:hover a.nav-bar-selected-link {
+  border-bottom: none;
+}
+
+#nav-bar:hover a.nav-bar-selected-link:hover {
+  border-bottom: 5px solid white;
+}
+
+#barqia-footer-gif {
+    margin-top: -100px;
+    margin-bottom: -100px;
+    width: 500px;
+}

@@ -16,12 +16,11 @@ const WhatWeDo = () => {
                 <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
                     <a href='/'>home</a>
                     <a href='AboutUs'>about us</a>
-                    <a href='WhatWeDo' style={{ textDecoration: 'underline' }}>what we do</a>
+                    <a href='WhatWeDo' className='nav-bar-selected-link' >what we do</a>
                     <a href='CaseStudies'>case studies</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>
-            <img id='logo-inicio-reflejo' src='/img/Logo_Inicio_Reflejo.png' style={{ marginLeft: '40px', position: 'relative', zIndex: '1' }} />
             <Container style={{ position: 'relative' }}>
                 <Row>
                     <Col>
@@ -29,7 +28,7 @@ const WhatWeDo = () => {
                             <img id='img-about-us' src='/img/about-us.png' />
                         </div>
 
-                        <h1 style={{ background: '#060C17', color: 'white', textAlign: 'center' }} >
+                        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
                             WHAT WE DO
                         </h1>
 
@@ -79,7 +78,9 @@ const WhatWeDo = () => {
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
-                        <img className='hide-on-mobile' src='/img/barqia-symbol.png' style={{ width: '75px' }} />
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                        </div>
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />
