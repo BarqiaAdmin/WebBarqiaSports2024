@@ -6,10 +6,10 @@
 }
 
 #img-search {
-    width: 350px;
+    width: 200px;
     position: absolute;
-    top: 65px;
-    left: 36%;
+    top: 50px;
+    left: 42%;
 }
 
 @media screen and (max-width: 600px) {

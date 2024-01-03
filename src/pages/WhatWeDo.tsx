@@ -28,16 +28,19 @@ const WhatWeDo = () => {
                             <img id='img-about-us' src='/img/about-us.png' />
                         </div>
 
-                        <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
-                            WHAT WE DO
-                        </h1>
+                        <div style={{display: 'inline-block', width: '60%'}}>
+                            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
+                                WHAT WE DO
+                            </h1>
 
-                        <p style={{ color: 'white' }}>
-                            We are the leading IMMERSIVE FAN ENGAMENT PLATFORM perfect for clubs, athletes and fans of all sports worldwide. Participate in all the immersive experiences, earn points, get benefits and help to grow your favorite club or athlete.
-                            Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes.
-                        </p>
+                            <p style={{ color: 'white', lineHeight: '48px' }}>
+                                We are the leading IMMERSIVE FAN ENGAMENT PLATFORM perfect for clubs, athletes and fans of all sports worldwide. Participate in all the immersive experiences, earn points, get benefits and help to grow your favorite club or athlete.
+                                Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes.
+                            </p>
+                        </div>
+                        
 
-                        <div style={{ textAlign: 'center'}}>
+                        <div style={{ display: 'inline-block', textAlign: 'center'}}>
                             <video autoPlay muted loop style={{width: '100%'}}>
                                 <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                             </video>
@@ -48,28 +51,24 @@ const WhatWeDo = () => {
                         </div>
                         
                         <div style={{position: 'relative', textAlign: 'center'}}>
-                            <img id='img-search-1' src='/img/search-1.png' style={{ width: '100%'}} />
+                            <img id='img-search-1' src='/img/search-1.png' style={{ marginBottom: '50px', width: '70%'}} />
                             <div>
                                 <img id='img-search' src='/img/search.png' />
                             </div>
 
-                            <div>
-                                <img id='img-cascos-1' src='/img/cascos-1.png' style={{ width: '100%'}} />
-                                <p style={{color: 'white'}}>
+                            <div style={{display: 'inline-block', width: '50%'}}>
+                                <img id='img-cascos-1' src='/img/cascos-1.png' style={{ marginRight: '-70px', width: '70%'}} />
+                                <p style={{color: 'white', fontSize: '35px', textAlign: 'center', width: '100%'}}>
                                     Technology consulting
                                 </p>
                             </div>
                             
-                            <div>
-                                <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ width: '100%'}} />
-                                <p style={{color: 'white'}}>
-                                    Events
+                            <div style={{display: 'inline-block', width: '50%'}}>
+                                <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ marginLeft: '-70px', width: '70%'}} />
+                                <p style={{color: 'white', fontSize: '35px', textAlign: 'center', width: '100%'}}>
+                                    <span style={{marginLeft: '-130px'}}>Events</span>
                                 </p>
                             </div>
-
-                            <p style={{color: 'white'}}>
-                                ABOUT US
-                            </p>
                         </div>
                     </Col>
                 </Row>
