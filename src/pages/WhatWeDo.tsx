@@ -28,7 +28,7 @@ const WhatWeDo = () => {
                             <img id='img-about-us' src='/img/about-us.png' />
                         </div>
 
-                        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
+                        <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
                             WHAT WE DO
                         </h1>
 

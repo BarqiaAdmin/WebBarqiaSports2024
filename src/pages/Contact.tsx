@@ -23,7 +23,7 @@ const Contact = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+                        <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
                             Contact
                         </h1>
                     </Col>

@@ -6,12 +6,17 @@ html, body {
 
 p {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
-  background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: rgba(0, 0, 0, 0.6) !important;
   border-radius: 10px;
   font-size: 30px;
   font-weight: 600;
   padding: 20px 40px;
   width: 75%;
+}
+
+p {
+  font-size: 27px;
+  text-align: justify;
 }
 
 #navbar-laser {
@@ -53,4 +58,22 @@ p {
     margin-top: -100px;
     margin-bottom: -100px;
     width: 500px;
+}
+
+#footer-text {
+  left: -30px;
+  position: relative;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
 }

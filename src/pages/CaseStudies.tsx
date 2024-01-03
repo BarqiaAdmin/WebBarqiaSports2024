@@ -23,7 +23,7 @@ const CaseStudies = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 id='h1-welcome-to-barqia' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+                        <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
                             Case Studies
                         </h1>
                     </Col>
@@ -48,7 +48,7 @@ const CaseStudies = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                        <p  style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', width: '100%' }}>
                             2023 Barqia - All Rights Reserved.
                         </p>
                     </Col>

@@ -25,7 +25,7 @@ const AboutUs = () => {
             <Container>
                 <img src='/img/our-mission.jpg' style={{ marginTop: '-115px', width: '100%'}} />
                 
-                <h1 id='h1-about-us-our-mission' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
+                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
                     OUR MISSION
                 </h1>
 
@@ -83,14 +83,90 @@ const AboutUs = () => {
                                 We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                             </p>
                         </div>
+                        <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', left: '10%', top: '61%' }}>
+                            <Row>
+                                <Col style={{ display: 'inline-block', width: '30%' }}>
+                                    <div>
+                                        <div>
+                                            <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-felipe-barquin.png' />
+                                        </div>
+                                        <h1>
+                                            Felipe Barquin
+                                        </h1>
+                                        <h2>
+                                            CEO
+                                        </h2>
+                                        <h3>
+                                            Founder of Barqia
+                                        </h3>
+                                        <div style={{ fontStyle: 'italic' }}>
+                                            A technology company focused on development with AI.
+                                        </div>
+                                        <div>
+                                            <br /><br />
+                                            <a href='https://www.linkedin.com/in/felipebarquin/' target='_blank'>
+                                                <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Col>
+
+                                <Col style={{ display: 'inline-block', margin: '0 15px', width: '30%' }}>
+                                    <div>
+                                        <div>
+                                            <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-fernando-carmona.png' />
+                                        </div>
+                                        <h1>
+                                            Fernando Carmona
+                                        </h1>
+                                        <h2>
+                                            COO
+                                        </h2>
+                                        <h3>
+                                            Sports Business Management
+                                        </h3>
+                                        <div style={{ fontStyle: 'italic' }}>
+                                            Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.
+                                        </div>
+                                        <div>
+                                            <br /><br />
+                                            <a href='https://www.linkedin.com/in/fernandocarmonaarmengou/' target='_blank'>
+                                                <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Col>
+
+                                <Col style={{ display: 'inline-block', width: '30%' }}>
+                                    <div>
+                                        <div>
+                                            <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-diego-gomez.png' />
+                                        </div>
+                                        <h1>
+                                            Diego Gomez
+                                        </h1>
+                                        <h2>
+                                            CTO
+                                        </h2>
+                                        <h3>
+                                            Degree in Information Systems
+                                        </h3>
+                                        <div style={{ fontStyle: 'italic' }}>
+                                            Project Manager Specialist of Interactive Space in VR/AR
+                                        </div>
+                                        <div>
+                                            <br /><br />
+                                            <a href='https://www.linkedin.com/in/diego-g%C3%B3mez-martil-8a0603268/' target='_blank'>
+                                                <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Container>
+                        
                     </div>
                 </div>
-
-                
-
-                <h1>
-                    ABOUT US
-                </h1>
             </Container>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
@@ -111,7 +187,7 @@ const AboutUs = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                        <p id='footer-text' style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', width: '100%' }}>
                             2023 Barqia - All Rights Reserved.
                         </p>
                     </Col>
