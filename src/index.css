@@ -6,23 +6,20 @@ html, body {
 
 p {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 20px;
+  text-align: justify;
   font-weight: 600;
+  line-height: 40px;
   padding: 20px 40px;
   width: 75%;
-}
-
-p {
-  font-size: 27px;
-  text-align: justify;
 }
 
 #navbar-laser {
   position: relative;
   z-index: 1;
-  width: 1365px;
+  width: 100%;
 }
 
 #nav-bar {
@@ -66,14 +63,15 @@ p {
 }
 
 .neonText {
-  color: #fff;
+  color: #B7CFCC;
+  font-size: 49px;
   text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
+      0 0 3px #B7CFCC,
+      0 0 5px #B7CFCC,
+      0 0 10px #B7CFCC,
+      0 0 21px #005A4D,
+      0 0 41px #005A4D,
+      0 0 46px #005A4D,
+      0 0 51px #005A4D,
+      0 0 75px #005A4D;
 }

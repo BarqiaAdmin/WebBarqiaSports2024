@@ -29,11 +29,13 @@ const AboutUs = () => {
                     OUR MISSION
                 </h1>
 
-                <p style={{ color: 'white' }}>
-                    Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
-                </p>
                 <div>
-                    <p style={{ color: 'white' }}>
+                    <p style={{ color: 'white', width: '59%' }}>
+                        Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
+                    </p>
+                </div>
+                <div>
+                    <p style={{ color: 'white', width: '59%' }}>
                         We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
                     </p>
                 </div>
@@ -58,7 +60,7 @@ const AboutUs = () => {
                             <p style={{ color: 'white' }}>
                                 Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                             </p>
-                            <p style={{ color: 'white' }}>
+                            <p style={{ color: 'white', marginLeft: '35%' }}>
                                 We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                             </p>
                         </div>
@@ -83,7 +85,7 @@ const AboutUs = () => {
                                 We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                             </p>
                         </div>
-                        <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', left: '10%', top: '61%' }}>
+                        <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', left: '10%', top: '60%' }}>
                             <Row>
                                 <Col style={{ display: 'inline-block', width: '30%' }}>
                                     <div>
@@ -187,7 +189,7 @@ const AboutUs = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p id='footer-text' style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', width: '100%' }}>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
                             2023 Barqia - All Rights Reserved.
                         </p>
                     </Col>

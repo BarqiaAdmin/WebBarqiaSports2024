@@ -58,15 +58,15 @@ const WhatWeDo = () => {
 
                             <div style={{display: 'inline-block', width: '50%'}}>
                                 <img id='img-cascos-1' src='/img/cascos-1.png' style={{ marginRight: '-70px', width: '70%'}} />
-                                <p style={{color: 'white', fontSize: '35px', textAlign: 'center', width: '100%'}}>
+                                <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
                                     Technology consulting
                                 </p>
                             </div>
                             
                             <div style={{display: 'inline-block', width: '50%'}}>
                                 <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ marginLeft: '-70px', width: '70%'}} />
-                                <p style={{color: 'white', fontSize: '35px', textAlign: 'center', width: '100%'}}>
-                                    <span style={{marginLeft: '-130px'}}>Events</span>
+                                <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
+                                    Events
                                 </p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ const WhatWeDo = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
                             2023 Barqia - All Rights Reserved.
                         </p>
                     </Col>

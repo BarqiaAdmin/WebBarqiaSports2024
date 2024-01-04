@@ -33,12 +33,14 @@ const Home = () => (
                 Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
                 We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
             </p>
-            <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+            <div style={{ display: 'inline-block', textAlign: 'center', position: 'relative', zIndex: '1' }}>
                 <img src='/img/home-1.PNG' />
             </div>
-            <p style={{ position: 'relative', zIndex: '1' }}>
-                The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
-            </p>
+            <div style={{ display: 'inline-block', position: 'relative', width: '50%', zIndex: '1' }}>
+                <p>
+                    The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+                </p>
+            </div>
             <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
                 <img src='/img/home-2.PNG' />
             </div>
@@ -68,7 +70,7 @@ const Home = () => (
             </Row>
             <Row>
                 <Col>
-                    <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                    <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
                         2023 Barqia - All Rights Reserved.
                     </p>
                 </Col>

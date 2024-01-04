@@ -2,6 +2,8 @@ import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 const Contact = () => {
     return(
@@ -20,12 +22,53 @@ const Contact = () => {
                 </div>
             </div>
 
-            <Container>
+            <Container style={{ position: 'relative'}} >
                 <Row>
                     <Col>
-                        <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
-                            Contact
+                        <h1 style={{ textAlign: 'center' }} >
+                            Connect with us
                         </h1>
+                        <p>
+                            <img src='/img/barqia-map.png' style={{ margin: '20px 0', width: '100%' }} />
+                        </p>
+                    </Col>
+                    <Col lg={6} style={{ margin: 'auto' }}>
+                        <Form>
+                            <Form.Group>
+                                <Form.Label>
+                                    Name:
+                                </Form.Label>
+                                <Form.Control type='text' placeholder='Enter your first name' />
+                            </Form.Group>
+                            <Form.Group>
+                                <Form.Label>
+                                    Last name:
+                                </Form.Label>
+                                <Form.Control type='text' placeholder='Enter your last name' />
+                            </Form.Group>
+                            <Form.Group>
+                                <Form.Label>
+                                    Email address:
+                                </Form.Label>
+                                <Form.Control type='text' placeholder='Enter your email address' />
+                            </Form.Group>
+                            <Form.Group>
+                                <Form.Label>
+                                    Enquiry:
+                                </Form.Label>
+                                <Form.Control as='textarea' rows={3} />
+                            </Form.Group>
+                            <Form.Group style={{ margin: '20px 0', textAlign: 'center'}} >
+                                <p>
+                                    <Button className='barqia-button' type='submit'>
+                                        Send query
+                                    </Button>
+                                    <br />
+                                    We will answer you shortly.
+                                </p>
+                                
+                            </Form.Group>
+                        </Form>
                     </Col>
                 </Row>
             </Container>
@@ -48,7 +91,7 @@ const Contact = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center' }}>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', padding: '0', textAlign: 'center', width: '100%' }}>
                             2023 Barqia - All Rights Reserved.
                         </p>
                     </Col>
