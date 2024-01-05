@@ -12,31 +12,37 @@
     left: 42%;
 }
 
+#img-home-2 {
+    margin-bottom: 50px;
+    margin-top: -75px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    #barqia-symbol {
+        display: inline-block;
+    }
+
+    #segundo-container {
+        width: 60%
+    }
+}
+
 @media screen and (max-width: 600px) {
-    #container-what-we-do p {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
-        background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        border-radius: 10px;
-        font-size: 30px;
-        font-weight: 600;
-        margin: auto;
-        padding: 20px 40px;
-        width: 75%;
+    #segundo-container {
+        width: 100%
     }
 
-    #img-about-us {
-        margin-top: 15px;
+        #segundo-container {
+            width: 100%
+        }
+
+    #barqia-symbol {
+        display: none;
     }
 
-    #img-search-1, #img-cascos-1, #img-hackaton-esports {
-        width: 100%;
-    }
-
-    #img-search {
-        position: absolute;
-        left: 36%;
-        top: 1.5%;
-        width: 100px;
+    #menu-hamburguesa {
+        background: black;
     }
 }
 

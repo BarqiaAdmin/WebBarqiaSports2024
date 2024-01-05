@@ -4,6 +4,7 @@ import './AboutUs.css';
 
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 
 const AboutUs = () => {
     return(
@@ -22,8 +23,51 @@ const AboutUs = () => {
                 </div>
             </div>
 
+            <Carousel data-bs-theme="dark">
+                <Carousel.Item interval={2000}>
+                    <img
+                    className="d-block w-100"
+                    src="/img/barqia-estadio.png"
+                    alt="First slide"
+                    />
+                    {/* 
+                    <Carousel.Caption>
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                    */}
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <img
+                    className="d-block w-100"
+                    src="/img/barqia-stadium-entrada.PNG"
+                    alt="Second slide"
+                    />
+                    {/*
+                    <Carousel.Caption>
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                    */}
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <img
+                    className="d-block w-100"
+                    src="/img/estadio.PNG"
+                    alt="Third slide"
+                    />
+                    {/*
+                    <Carousel.Caption>
+                    <h5>Third slide label</h5>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                    </Carousel.Caption>
+                    */}
+                </Carousel.Item>
+            </Carousel>
+
             <Container>
-                <img src='/img/our-mission.jpg' style={{ marginTop: '-115px', width: '100%'}} />
                 
                 <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
                     OUR MISSION
