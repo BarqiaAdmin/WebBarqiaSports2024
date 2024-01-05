@@ -23,6 +23,11 @@
     padding: 0;
 }
 
+#panel_3_i {
+    margin-top: -130px;
+    rotate: 180deg;
+}
+
 @media (min-width: 576px) {
         .container, .container-sm {
         max-width: none;
