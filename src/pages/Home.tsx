@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 
 const Home = () => (
-    <Container id='home-container'>
+    <Container fluid id='home-container'>
         <img id='navbar-laser' src='/img/navbar_laser.png' />
         <div id='nav-bar' style={{ padding: '20px 30px'}}>
             <div style={{ display: 'inline-block' }}>

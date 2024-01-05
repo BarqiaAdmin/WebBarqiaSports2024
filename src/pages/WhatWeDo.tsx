@@ -7,7 +7,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const WhatWeDo = () => {
     return(
-        <Container id='container-what-we-do'>
+        <Container fluid id='container-what-we-do'>
             <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
             <div id='nav-bar' style={{ padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>

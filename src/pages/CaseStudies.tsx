@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const CaseStudies = () => {
     return(
-        <Container style={{ background: '' }}>
+        <Container fluid style={{ background: '' }}>
             <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
             <div id='nav-bar' style={{ padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>
