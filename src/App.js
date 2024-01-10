@@ -5,6 +5,7 @@ import WhatWeDo from './pages/WhatWeDo.tsx';
 import AboutUs from './pages/AboutUs.tsx';
 import CaseStudies from './pages/CaseStudies.tsx';
 import Contact from './pages/Contact.tsx';
+import Hackathon2024 from './pages/Hackathon2024.tsx';
 //import RaceWithUs from './pages/RaceWithUs.tsx';
 //import Events from './pages/Events.tsx';
 //import DecemberHackJam from './pages/Events/DecemberHackJam.tsx';
@@ -20,6 +21,7 @@ function App() {
           <Route path='AboutUs' element={<AboutUs />} />
           <Route path='CaseStudies' element={<CaseStudies />} />
           <Route path='Contact' element={<Contact />} />
+          <Route path='Hackathon2024' element={<Hackathon2024 />} />
           {/**
           <Route path='RaceWithUs' element={<RaceWithUs />} />
           <Route path='Events' element={<Events />} />

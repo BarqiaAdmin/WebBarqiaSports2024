@@ -1,0 +1,48 @@
+#landing-evento {
+    background: url('../../public/img/fondo-landing.png');
+    color: white;
+    font-family: 'Jura';
+}
+
+#landing-evento h1 {
+    color: lightgray;
+    text-shadow:
+        0 0 3px white,
+        0 0 5px white,
+        0 0 10px white,
+        0 0 20px white,
+        0 0 40px white,
+        0 0 45px white,
+        0 0 50px white,
+        0 0 75px white;
+}
+
+#landing-evento p {
+    background: none;
+    padding: 0;
+    width: 100%;
+}
+
+#landing-evento .carousel-inner {
+    margin-top: 0;
+}
+
+.img-symbol {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin: 40px 0;
+    width: 100px;
+}
+
+.barqia-purple-text {
+    color: lightgray;
+    text-shadow:
+        0 0 3px #EA37A3,
+        0 0 5px #EA37A3,
+        0 0 10px #EA37A3,
+        0 0 20px #EA37A3,
+        0 0 40px #EA37A3,
+        0 0 45px #EA37A3,
+        0 0 50px #EA37A3,
+        0 0 75px #EA37A3;
+}
