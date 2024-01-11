@@ -1,7 +1,17 @@
+#landing-evento * {
+    margin-bottom: 30px !important;
+}
+
 #landing-evento {
     background: url('../../public/img/fondo-landing.png');
     color: white;
     font-family: 'Jura';
+}
+
+#landing-evento p {
+    background: none;
+    padding: 0;
+    width: 100%;
 }
 
 #landing-evento h1 {
@@ -15,12 +25,11 @@
         0 0 45px white,
         0 0 50px white,
         0 0 75px white;
+    margin-bottom: 50px !important;
 }
 
-#landing-evento p {
-    background: none;
-    padding: 0;
-    width: 100%;
+#landing-evento h2 {
+    margin-bottom: 100px;
 }
 
 #landing-evento .carousel-inner {

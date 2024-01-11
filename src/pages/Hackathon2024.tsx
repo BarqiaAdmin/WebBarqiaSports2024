@@ -272,20 +272,20 @@ const Hackathon2024 = () => {
 
                 <Col style={{ textAlign: 'center', zIndex: '1' }}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} loading="lazy"></iframe>
-
-                    <Button  style={{ padding: '15px 0'}}>
-                        Cómo llegar
-                    </Button>
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
-                    <a href=''>
-                        AVISOL LEGAL Y COOKIES
-                    </a>
-
-                    <a href=''>
-                        PRIVACIDAD
-                    </a>
+                    <p style={{ textAlign: 'center' }}>
+                        <a href='' style={{ color: 'white' }}>
+                            AVISOL LEGAL Y COOKIES
+                        </a>
+                    </p>
+                    
+                    <p style={{ textAlign: 'center' }}>
+                        <a href='' style={{ color: 'white' }}>
+                            PRIVACIDAD
+                        </a>
+                    </p>
                 </Col>
             </Row>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
