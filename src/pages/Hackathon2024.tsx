@@ -12,7 +12,7 @@ const Hackathon2024 = () => {
         <Container fluid id='landing-evento'>
             {/* Barra de navegación */}
             <img id='navbar-laser' src='/img/navbar_laser.png' />
-            <div id='nav-bar' style={{ padding: '20px 30px'}}>
+            <div id='nav-bar' style={{ marginTop: '-30px', padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>
                     <img src='/img/barqia-symbol.png' />
                 </div>
@@ -135,7 +135,7 @@ const Hackathon2024 = () => {
                         <strong>PREMIOS</strong> 
                     </h1>
 
-                    <ul style={{ textAlign: 'center' }}>
+                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
                         <li>PREMIO DEL PÚBLICO</li>
                         <li>PREMIO GENERAL: MEJOR IMPLEMENTACIÓN ELEJIDO POR JUEZ</li>
                         <li>PREMIO GANADOR E SPORTS</li>
@@ -204,7 +204,7 @@ const Hackathon2024 = () => {
                         <strong>AGENDA</strong>
                     </h1>
 
-                    <ul style={{ textAlign: 'center' }}>
+                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
                         <li>9:00 - ENTRADA AL EVENTO</li>
                         <li>9:30 - DISCURSO DE INICIO</li>
                         <li>10:00 - COMIENZO DESARROLLO</li>
