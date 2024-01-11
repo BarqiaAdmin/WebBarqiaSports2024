@@ -232,13 +232,13 @@ const Hackathon2024 = () => {
 
                     <Row>
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <h1>
+                            <h1 style={{ marginTop: '40px' }}>
                                 <span>Quiero inscribirme</span>
                             </h1>
                         </Col>
 
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <h1>
+                            <h1 style={{ marginTop: '40px' }}>
                                 <span>Conoce las bases</span>
                             </h1>
                         </Col>
