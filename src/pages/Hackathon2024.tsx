@@ -26,13 +26,13 @@ const Hackathon2024 = () => {
             </div>
             {/* Barra de navegación */}
 
-            <div>
-                <img src='/img/robot_3.png' style={{ width: '30%' }} />
-                <img src='/img/hackathon-titulo.png' style={{ width: '40%' }} />
-                <img src='/img/robot_4.png' style={{ width: '30%' }} />
+            <div style={{ display: 'inline-block', marginTop: '-15%' }}>
+                <img src='/img/robot_3.png' style={{ marginLeft: '-14%', transform: 'rotate(20deg)', width: '478px' }} />
+                <img src='/img/hackathon-titulo.png' style={{ width: '700px' }} />
+                <img src='/img/robot_4.png' style={{ marginRight: '-82%', width: '560px' }} />
             </div>
 
-            <Row style={{ padding: '0 120px', marginBottom: '60px'  }}>
+            <Row style={{ padding: '0 160px', marginBottom: '60px', marginTop: '-125px' }}>
                 <Col>
                     <p>
                         El 26 de enero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
