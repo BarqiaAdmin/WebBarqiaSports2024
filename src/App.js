@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import WhatWeDo from './pages/WhatWeDo.tsx';
 import AboutUs from './pages/AboutUs.tsx';
-import CaseStudies from './pages/CaseStudies.tsx';
+import Events from './pages/Events/Events.tsx';
 import Contact from './pages/Contact.tsx';
 import Hackathon2024 from './pages/Hackathon2024.tsx';
 //import RaceWithUs from './pages/RaceWithUs.tsx';
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' index element={<Home />} />
           <Route path='WhatWeDo' element={<WhatWeDo />} />
           <Route path='AboutUs' element={<AboutUs />} />
-          <Route path='CaseStudies' element={<CaseStudies />} />
+          <Route path='Events' element={<Events />} />
           <Route path='Contact' element={<Contact />} />
           <Route path='Hackathon2024' element={<Hackathon2024 />} />
           {/**

@@ -18,7 +18,7 @@ const Contact = () => {
                     <a href='/'>home</a>
                     <a href='AboutUs'>about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='CaseStudies'>case studies</a>
+                    <a href='/Events'>events</a>
                     <a href='Contact' className='nav-bar-selected-link'>contact</a>
                 </div>
             </div>

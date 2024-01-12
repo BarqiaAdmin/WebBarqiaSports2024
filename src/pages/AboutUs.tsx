@@ -18,7 +18,7 @@ const AboutUs = () => {
                     <a href='/'>home</a>
                     <a href='AboutUs' className='nav-bar-selected-link' >about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='CaseStudies'>case studies</a>
+                    <a href='/Events'>events</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>

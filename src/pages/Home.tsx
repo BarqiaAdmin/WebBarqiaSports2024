@@ -16,7 +16,7 @@ const Home = () => (
                 <a href='/' className='nav-bar-selected-link' >home</a>
                 <a href='AboutUs'>about us</a>
                 <a href='WhatWeDo'>what we do</a>
-                <a href='CaseStudies'>case studies</a>
+                <a href='/Events'>events</a>
                 <a href='Contact'>contact</a>
             </div>
         </div>

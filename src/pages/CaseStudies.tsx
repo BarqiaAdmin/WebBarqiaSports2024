@@ -3,7 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 
-const CaseStudies = () => {
+const  = () => {
     return(
         <Container fluid style={{ background: '' }}>
             <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
@@ -15,7 +15,7 @@ const CaseStudies = () => {
                     <a href='/'>home</a>
                     <a href='AboutUs'>about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='CaseStudies' className='nav-bar-selected-link' >case studies</a>
+                    <a href='' className='nav-bar-selected-link' >events</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>
@@ -24,7 +24,7 @@ const CaseStudies = () => {
                 <Row>
                     <Col>
                         <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
-                            Case Studies
+                            events
                         </h1>
                     </Col>
                 </Row>
@@ -90,4 +90,4 @@ const CaseStudies = () => {
     )
 }
 
-export default CaseStudies;
+export default ;
