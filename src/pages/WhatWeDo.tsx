@@ -27,8 +27,6 @@ const WhatWeDo = () => {
                     </div>
                 </div>
 
-                
-
                 <Navbar id='menu-hamburguesa' expand="lg" className="bg-body-tertiary" style={{ display: 'none' }}>
                     <Container>
                         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -84,9 +82,9 @@ const WhatWeDo = () => {
                         </div>
                         
                         <div style={{position: 'relative', textAlign: 'center'}}>
-                            <img id='img-search-1' src='/img/search-1.png' style={{ marginBottom: '35px', width: '70%'}} />
+                            <img id='img-search-1' src='/img/Search-1.png' style={{ marginBottom: '35px', width: '70%'}} />
                             <div>
-                                <img id='img-search' src='/img/search.png' />
+                                <img id='img-search' src='/img/Search.png' />
                             </div>
 
                             <div style={{display: 'inline-block', width: '50%'}}>
