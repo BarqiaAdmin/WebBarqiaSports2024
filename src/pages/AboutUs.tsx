@@ -393,7 +393,7 @@ const AboutUs = () => {
                         <Col style={{ display: 'inline-block' }}>
                             <div>
                                 <div>
-                                    <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-felipe-barquin.png' />
+                                    <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-felipe-barquin.png' />
                                 </div>
                                 <h1>
                                     Felipe Barquin
@@ -407,8 +407,7 @@ const AboutUs = () => {
                                 <div style={{ fontStyle: 'italic' }}>
                                     A technology company focused on development with AI.
                                 </div>
-                                <div>
-                                    <br /><br />
+                                <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                                     <a href='https://www.linkedin.com/in/felipebarquin/' target='_blank'>
                                         <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
                                     </a>
@@ -419,7 +418,7 @@ const AboutUs = () => {
                         <Col style={{ display: 'inline-block', margin: '0 15px' }}>
                             <div>
                                 <div>
-                                    <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-fernando-carmona.png' />
+                                    <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-fernando-carmona.png' />
                                 </div>
                                 <h1>
                                     Fernando Carmona
@@ -433,8 +432,7 @@ const AboutUs = () => {
                                 <div style={{ fontStyle: 'italic' }}>
                                     Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.
                                 </div>
-                                <div>
-                                    <br /><br />
+                                <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                                     <a href='https://www.linkedin.com/in/fernandocarmonaarmengou/' target='_blank'>
                                         <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
                                     </a>
@@ -445,7 +443,7 @@ const AboutUs = () => {
                         <Col style={{ display: 'inline-block' }}>
                             <div>
                                 <div>
-                                    <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-diego-gomez.png' />
+                                    <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-diego-gomez.png' />
                                 </div>
                                 <h1>
                                     Diego Gomez
@@ -459,8 +457,7 @@ const AboutUs = () => {
                                 <div style={{ fontStyle: 'italic' }}>
                                     Project Manager Specialist of Interactive Space in VR/AR
                                 </div>
-                                <div>
-                                    <br /><br />
+                                <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                                     <a href='https://www.linkedin.com/in/diego-g%C3%B3mez-martil-8a0603268/' target='_blank'>
                                         <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
                                     </a>
