@@ -125,8 +125,8 @@ const Events = () => {
                             
                             >
                                 <Offcanvas.Header closeButton>
-                                    <img src='img/barqia-symbol.png' style={{ display: 'block' }} />
-                                    <img src='img/barqia-title.png' style={{ display: 'block' }} />
+                                    <img src='img/barqia-symbol.png' style={{ display: 'block', width: '70px' }}  />
+                                    <img src='img/barqia-title.png' style={{ display: 'block', width: '145px' }} />
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
