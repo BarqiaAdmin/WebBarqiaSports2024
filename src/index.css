@@ -180,4 +180,12 @@ p {
       top: 15px !important;
       left: 120px !important;
     }
+
+    .input-group {
+      margin: 20px 0;
+    }
+
+    .form-control {
+      padding: 20px;
+    }
 }
