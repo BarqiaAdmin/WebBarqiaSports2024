@@ -176,7 +176,9 @@ const Events = () => {
                 <Col>
                     <Row>
                         <Col>
-                            <img src='/img/render-events.jpg' style={{ width: '100%' }} />
+                            <a href='/Hackathon2024'>
+                                <img src='/img/render-events.jpg' style={{ width: '100%' }} />
+                            </a>
                         </Col>
                     </Row>
                 </Col>
@@ -191,13 +193,15 @@ const Events = () => {
                     </Row>
 
                     <Row>
-                        <img src='/img/hackaton-esports.png' />
+                        <a href='/Hackathon2024'>
+                            <img src='/img/hackaton-esports.png' />
 
-                        <p>
-                            Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
-                        </p>
+                            <p>
+                                Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
+                            </p>
 
-                        <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
+                            <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
+                        </a>
                     </Row>
                 </Col>
 
