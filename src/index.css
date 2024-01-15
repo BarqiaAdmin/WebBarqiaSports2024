@@ -194,4 +194,10 @@ p {
   filter: brightness(0) invert(1);
 }
 
+/* Background barra de navegación mobile
 
+.offcanvas-header {
+  background: url('/public/img/fondo-landing.png');
+}
+
+ */
