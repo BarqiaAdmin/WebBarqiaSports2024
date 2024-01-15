@@ -19,10 +19,10 @@ const Events = () => {
                         <img src='/img/barqia-symbol.png' />
                     </div>
                     <div style={{ float: 'right' }}>
-                        <a href='/' className='nav-bar-selected-link' >home</a>
+                        <a href='/'>home</a>
                         <a href='AboutUs'>about us</a>
                         <a href='WhatWeDo'>what we do</a>
-                        <a href='/Events'>events</a>
+                        <a href='/Events' className='nav-bar-selected-link'>events</a>
                         <a href='Contact'>contact</a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Events = () => {
                 <Col>
                     <Row>
                         <Col>
-                            <img src='/img/render-events.jpg' style={{ marginTop: '-115px', width: '100%' }} />
+                            <img src='/img/render-events.jpg' style={{ marginTop: '-138px', width: '100%' }} />
                         </Col>
                     </Row>
                 </Col>

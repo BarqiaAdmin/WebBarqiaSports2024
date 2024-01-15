@@ -15,16 +15,16 @@ const Hackathon2024 = () => {
         <div>
             <Container fluid className='container-desktop' id='landing-evento'>
             {/* Barra de navegación */}
-            <img id='navbar-laser' src='/img/navbar_laser.png' />
-            <div id='nav-bar' style={{ marginTop: '-30px', padding: '20px 30px'}}>
+            <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
+            <div id='nav-bar' style={{ padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>
                     <img src='/img/barqia-symbol.png' />
                 </div>
-                <div style={{ float: 'right' }}>
-                    <a href='/' className='nav-bar-selected-link' >home</a>
+                <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
+                    <a href='/'>home</a>
                     <a href='AboutUs'>about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='/Events'>events</a>
+                    <a href='/Events' className='nav-bar-selected-link' >events</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>

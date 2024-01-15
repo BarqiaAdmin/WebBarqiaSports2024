@@ -19,9 +19,9 @@ const WhatWeDo = () => {
                         <img src='/img/barqia-symbol.png' />
                     </div>
                     <div style={{ float: 'right' }}>
-                        <a href='/' className='nav-bar-selected-link' >home</a>
+                        <a href='/'>home</a>
                         <a href='AboutUs'>about us</a>
-                        <a href='WhatWeDo'>what we do</a>
+                        <a href='WhatWeDo' className='nav-bar-selected-link'>what we do</a>
                         <a href='/Events'>events</a>
                         <a href='Contact'>contact</a>
                     </div>

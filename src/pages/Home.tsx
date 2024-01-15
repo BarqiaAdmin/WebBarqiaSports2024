@@ -25,7 +25,7 @@ const Home = () => (
                     <a href='Contact'>contact</a>
                 </div>
             </div>
-            <video autoPlay muted loop style={{ marginTop: '-115px', width: '100%' }} >
+            <video autoPlay muted loop style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '110px', textAlign: 'center' }} >
