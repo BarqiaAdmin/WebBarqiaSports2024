@@ -167,4 +167,17 @@ p {
     #navbar-barqia-symbol {
       width: 70px;
     }
+
+    #img-home-2 {
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        width: 100%;
+    }
+
+    #img-search {
+      width: 100px !important;
+      position: absolute;
+      top: 15px !important;
+      left: 120px !important;
+    }
 }
