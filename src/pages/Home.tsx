@@ -32,7 +32,9 @@ const Home = () => (
                 WELCOME TO BARQIA
             </h1>
             <Container style={{ position: 'relative' }}>
+                {/**
                 <img src='/img/poligonos.png' style={{ position: 'absolute', top: '0', width: '100%', zIndex: '0' }} />
+                 */}
 
                 <p style={{ marginTop: '-90px', position: 'relative', zIndex: '1' }}>
                     Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />

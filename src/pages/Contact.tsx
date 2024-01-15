@@ -205,7 +205,7 @@ const Contact = () => {
                     </InputGroup>
 
                     <InputGroup style={{ margin: '20px 0', textAlign: 'center' }}>
-                        <Button style={{ background: '#E338D6', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
+                        <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
                             Submit
                         </Button>
                     </InputGroup>

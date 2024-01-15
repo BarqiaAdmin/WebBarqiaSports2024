@@ -77,11 +77,13 @@ const Events = () => {
 
                 <Col>
                     <Row>
-                        <Col className='col-12'>
+                        <p>
                             <a href='/Contact'>
-                                Contact us
+                                <Button>
+                                    Contact us
+                                </Button>
                             </a>
-                        </Col>
+                        </p>
                     </Row>
                 </Col>
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
@@ -215,9 +217,13 @@ const Events = () => {
 
                 <Col>
                     <Row>
-                        <a href=''>
-                            Contact us
-                        </a>
+                        <p>
+                            <a href='/Contact'>
+                                <Button>
+                                    Contact us
+                                </Button>
+                            </a>
+                        </p>
                     </Row>
                 </Col>
 
