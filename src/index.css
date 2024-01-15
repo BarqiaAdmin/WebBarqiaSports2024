@@ -131,6 +131,10 @@ p {
     }
 }
 
+.container-desktop, .container-mobile {
+  padding: 0;
+}
+
 @media only screen and (max-width: 600px) {
     #barqia-title, .desktop-link {
         display: none;
