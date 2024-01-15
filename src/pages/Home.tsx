@@ -32,31 +32,49 @@ const Home = () => (
                 WELCOME TO BARQIA
             </h1>
             <Container style={{ position: 'relative' }}>
+                <Row>
+                    <Col className='col-lg-12'>
+                        <p style={{ position: 'relative', zIndex: '1' }}>
+                            Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
+                            We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
+                        </p>
+                    </Col>
+                    <Col className='col-lg-6'>
+                        <div style={{ display: 'inline-block', textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img src='/img/home-1.PNG' />
+                            
+                        </div>
+                    </Col>
+                    
+                    
+                    <Col className='col-lg-6'>
+                        <p>
+                            The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+                        </p>
+                    </Col>
+                    <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                        <p style={{ position: 'relative', zIndex: '1' }}>
+                                The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+                        </p>
+                        
+                        
+                        
+                    </div>
+                    <Col className='col-lg-6'>
+                        <img src='/img/home-2.PNG' />
+                    </Col>
+
+                    <Col className='col-lg-6'>
+                        <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img src='/img/home-3.PNG' />
+                        </div>
+                    </Col>
+                </Row>
                 {/**
                 <img src='/img/poligonos.png' style={{ position: 'absolute', top: '0', width: '100%', zIndex: '0' }} />
                  */}
-
-                <p style={{ marginTop: '-90px', position: 'relative', zIndex: '1' }}>
-                    Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
-                    We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
-                </p>
-                <div style={{ display: 'inline-block', textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                    <img src='/img/home-1.PNG' />
-                </div>
-                <div style={{ display: 'inline-block', position: 'relative', width: '50%', zIndex: '1' }}>
-                    <p>
-                        The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
-                    </p>
-                </div>
-                <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                    <img src='/img/home-2.PNG' />
-                </div>
-                <p style={{ position: 'relative', zIndex: '1' }}>
-                    The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
-                </p>
-                <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                    <img src='/img/home-3.PNG' />
-                </div>
+                
+                
             </Container>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
