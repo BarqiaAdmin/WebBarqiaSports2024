@@ -18,11 +18,11 @@
     width: 100%;
 }
 
-#landing-evento h1 {
+#landing-evento h1, #landing-evento-mobile h1 {
     color: lightgray;
     text-shadow:
-        0 0 3px black,
-        0 0 5px black,
+        0 0 3px #20B4E3,
+        0 0 5px #20B4E3,
         0 0 10px white,
         0 0 20px white,
         0 0 40px white,
