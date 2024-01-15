@@ -4,12 +4,16 @@ import './Hackathon2024.css';
 
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Button from 'react-bootstrap/Button';
 
 const Hackathon2024 = () => {
     return (
-        <Container fluid id='landing-evento'>
+        <div>
+            <Container fluid className='container-desktop' id='landing-evento'>
             {/* Barra de navegación */}
             <img id='navbar-laser' src='/img/navbar_laser.png' />
             <div id='nav-bar' style={{ marginTop: '-30px', padding: '20px 30px'}}>
@@ -307,12 +311,102 @@ const Hackathon2024 = () => {
                 <Row>
                     <Col>
                         <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                            2023 Barqia - All Rights Reserved.
+                            2024 Barqia - All Rights Reserved.
                         </p>
                     </Col>
                 </Row>
             </Container>           
         </Container>
+
+        {/** */}
+
+        <Container className='container-mobile' id='hackathon2024-container-mobile'>
+            {['xxl'].map((expand) => (
+                <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
+                    <Container fluid>
+                        <img id='navbar-barqia-symbol' src='img/barqia-symbol.png' />
+                        <Navbar.Toggle className='navBar-toggle' aria-controls={`offcanvasNavbar-expand-${expand}`}/>
+                        <Navbar.Offcanvas
+                        id={`offcanvasNavbar-expand-${expand}`}
+                        aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+                        placement="end"
+                        
+                        >
+                            <Offcanvas.Header closeButton>
+                                <img src='img/barqia-symbol.png' style={{ display: 'block' }} />
+                                <img src='img/barqia-title.png' style={{ display: 'block' }} />
+                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                                </Offcanvas.Title>
+                            </Offcanvas.Header>
+                            <Offcanvas.Body>
+                                <Nav className="justify-content-end flex-grow-1 pe-3" style={{textAlign: 'center'}}>
+                                    <Nav.Link style={{
+                                    color: 'white'}} href="/">HOME</Nav.Link>
+                                    <Nav.Link style={{
+                                    color: 'white' }} href="/AboutUs">ABOUT US</Nav.Link>
+                                    <Nav.Link style={{
+                                    color: 'white' }} href="/WhatWeDo">WHAT WE DO</Nav.Link>
+                                    <Nav.Link style={{
+                                    color: 'white' }} href="/Events">EVENTS</Nav.Link>
+                                    <Nav.Link style={{
+                                    color: 'white' }} href="/Contact">CONTACT</Nav.Link>
+                                </Nav>
+                            </Offcanvas.Body>
+                            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
+                                <Row>
+                                    <Col style={{ textAlign: 'center' }}>
+                                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <hr style={{ margin: '40px 0' }} />
+                                <Row id='barqia-social-networks'>
+                                    <Col style={{ textAlign: 'center' }}>
+                                        <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                                        <a target="_blank" href='https://www.linkedin.com/company/barqiasports/?originalSubdomain=es'><img src='/img/icon-linkedin.png' style={{ filter: 'brightness(0) invert(1)', margin: '0 40px', marginTop: '-10px', width: '37px' }} /></a>
+                                        <a target="_blank" href='https://www.instagram.com/barqiasports/'><img src='/img/icon-instagram.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
+                                            2024 Barqia - All Rights Reserved.
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </Navbar.Offcanvas>
+                    </Container>
+                </Navbar>
+            ))}
+
+            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
+                <Row>
+                    <Col style={{ textAlign: 'center' }}>
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                        </div>
+                    </Col>
+                </Row>
+                <hr style={{ margin: '40px 0' }} />
+                <Row id='barqia-social-networks'>
+                    <Col style={{ textAlign: 'center' }}>
+                        <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                        <a target="_blank" href='https://www.linkedin.com/company/barqiasports/?originalSubdomain=es'><img src='/img/icon-linkedin.png' style={{ filter: 'brightness(0) invert(1)', margin: '0 40px', marginTop: '-10px', width: '37px' }} /></a>
+                        <a target="_blank" href='https://www.instagram.com/barqiasports/'><img src='/img/icon-instagram.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
+                            2024 Barqia - All Rights Reserved.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
+        </Container>
+        </div>
     )
 }
 

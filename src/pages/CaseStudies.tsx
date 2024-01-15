@@ -81,7 +81,7 @@ const  = () => {
                 <Row>
                     <Col>
                         <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                            2023 Barqia - All Rights Reserved.
+                            2024 Barqia - All Rights Reserved.
                         </p>
                     </Col>
                 </Row>

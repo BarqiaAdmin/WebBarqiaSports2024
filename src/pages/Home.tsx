@@ -76,7 +76,7 @@ const Home = () => (
                 <Row>
                     <Col>
                         <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                            2023 Barqia - All Rights Reserved.
+                            2024 Barqia - All Rights Reserved.
                         </p>
                     </Col>
                 </Row>
@@ -98,7 +98,8 @@ const Home = () => (
                         
                         >
                             <Offcanvas.Header closeButton>
-                                <img id='barqia-title' src='img/barqia-title.png' style={{ display: 'block' }} />
+                                <img src='img/barqia-symbol.png' style={{ display: 'block' }} />
+                                <img src='img/barqia-title.png' style={{ display: 'block' }} />
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
@@ -135,7 +136,7 @@ const Home = () => (
                                 <Row>
                                     <Col>
                                         <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                                            2023 Barqia - All Rights Reserved.
+                                            2024 Barqia - All Rights Reserved.
                                         </p>
                                     </Col>
                                 </Row>
@@ -185,7 +186,7 @@ const Home = () => (
                 <Row>
                     <Col>
                         <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                            2023 Barqia - All Rights Reserved.
+                            2024 Barqia - All Rights Reserved.
                         </p>
                     </Col>
                 </Row>

@@ -34,7 +34,7 @@ const Events = () => {
                         </Col>
                     </Row>
                 </Col>
-                
+                <a href='/Hackathon2024'>
                 <Col>
                     <Row>
                         <Col>
@@ -43,7 +43,8 @@ const Events = () => {
                             </h1>
                         </Col>
                     </Row>
-
+                        
+        
                     <Row>
                         <Col className='col-6'>
                             <img src='/img/hackaton-esports.png' />
@@ -58,9 +59,12 @@ const Events = () => {
                         <Col className='col-12'>
                             <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
                         </Col>
+                        
                     </Row>
+
                 </Col>
 
+                    </a>
                 <Col>
                     <Row>
                         <Col className='col-12'>
@@ -74,7 +78,7 @@ const Events = () => {
                 <Col>
                     <Row>
                         <Col className='col-12'>
-                            <a href=''>
+                            <a href='/Contact'>
                                 Contact us
                             </a>
                         </Col>
@@ -99,7 +103,7 @@ const Events = () => {
                     <Row>
                         <Col>
                             <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                                2023 Barqia - All Rights Reserved.
+                                2024 Barqia - All Rights Reserved.
                             </p>
                         </Col>
                     </Row>
@@ -121,7 +125,8 @@ const Events = () => {
                             
                             >
                                 <Offcanvas.Header closeButton>
-                                    <img id='barqia-title' src='img/barqia-title.png' style={{ display: 'block' }} />
+                                    <img src='img/barqia-symbol.png' style={{ display: 'block' }} />
+                                    <img src='img/barqia-title.png' style={{ display: 'block' }} />
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
@@ -158,7 +163,7 @@ const Events = () => {
                                     <Row>
                                         <Col>
                                             <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                                                2023 Barqia - All Rights Reserved.
+                                                2024 Barqia - All Rights Reserved.
                                             </p>
                                         </Col>
                                     </Row>
@@ -231,7 +236,7 @@ const Events = () => {
                     <Row>
                         <Col>
                             <p style={{ color: 'white', fontSize: '15px', marginTop: '45px', textAlign: 'center', padding: '0', width: '100%' }}>
-                                2023 Barqia - All Rights Reserved.
+                                2024 Barqia - All Rights Reserved.
                             </p>
                         </Col>
                     </Row>
