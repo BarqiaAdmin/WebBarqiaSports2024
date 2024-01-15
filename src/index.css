@@ -1,5 +1,5 @@
 html, body {
-  font-family: lexend !important;
+  font-family: 'Jura' !important;
   margin: 0;
   padding: 0;
 }
@@ -195,3 +195,5 @@ p {
 .navbar-toggler-icon {
   filter: brightness(0) invert(1);
 }
+
+
