@@ -32,7 +32,7 @@ const AboutUs = () => {
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
-                        src="/img/barqia-estadio.png"
+                        src="/img/barqia-estadio.PNG"
                         alt="First slide"
                         />
                         {/* 
@@ -314,7 +314,7 @@ const AboutUs = () => {
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
-                        src="/img/barqia-estadio.png"
+                        src="/img/barqia-estadio.PNG"
                         alt="First slide"
                         />
                         {/* 

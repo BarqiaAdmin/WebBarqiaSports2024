@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 
 const WhatWeDo = () => {
     return(
-            <div>
+        <div>
             <Container fluid className='container-desktop' id='container-what-we-do'>
                 <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
                 <div id='nav-bar' style={{ padding: '20px 30px'}}>
