@@ -64,7 +64,7 @@ const Events = () => {
 
                 </Col>
 
-                    </a>
+                </a>
                 <Col>
                     <Row>
                         <Col className='col-12'>
@@ -79,7 +79,7 @@ const Events = () => {
                     <Row>
                         <p>
                             <a href='/Contact'>
-                                <Button>
+                                <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
                                     Contact us
                                 </Button>
                             </a>
@@ -219,8 +219,8 @@ const Events = () => {
                     <Row>
                         <p>
                             <a href='/Contact'>
-                                <Button>
-                                    Contact us
+                                <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
+                                    Contacto
                                 </Button>
                             </a>
                         </p>

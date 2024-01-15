@@ -381,11 +381,24 @@ const Hackathon2024 = () => {
                 </Navbar>
             ))}
 
+
+            {/**
             <div>
                 <img src='/img/robot_3.png'style={{ width: '100%'}} />
                 <img src='/img/hackathon-titulo.png' style={{ width: '100%'}} />
                 <img src='/img/robot_4.png' style={{ width: '100%'}} />
             </div>
+            */}
+            
+            <Col>
+                <Row>
+                    <Col>
+                        <a href='/Hackathon2024'>
+                            <img src='/img/render-events.jpg' style={{ width: '100%' }} />
+                        </a>
+                    </Col>
+                </Row>
+            </Col>
 
             <Row>
                 <Col>
