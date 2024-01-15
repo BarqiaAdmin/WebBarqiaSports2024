@@ -189,3 +189,9 @@ p {
       padding: 20px;
     }
 }
+
+/* Símbolo en blanco - botón de navegación (mobile) */
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
