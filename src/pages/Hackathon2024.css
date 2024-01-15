@@ -8,6 +8,10 @@
     font-family: 'Jura';
 }
 
+#landing-evento-mobile {
+    background: url('../../public/img/fondo-landing.png');
+}
+
 #landing-evento p {
     background: none;
     padding: 0;
