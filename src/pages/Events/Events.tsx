@@ -8,15 +8,16 @@ import { Col, Row } from 'react-bootstrap';
 const Events = () => {
     return(
         <Container fluid id='container-events'>
+            <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
             <div id='nav-bar' style={{ padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>
                     <img src='/img/barqia-symbol.png' />
                 </div>
-                <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
-                    <a href='/'>home</a>
+                <div style={{ float: 'right' }}>
+                    <a href='/' className='nav-bar-selected-link' >home</a>
                     <a href='AboutUs'>about us</a>
                     <a href='WhatWeDo'>what we do</a>
-                    <a href='/Events' className='nav-bar-selected-link'>events</a>
+                    <a href='/Events'>events</a>
                     <a href='Contact'>contact</a>
                 </div>
             </div>

@@ -51,9 +51,9 @@
         margin-top: 43px;
     }
 
+    /*
     p {
-        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
-        background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: linear-gradient(to bottom,  #020409 0%,#05101b 50%,#020409 100%);
         border-radius: 10px;
         font-size: 30px;
         font-weight: 600;
@@ -61,6 +61,7 @@
         padding: 20px 40px;
         width: 75%;
     }
+    */
 
     #div-img-story-title {
         margin-bottom: 5px;

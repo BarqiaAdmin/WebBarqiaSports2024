@@ -24,7 +24,8 @@ p {
 
 #nav-bar {
     font-size: 18px;
-    position: relative;
+    position: absolute;
+    top: 10px;
     right: 50px;
     text-transform: uppercase;
     z-index: 2;
@@ -73,4 +74,97 @@ p {
       0 0 46px #005A4D,
       0 0 51px #005A4D,
       0 0 75px #005A4D;
+}
+
+.bg-body-tertiary {
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navBar-toggle.navbar-toggler.collapsed {
+    background: #E338D6;
+}
+
+#barqia-symbol {
+    width: 60px;
+    margin: 0 20px;
+}
+
+#barqia-title {
+    width: 130px;
+}
+
+#offcanvasNavbar-expand-xxl {
+    background: black !important;
+}
+
+.offcanvas-header {
+    background: #E338D6;
+}
+
+.desktop-link:hover {
+    text-decoration: underline;
+}
+
+#general-navbar .barqia-button {
+    background: #E338D6;
+}
+
+        #general-navbar .barqia-button:hover {
+            background: #E338D6;
+        }
+
+@media only screen and (min-width: 600px) {
+    #offcanvasNavbar-expand-xxl, .offcanvas-body, .navBar-nav, .navBar-toggle {
+        display: none;
+    }
+
+    .container-desktop {
+      display: block;
+      padding: 0;
+    }
+
+    .container-mobile {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #barqia-title, .desktop-link {
+        display: none;
+    }
+
+    .container-desktop {
+      display: none;
+    }
+
+    .container-mobile {
+      display: block;
+    }
+
+    .container-mobile p {
+      background: none;
+      border-radius: 0px;
+      color: white;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: left;
+      margin: none;
+      padding: 0px;
+      width: 100%;
+    }
+
+    .container-mobile img {
+      width: 100%;
+    }
+
+    .nav-link {
+      font-size: 28px;
+    }
+
+    #navbar-barqia-symbol {
+      width: 70px;
+    }
 }

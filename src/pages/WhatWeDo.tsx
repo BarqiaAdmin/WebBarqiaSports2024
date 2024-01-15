@@ -13,44 +13,42 @@ const WhatWeDo = () => {
     return(
         <Container fluid id='container-what-we-do'>
             <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
-            <div id='nav-bar' style={{ padding: '20px 30px' }} >
-                <div id='nav-bar' style={{ padding: '20px 30px'}}>
-                    <div style={{ display: 'inline-block' }}>
-                        <img src='/img/barqia-symbol.png' />
-                    </div>
-                    <div style={{ float: 'right' }}>
-                        <a href='/' className='nav-bar-selected-link' >home</a>
-                        <a href='AboutUs'>about us</a>
-                        <a href='WhatWeDo'>what we do</a>
-                        <a href='/Events'>events</a>
-                        <a href='Contact'>contact</a>
-                    </div>
+            <div id='nav-bar' style={{ padding: '20px 30px'}}>
+                <div style={{ display: 'inline-block' }}>
+                    <img src='/img/barqia-symbol.png' />
                 </div>
-
-                <Navbar id='menu-hamburguesa' expand="lg" className="bg-body-tertiary" style={{ display: 'none' }}>
-                    <Container>
-                        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                            </NavDropdown>
-                        </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
+                <div style={{ float: 'right' }}>
+                    <a href='/' className='nav-bar-selected-link' >home</a>
+                    <a href='AboutUs'>about us</a>
+                    <a href='WhatWeDo'>what we do</a>
+                    <a href='/Events'>events</a>
+                    <a href='Contact'>contact</a>
+                </div>
             </div>
+
+            <Navbar id='menu-hamburguesa' expand="lg" className="bg-body-tertiary" style={{ display: 'none' }}>
+                <Container>
+                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#link">Link</Nav.Link>
+                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">
+                            Another action
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">
+                            Separated link
+                        </NavDropdown.Item>
+                        </NavDropdown>
+                    </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
             
             <Container style={{ position: 'relative' }}>
                 <Row>
