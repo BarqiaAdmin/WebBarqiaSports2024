@@ -51,7 +51,7 @@ const Home = () => (
                     </Col>
 
                     <Col className='col-lg-6' style={{ marginTop: '-118%', textAlign: 'center' }}>
-                         <img src='/img/home-1.png' />
+                         <img src='/img/home-1.PNG' />
                     </Col>
 
                     <Col className='col-lg-5' style={{ marginTop: '-97%' }}>
