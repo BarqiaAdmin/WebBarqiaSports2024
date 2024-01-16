@@ -28,12 +28,12 @@ const Home = () => (
             <video autoPlay muted loop style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px',  textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container id='home-body'>
                 <Row>
-                    <Col className='col-lg-12' position='absolute'>
+                    <Col className='col-lg-12' style={{ position: 'absolute', padding: '0'}}>
                         <img src='/img/poligonos.png' style={{ width: '100%'}}/>
                     </Col>
                     <Col className='col-lg-12'>
