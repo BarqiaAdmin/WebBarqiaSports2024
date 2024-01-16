@@ -65,7 +65,7 @@ const Home = () => (
                     </Col>
 
                     <Col className='col-lg-6'>
-                        <p style={{ width: '90%' }}>
+                        <p style={{ marginLeft: '25%', marginTop: '-90%', width: '90%' }}>
                             We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
                         </p>
                     </Col>  
