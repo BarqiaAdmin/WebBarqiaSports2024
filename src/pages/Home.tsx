@@ -28,16 +28,16 @@ const Home = () => (
             <video autoPlay muted loop style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px',  textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '0', marginBottom: '0', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container id='home-body'>
                 <Row>
-                    <Col className='col-lg-12' style={{ position: 'absolute', padding: '0'}}>
+                    <Col className='col-lg-12' style={{ padding: '0'}}>
                         <img src='/img/poligonos.png' style={{ width: '100%'}}/>
                     </Col>
                     <Col className='col-lg-12'>
-                        <div id='barqia-symbol-gif-containe r' style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
                             <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '100%', marginTop: '-340px'}} />
                         </div>
                     </Col>
@@ -69,7 +69,7 @@ const Home = () => (
                     </Col>
 
                     <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px'}}>
-                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%', marginTop: '220px'}} />
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%'}} />
                     </Col>
 
                     <Col className='col-lg-6'>
