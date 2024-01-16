@@ -56,7 +56,7 @@ const Home = () => (
 
                     <Col className='col-lg-5' style={{ marginTop: '-97%' }}>
                         <p style={{ marginLeft: '-5%'}}>
-                            The immerse platform that offers fans de opportunity to create a closer bond with athletes and sports entities.
+                            The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities.
                         </p>
 
                         <p style={{ marginLeft: '-5%'}}>

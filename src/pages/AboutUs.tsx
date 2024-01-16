@@ -74,7 +74,7 @@ const AboutUs = () => {
 
                 <Container>
                     
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center', marginTop: '50%' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center', marginTop: '50%' }}  >
                         OUR MISSION
                     </h1>
 
