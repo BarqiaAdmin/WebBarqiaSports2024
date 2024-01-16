@@ -64,19 +64,23 @@ const Home = () => (
                         </p>
                     </Col>
 
+                    <Col className='col-lg-6'>
+                        <p style={{ width: '90%' }}>
+                            We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
+                        </p>
+                    </Col>  
+
+                    <Col className='col-lg-6' style={{ height: '1000px' }}>
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-145%', width: '90%'}} />
+                    </Col>
+
                     <Col className='col-lg-8' style={{ marginTop: '-10%' }}>
                         <img src='/img/home-2.PNG' />
                     </Col>
 
-                    <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px' }}>
-                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%', marginTop: '40%'}} />
-                    </Col>
+                    
 
-                    <Col className='col-lg-6'>
-                        <p style={{ marginTop: '62%', width: '90%', marginLeft: '12%' }}>
-                            We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
-                        </p>
-                    </Col>
+                    
                 </Row>
                 
                 
