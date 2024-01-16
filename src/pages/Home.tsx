@@ -64,12 +64,12 @@ const Home = () => (
                         </p>
                     </Col>
 
-                    <Col className='col-lg-8'>
+                    <Col className='col-lg-8' style={{ marginTop: '-10%' }}>
                         <img src='/img/home-2.PNG' />
                     </Col>
 
-                    <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px'}}>
-                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%'}} />
+                    <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px' }}>
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%', marginTop: '40%'}} />
                     </Col>
 
                     <Col className='col-lg-6'>
