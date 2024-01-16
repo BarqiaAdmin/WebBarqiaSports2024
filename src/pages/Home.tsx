@@ -69,7 +69,7 @@ const Home = () => (
                     </Col>
 
                     <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px'}}>
-                        <img src='/img/home-3.png' style={{ height: '55%', marginLeft: '46%', marginTop: '220px'}} />
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '46%', marginTop: '220px'}} />
                     </Col>
 
                     <Col className='col-lg-6'>
