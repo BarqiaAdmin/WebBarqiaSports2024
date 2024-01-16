@@ -31,48 +31,53 @@ const Home = () => (
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
-            <Container style={{ position: 'relative' }}>
+            <Container id='home-body'>
                 <Row>
-                    <Col className='col-lg-12'>
-                        <p style={{ position: 'relative', zIndex: '1' }}>
-                            Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
-                            We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
-                        </p>
+                    <Col className='col-lg-12' position='absolute'>
+                        <img src='/img/poligonos.png' style={{ width: '100%'}}/>
                     </Col>
-                    <Col className='col-lg-6'>
-                        <div style={{ display: 'inline-block', textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                            <img src='/img/home-1.PNG' />
-                            
+                    <Col className='col-lg-12'>
+                        <div id='barqia-symbol-gif-containe r' style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '100%', marginTop: '-340px'}} />
                         </div>
                     </Col>
-                    
-                    
-                    <Col className='col-lg-6'>
+                    <Col className='col-lg-8' style={{ marginTop: '-144%'}}>
                         <p>
-                            The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+                            Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Baqia Sports.
+                        </p>
+                        <p>
+                            We are passionate about sports and technology. Barqia Sports wants to deliver you a moreinteractive and technological way to continue living sports to spread the same passion to you.
                         </p>
                     </Col>
-                    <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                        <p style={{ position: 'relative', zIndex: '1' }}>
-                                The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+
+                    <Col className='col-lg-6' style={{ marginTop: '-118%', textAlign: 'center' }}>
+                         <img src='/img/home-1.png' />
+                    </Col>
+
+                    <Col className='col-lg-5' style={{ marginTop: '-97%' }}>
+                        <p style={{ marginLeft: '-5%'}}>
+                            The immerse platform that offers fans de opportunity to create a closer bond with athletes and sports entities.
                         </p>
-                        
-                        
-                        
-                    </div>
-                    <Col className='col-lg-6'>
+
+                        <p style={{ marginLeft: '-5%'}}>
+                            Offer innovative and technological services to your fans and they will return it to you.
+                        </p>
+                    </Col>
+
+                    <Col className='col-lg-8'>
                         <img src='/img/home-2.PNG' />
                     </Col>
 
+                    <Col className='col-lg-6' style={{ background: '#0F0D11', height: '1000px'}}>
+                        <img src='/img/home-3.png' style={{ height: '55%', marginLeft: '46%', marginTop: '220px'}} />
+                    </Col>
+
                     <Col className='col-lg-6'>
-                        <div style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                            <img src='/img/home-3.PNG' />
-                        </div>
+                        <p style={{ marginTop: '62%', width: '90%', marginLeft: '12%' }}>
+                            We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
+                        </p>
                     </Col>
                 </Row>
-                {/**
-                <img src='/img/poligonos.png' style={{ position: 'absolute', top: '0', width: '100%', zIndex: '0' }} />
-                 */}
                 
                 
             </Container>
