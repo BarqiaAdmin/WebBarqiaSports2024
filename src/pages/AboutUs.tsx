@@ -74,7 +74,7 @@ const AboutUs = () => {
 
                 <Container>
                     
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center' }}  >
                         OUR MISSION
                     </h1>
 
@@ -354,7 +354,7 @@ const AboutUs = () => {
                         */}
                     </Carousel.Item>
                 </Carousel>
-                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
+                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center' }}  >
                     OUR MISSION
                 </h1>
 

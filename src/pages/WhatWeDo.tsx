@@ -34,7 +34,7 @@ const WhatWeDo = () => {
                                 <img id='img-home-2' src='/img/home-2.PNG' style={{ width: '100%' }} />
                             </div>
 
-                            <div id='segundo-container' style={{display: 'inline-block' }}>
+                            <div id='segundo-container' style={{display: 'inline-block', float: 'left' }}>
                                 <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
                                     WHAT WE DO
                                 </h1>

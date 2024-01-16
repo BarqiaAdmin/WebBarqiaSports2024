@@ -27,65 +27,47 @@ const Events = () => {
                     </div>
                 </div>
 
-                <Col>
-                    <Row>
-                        <Col>
-                            <img src='/img/render-events.jpg' style={{ marginTop: '-138px', width: '100%' }} />
-                        </Col>
-                    </Row>
-                </Col>
-                <a href='/Hackathon2024'>
-                <Col>
-                    <Row>
-                        <Col>
-                            <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
-                                EVENTS
-                            </h1>
-                        </Col>
-                    </Row>
-                        
-        
-                    <Row>
-                        <Col className='col-6'>
-                            <img src='/img/hackaton-esports.png' />
-                        </Col>
+                <Row>
+                    <Col>
+                        <img src='/img/render-events.jpg' style={{ marginTop: '-138px', width: '100%' }} />
+                    </Col>
+                    <Col className='col-lg-12'>
+                        <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '40px 0', textAlign: 'center' }}  >
+                            EVENTS
+                        </h1>
+                    </Col>
 
-                        <Col className='col-6'>
-                            <h1>
-                                Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
-                            </h1>
-                        </Col>
+                    <Col className='col-lg-6'>
+                        <img src='/img/hackaton-esports.png' style={{ width: '100%' }} />
+                    </Col>
+                    <Col className='col-lg-6'>
+                        <h1>
+                            Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
+                        </h1>
+                        <br />
+                        <a href='/Hackathon2024'>
+                            <Button>
+                                Sitio del evento
+                            </Button>
+                        </a>
+                    </Col>
 
-                        <Col className='col-12'>
-                            <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
-                        </Col>
-                        
-                    </Row>
-
-                </Col>
-
-                </a>
-                <Col>
-                    <Row>
-                        <Col className='col-12'>
-                            <h1>
-                                Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
-                            </h1>
-                        </Col>
-                    </Row>
-                </Col>
-
-                <Col>
-                    <Row>
-                        <p>
+                    <Col className='col-12'>
+                        <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
+                    </Col>
+                    <Col style={{ textAlign: 'center'}}>
+                        <h1>
+                            Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
+                        </h1>
+                        <p style={{ textAlign: 'center'}}>
                             <a href='/Contact'>
-                                <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
+                                <Button>
                                     Contact us
                                 </Button>
                             </a>
                         </p>
-                    </Row>
-                </Col>
+                    </Col>
+                </Row>
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                     <Row>
                         <Col style={{ textAlign: 'center' }}>
@@ -188,7 +170,7 @@ const Events = () => {
                 <Col>
                     <Row>
                         <Col>
-                            <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }}  >
+                            <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '40px 0', textAlign: 'center' }}  >
                                 EVENTS
                             </h1>
                         </Col>
@@ -198,8 +180,15 @@ const Events = () => {
                         <a href='/Hackathon2024'>
                             <img src='/img/hackaton-esports.png' />
 
-                            <p>
+                            <p style={{ textAlign: 'center'}}>
                                 Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
+                            </p>
+                            <p style={{ textAlign: 'center'}}>
+                                <a href='/Contact'>
+                                    <Button>
+                                        Sitio del evento
+                                    </Button>
+                                </a>
                             </p>
 
                             <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
@@ -209,17 +198,13 @@ const Events = () => {
 
                 <Col>
                     <Row>
-                        <p>
+                        <p style={{ textAlign: 'center' }}>
                             Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
                         </p>
-                    </Row>
-                </Col>
 
-                <Col>
-                    <Row>
-                        <p>
+                        <p style={{ textAlign: 'center' }}>
                             <a href='/Contact'>
-                                <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
+                                <Button>
                                     Contacto
                                 </Button>
                             </a>
