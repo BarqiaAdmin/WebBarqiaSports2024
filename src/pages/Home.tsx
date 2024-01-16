@@ -74,8 +74,8 @@ const Home = () => (
                         <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-145%', width: '90%'}} />
                     </Col>
 
-                    <Col className='col-lg-8' style={{ marginTop: '-10%' }}>
-                        <img src='/img/home-2.PNG' />
+                    <Col className='col-lg-8'>
+                        <img src='/img/home-2.PNG' style={{ marginTop: '-202%' }} />
                     </Col>
 
                     
