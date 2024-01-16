@@ -62,7 +62,7 @@ const Events = () => {
                         <p style={{ textAlign: 'center'}}>
                             <a href='/Contact'>
                                 <Button>
-                                    Contact us
+                                    Contacto
                                 </Button>
                             </a>
                         </p>
