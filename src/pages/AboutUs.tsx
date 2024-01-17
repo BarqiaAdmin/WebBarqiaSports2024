@@ -138,7 +138,7 @@ const AboutUs = () => {
                                     We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                                 </p>
                             </div>
-                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', top: '60%' }}>
+                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', peadding: '15px 40px', position: 'absolute', top: '50%' }}>
                                 <Row>
                                     <Col style={{ display: 'inline-block', width: '30%' }}>
                                         <div>
