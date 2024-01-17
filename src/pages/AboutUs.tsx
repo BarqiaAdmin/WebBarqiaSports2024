@@ -28,7 +28,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <Carousel data-bs-theme="dark">
+                <Carousel data-bs-theme="dark" style={{ marginTop: '-4%' }}>
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
