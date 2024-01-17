@@ -187,13 +187,14 @@ const Home = () => (
                 </div>
                 <div id='second-p-welcome-to-barqia'>
                     <p style={{ position: 'relative' }}>
-                        <img src='/img/panel_1_i.png' style={{ position: 'absolute', right: '-24px', top: '-8px', width: '90px' }} />
+                        <img src='/img/panel_1_i.png' style={{ position: 'absolute', right: '-24px', left: '-12px', top: '-2px', width: '90px' }} />
                         The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
                     </p>
                     <img src='/img/home-2.PNG' />
                 </div>
                 <div id='third-p-welcome-to-barqia'>
-                    <p>
+                    <p style={{ position: 'relative' }}>
+                        <img src='/img/panel_2_i.png' style={{ position: 'absolute', top: '0', right: '-30px', width: '90px' }} />
                         We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
                     </p>
                     <img src='/img/home-3.PNG' />
