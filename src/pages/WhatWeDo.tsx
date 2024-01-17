@@ -131,15 +131,15 @@ const WhatWeDo = () => {
                                 <Offcanvas.Body>
                                     <Nav className="justify-content-end flex-grow-1 pe-3" style={{textAlign: 'center'}}>
                                         <Nav.Link style={{
-                                        color: 'white'}} href="/">home</Nav.Link>
+                                        color: 'white'}} href="/">HOME</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white'}} href="/AboutUs">about us</Nav.Link>
+                                        color: 'white'}} href="/AboutUs">ABOUT US</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/WhatWeDo">what we do</Nav.Link>
+                                        color: 'white', textDecoration: 'underline' }} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white' }} href="/Events">events</Nav.Link>
+                                        color: 'white' }} href="/Events">EVENTS</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white' }} href="/Contact">contact</Nav.Link>
+                                        color: 'white' }} href="/Contact">CONTACT</Nav.Link>
                                     </Nav>
                                 </Offcanvas.Body>
                                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
