@@ -102,10 +102,17 @@ p {
 
 .offcanvas-header {
     background: black;
+    border-bottom: 1px solid lightgray;
 }
 
 .desktop-link:hover {
     text-decoration: underline;
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 #general-navbar .barqia-button {
@@ -133,13 +140,6 @@ p {
 
 .container-desktop, .container-mobile {
   padding: 0;
-}
-
-.ptn-primary {
-  background: rgb(32, 180, 227);
-  border: none;
-  margin: 20px auto;
-  padding: 15px 60px;
 }
 
 @media only screen and (max-width: 600px) {

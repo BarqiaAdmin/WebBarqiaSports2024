@@ -35,6 +35,14 @@
     background: url('/public/img/panel_1_n_i.png')
 }
 
+#third-p-our-mission {
+    background: url('/public/img/poligonos_2.png');
+}
+
+#fourth-p-our-mission {
+    background: url('/public/img/panel_3_i.png')
+}
+
 @media (min-width: 576px) {
         .container, .container-sm {
         max-width: none;

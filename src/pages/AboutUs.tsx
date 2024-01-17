@@ -265,7 +265,7 @@ const AboutUs = () => {
                             >
                                 <Offcanvas.Header closeButton>
                                     <img src='img/barqia-symbol.png' style={{ display: 'block', width: '70px' }} />
-                                    <img src='img/barqia-title.png' style={{ display: 'block', width: '145px' }} />
+                                    {/*<img src='img/barqia-title.png' style={{ display: 'block', width: '145px' }} */}
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
@@ -381,10 +381,10 @@ const AboutUs = () => {
                 <video autoPlay muted loop style={{width: '100%'}}>
                     <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                 </video>
-                <p style={{ color: 'white' }}>
+                <p id='third-p-our-mission' style={{ color: 'white' }}>
                     Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                 </p>
-                <p style={{ color: 'white' }}>
+                <p id='fourth-p-our-mission' style={{ color: 'white' }}>
                     We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                 </p>
 
