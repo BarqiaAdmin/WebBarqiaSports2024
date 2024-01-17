@@ -311,7 +311,7 @@ const AboutUs = () => {
                         </Container>
                     </Navbar>
                 ))}
-                <Carousel data-bs-theme="dark">
+                <Carousel data-bs-theme="dark" style={{ zIndex: '1' }}>
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
@@ -354,17 +354,20 @@ const AboutUs = () => {
                         */}
                     </Carousel.Item>
                 </Carousel>
-                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', textAlign: 'center' }}  >
+                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', textAlign: 'center', zIndex: 1 }}  >
                     OUR MISSION
                 </h1>
 
                 <div style={{ position: 'relative' }}>
-                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
-                    <img src='/img/panel_4_n_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
-                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '102px', left: '-66px', transform: 'rotate(-270deg)', width: '193px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    {/**
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '193px' }} />
                     <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
                     <img src='/img/panel_2_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    */}
                     <p id='first-p-our-mission' style={{ color: 'white', display: 'inline-block', fontSize: '19px' }}>
                         Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                     </p>
@@ -390,7 +393,7 @@ const AboutUs = () => {
                 <p id='third-p-our-mission' style={{ color: 'white', position: 'relative' }}>
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
                     <img src='/img/panel_4.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
-                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '193px' }} />
                     <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
                     Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                 </p>
