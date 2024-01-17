@@ -354,11 +354,17 @@ const AboutUs = () => {
                         */}
                     </Carousel.Item>
                 </Carousel>
-                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '40px', textAlign: 'center' }}  >
+                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', textAlign: 'center' }}  >
                     OUR MISSION
                 </h1>
 
-                <div>
+                <div style={{ position: 'relative' }}>
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_4_n_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_2_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
                     <p id='first-p-our-mission' style={{ color: 'white', display: 'inline-block', fontSize: '19px' }}>
                         Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                     </p>
