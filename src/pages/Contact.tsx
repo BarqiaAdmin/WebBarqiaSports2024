@@ -130,9 +130,9 @@ const Contact = () => {
                                         <Nav.Link style={{
                                         color: 'white'}} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/Events">EVENTS</Nav.Link>
+                                        color: 'white'}} href="/Events">EVENTS</Nav.Link>
                                         <Nav.Link style={{
-                                        color: 'white' }} href="/Contact">COMNTACT</Nav.Link>
+                                        color: 'white', textDecoration: 'underline' }} href="/Contact">CONTACT</Nav.Link>
                                     </Nav>
                                 </Offcanvas.Body>
                                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
