@@ -77,13 +77,7 @@ const Home = () => (
                     <Col className='col-lg-8'>
                         <img src='/img/home-2.PNG' style={{ marginTop: '-202%' }} />
                     </Col>
-
-                    
-
-                    
                 </Row>
-                
-                
             </Container>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>

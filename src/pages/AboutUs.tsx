@@ -74,7 +74,7 @@ const AboutUs = () => {
 
                 <Container>
                     
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center', marginTop: '50%' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >
                         OUR MISSION
                     </h1>
 
@@ -95,8 +95,8 @@ const AboutUs = () => {
 
                     <div style={{position: 'relative'}}>
                         <img className='hide-on-desktop' src='/img/laser-2.png' style={{width: '100%'}} />
-                        <img className='hide-on-desktop' src='/img/poligono_4.png' style={{width: '100%'}} />
-                        <img className='poligonos' src='/img/panel_3_i.png' style={{width: '100%'}} />
+                        <img className='hide-on-desktop' src='/img/poligonos.png' style={{width: '100%'}} />
+                        <img className='poligonos' src='/img/poligonos.png' style={{width: '100%'}} />
                         <img className='poligonos' src='/img/panel_3_n_i.png' style={{transform: 'rotate(180deg)', width: '100%'}} />
                         <img className='poligonos' src='/img/panel_4_i.png' style={{width: '100%'}} />
 
@@ -121,7 +121,7 @@ const AboutUs = () => {
 
                         <div id='story-desktop' className='hide-on-mobile' style={{position: 'relative'}}>
                             <img src='/img/laser-2.png' style={{width: '100%'}} />
-                            <img src='/img/poligono_4.png' style={{width: '100%'}} />
+                            <img src='/img/poligonos.png' style={{width: '100%'}} />
                             <div id='div-img-story-title' style={{position: 'absolute', top: '10%', left: '5%'}}>
                                 <img src='/img/story-title.png' />
                                 <div style={{ textAlign: 'center'}}>
