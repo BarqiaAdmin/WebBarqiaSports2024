@@ -41,7 +41,7 @@ const Home = () => (
                             <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '100%', marginTop: '-340px'}} />
                         </div>
                     </Col>
-                    <Col className='col-lg-8' style={{ marginTop: '-144%'}}>
+                    <Col className='col-lg-8' style={{marginTop: '-144%'}}>
                         <p>
                             Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Baqia Sports.
                         </p>
@@ -175,19 +175,25 @@ const Home = () => (
                 WELCOME TO BARQIA
             </h1>
             <Container>
-                <p>
-                    Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
-                    We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
-                </p>
-                <img src='/img/home-1.PNG' />
-                <p>
-                    The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
-                </p>
-                <img src='/img/home-2.PNG' />
-                <p>
-                    The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
-                </p>
-                <img src='/img/home-3.PNG' />
+                <div id='first-p-welcome-to-barqia'>
+                    <p>
+                        Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
+                        We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
+                    </p>
+                    <img src='/img/home-1.PNG' />
+                </div>
+                <div id='second-p-welcome-to-barqia'>
+                    <p>
+                        The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
+                    </p>
+                    <img src='/img/home-2.PNG' />
+                </div>
+                <div id='third-p-welcome-to-barqia'>
+                    <p>
+                        We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
+                    </p>
+                    <img src='/img/home-3.PNG' />
+                </div>
             </Container>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>

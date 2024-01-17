@@ -27,6 +27,14 @@
     rotate: 180deg;
 }
 
+#first-p-our-mission {
+    background: url('/public/img/panel_1_i.png') no-repeat;
+}
+
+#first-p-our-mission-2 {
+    background: url('/public/img/panel_1_n_i.png')
+}
+
 @media (min-width: 576px) {
         .container, .container-sm {
         max-width: none;
