@@ -362,8 +362,8 @@ const AboutUs = () => {
                     
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '102px', left: '-66px', transform: 'rotate(-270deg)', width: '193px' }} />
                     <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '608px', left: '-46px', width: '157px' }} />
                     {/**
-                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '193px' }} />
                     <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
                     <img src='/img/panel_2_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />

@@ -171,7 +171,7 @@ const Home = () => (
             <video autoPlay muted loop style={{ width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container>
