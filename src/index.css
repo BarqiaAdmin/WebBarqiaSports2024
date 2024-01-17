@@ -83,7 +83,8 @@ p {
 }
 
 .navBar-toggle.navbar-toggler.collapsed {
-    background: #20B4E3;
+    background: black;
+    border: 2px solid white;
 }
 
 #barqia-symbol {
@@ -100,7 +101,7 @@ p {
 }
 
 .offcanvas-header {
-    background: #20B4E3;
+    background: black;
 }
 
 .desktop-link:hover {
