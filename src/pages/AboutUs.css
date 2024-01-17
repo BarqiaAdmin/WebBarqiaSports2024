@@ -27,6 +27,8 @@
     rotate: 180deg;
 }
 
+/*
+
 #first-p-our-mission {
     background: url('/public/img/panel_1_i.png') no-repeat;
 }
@@ -42,6 +44,8 @@
 #fourth-p-our-mission {
     background: url('/public/img/panel_3_i.png')
 }
+
+*/
 
 @media (min-width: 576px) {
         .container, .container-sm {

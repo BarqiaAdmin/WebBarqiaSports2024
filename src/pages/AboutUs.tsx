@@ -391,7 +391,7 @@ const AboutUs = () => {
                 <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px' }}>
                     <Row>
                         <Col style={{ display: 'inline-block' }}>
-                            <div>
+                            <div style={{ textAlign: 'center' }}>
                                 <div>
                                     <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-felipe-barquin.png' />
                                 </div>
@@ -416,7 +416,7 @@ const AboutUs = () => {
                         </Col>
 
                         <Col style={{ display: 'inline-block', margin: '0 15px' }}>
-                            <div>
+                            <div style={{ textAlign: 'center' }}>
                                 <div>
                                     <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-fernando-carmona.png' />
                                 </div>
@@ -441,7 +441,7 @@ const AboutUs = () => {
                         </Col>
 
                         <Col style={{ display: 'inline-block' }}>
-                            <div>
+                            <div style={{ textAlign: 'center' }}>
                                 <div>
                                     <img style={{ borderRadius: '100%', width: '85%',  marginBottom: '25px'}} src='/img/barqia-diego-gomez.png' />
                                 </div>

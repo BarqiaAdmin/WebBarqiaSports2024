@@ -52,16 +52,7 @@ const WhatWeDo = () => {
                                 </video>
                             </div>
                             
-                            <div>
-                                <img src='/img/poligonos_3.png' style={{ width: '100%'}} />
-                            </div>
-                            
                             <div style={{position: 'relative', textAlign: 'center'}}>
-                                <img id='img-search-1' src='/img/Search-1.png' style={{ marginBottom: '35px', width: '70%'}} />
-                                <div>
-                                    <img id='img-search' src='/img/Search.png' />
-                                </div>
-
                                 <div style={{display: 'inline-block', width: '50%'}}>
                                     <img id='img-cascos-1' src='/img/cascos-1.png' style={{ marginRight: '-70px', width: '70%'}} />
                                     <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
@@ -71,7 +62,7 @@ const WhatWeDo = () => {
                                 
                                 <div style={{display: 'inline-block', width: '50%'}}>
                                     <a href='/Events'>
-                                        <img id='img-hackaton-esports' src='/img/hackaton-esports.png' style={{ marginLeft: '-70px', width: '70%'}} />
+                                        <img id='img-hackaton-esports' src='/img/hackathon-2024-flyer.png' style={{ marginLeft: '-70px', width: '70%'}} />
                                         <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
                                             Events
                                         </p>
@@ -185,7 +176,6 @@ const WhatWeDo = () => {
                         Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes.
                     </p>
                 </div>
-                
 
                 <div style={{ display: 'inline-block', textAlign: 'center'}}>
                     <video autoPlay muted loop style={{width: '100%'}}>
@@ -193,16 +183,7 @@ const WhatWeDo = () => {
                     </video>
                 </div>
                 
-                <div>
-                    <img src='/img/poligonos_3.png' style={{ width: '100%'}} />
-                </div>
-                
                 <div style={{position: 'relative', textAlign: 'center'}}>
-                    <img id='img-search-1' src='/img/Search-1.png' />
-                    <div>
-                        <img id='img-search' src='/img/Search.png' />
-                    </div>
-
                     <div style={{display: 'inline-block' }}>
                         <img id='img-cascos-1' src='/img/cascos-1.png' />
                         <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
@@ -212,7 +193,7 @@ const WhatWeDo = () => {
                     
                     <div style={{display: 'inline-block' }}>
                         <a href='/Events'>
-                            <img id='img-hackaton-esports' src='/img/hackaton-esports.png' />
+                            <img id='img-hackaton-esports' src='/img/hackathon-2024-flyer.png' />
                             <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
                                 Events
                             </p>

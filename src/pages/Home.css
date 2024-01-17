@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    p {
+        text-align: center !important;
+    }
+
     #home-container {
         display: none;
     }
@@ -74,8 +78,6 @@
 #home-body {
     background: url('../../public/img/poligonos.png') no-repeat center;
 }
-*/
-
 #first-p-welcome-to-barqia {
     background: url('/public/img/panel_2_i.png');
 }
@@ -87,3 +89,4 @@
 #third-p-welcome-to-barqia {
     background: url('/public/img/panel_5_i.png');
 }
+*/

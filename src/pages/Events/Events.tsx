@@ -38,7 +38,7 @@ const Events = () => {
                     </Col>
 
                     <Col className='col-lg-6'>
-                        <img src='/img/hackaton-esports.png' style={{ width: '100%' }} />
+                        <img src='/img/hackathon-2024-flyer.png' style={{ width: '100%' }} />
                     </Col>
                     <Col className='col-lg-6'>
                         <h1>
@@ -178,7 +178,7 @@ const Events = () => {
 
                     <Row>
                         <a href='/Hackathon2024'>
-                            <img src='/img/hackaton-esports.png' />
+                            <img src='/img/hackathon-2024-flyer.png' />
 
                             <p style={{ textAlign: 'center'}}>
                                 Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.

@@ -176,14 +176,18 @@ const Home = () => (
             </h1>
             <Container>
                 <div id='first-p-welcome-to-barqia'>
-                    <p>
+                    <p style={{ position: 'relative' }}>
+                        <img src='/img/panel_2_i.png' style={{ position: 'absolute', right: '-24px', top: '-8px', width: '90px' }} />
+                        <img src='/img/panel_5_i.png' style={{ position: 'absolute', left: '-78px', top: '470px', transform: 'rotate(90deg)', width: '193px' }} />
+                        <img src='/img/panel_4_i.png' style={{ position: 'absolute', right: '-24px', top: '500px',  width: '90px' }} />
                         Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports. <br />
                         We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
                     </p>
                     <img src='/img/home-1.PNG' />
                 </div>
                 <div id='second-p-welcome-to-barqia'>
-                    <p>
+                    <p style={{ position: 'relative' }}>
+                        <img src='/img/panel_1_i.png' style={{ position: 'absolute', right: '-24px', top: '-8px', width: '90px' }} />
                         The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. Offer innovative and technological services to your fans and they will return it to you.
                     </p>
                     <img src='/img/home-2.PNG' />
