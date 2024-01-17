@@ -374,7 +374,7 @@ const AboutUs = () => {
                      */}
                 </div>
 
-                <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between', position: 'relative' }}>
 
                     {/**
                     <img src='/img/panel_3_n_i.png' style={{ maxWidth: '34%'}} />
@@ -387,7 +387,11 @@ const AboutUs = () => {
                 <video autoPlay muted loop style={{width: '100%'}}>
                     <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                 </video>
-                <p id='third-p-our-mission' style={{ color: 'white' }}>
+                <p id='third-p-our-mission' style={{ color: 'white', position: 'relative' }}>
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_4.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
                     Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                 </p>
                 <p id='fourth-p-our-mission' style={{ color: 'white' }}>
