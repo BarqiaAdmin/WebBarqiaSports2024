@@ -108,7 +108,7 @@ const Home = () => (
 
         {/** */}
 
-        <Container className='container-mobile' id='home-container-mobile'>
+        <Container className='container-mobile' id='home-container-mobile' style={{ overflow: 'hidden' }}>
             {['xxl'].map((expand) => (
                 <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                     <Container fluid>

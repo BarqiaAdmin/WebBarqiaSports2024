@@ -251,7 +251,7 @@ const AboutUs = () => {
 
             {/** */}
 
-            <Container className='container-mobile' id='home-container-mobile'>
+            <Container className='container-mobile' id='home-container-mobile' style={{ overflow: 'hidden' }}>
                 {['xxl'].map((expand) => (
                     <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                         <Container fluid>
@@ -354,50 +354,41 @@ const AboutUs = () => {
                         */}
                     </Carousel.Item>
                 </Carousel>
-                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', textAlign: 'center', zIndex: 1 }}  >
+                <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', position: 'relative', textAlign: 'center', zIndex: 1 }}  >
                     OUR MISSION
                 </h1>
 
                 <div style={{ position: 'relative' }}>
-                    
-                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '102px', left: '-66px', transform: 'rotate(-270deg)', width: '193px' }} />
-                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '-13px', width: '90px' }} />
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '102px', left: '-66px', transform: 'rotate(-270deg)', width: '193px', zIndex: '0' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '-163px', right: '-7px', width: '90px' }} />
                     <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '608px', left: '-46px', width: '157px' }} />
-                    {/**
-                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
-                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
-                    <img src='/img/panel_2_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
-                    */}
-                    <p id='first-p-our-mission' style={{ color: 'white', display: 'inline-block', fontSize: '19px' }}>
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '560px', right: '-15px', width: '90px' }} />
+                    <p id='first-p-our-mission' style={{ color: 'white', display: 'inline-block', fontSize: '19px', position: 'relative' }}>
                         Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                     </p>
-
-                    {/**
-                    <img id='panel_3_i' src='/img/panel_3_i.png' style={{ marginLeft: '92px', marginTop: '-205px', maxWidth: '34%', rotate: '180deg' }} />
-                     */}
                 </div>
 
                 <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between', position: 'relative' }}>
-
-                    {/**
-                    <img src='/img/panel_3_n_i.png' style={{ maxWidth: '34%'}} />
-                     */}
                     <p id='first-p-our-mission-2' style={{ color: 'white', display: 'inline-block', fontSize: '19px' }}>
                         We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
                     </p>
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', bottom: '85px', left: '-62px', transform: 'rotate(90deg)', width: '180px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', bottom: '120px', right: '-35px', width: '90px' }} />
                 </div>
 
-                <video autoPlay muted loop style={{width: '100%'}}>
+                <video autoPlay muted loop style={{position: 'relative', width: '100%', zIndex: '1' }}>
                     <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                 </video>
                 <p id='third-p-our-mission' style={{ color: 'white', position: 'relative' }}>
-                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '90px' }} />
-                    <img src='/img/panel_4.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
-                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '0', left: '0', width: '193px' }} />
-                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '0', right: '0', width: '90px' }} />
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '85px', left: '-66px', transform: 'rotate(-270deg)', width: '193px', zIndex: '0' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '-163px', right: '-7px', width: '90px' }} />
+                    <img src='/img/panel_3_i.png' style={{ position: 'absolute', top: '680px', left: '-46px', width: '157px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '660px', right: '-15px', width: '90px' }} />
                     Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
                 </p>
-                <p id='fourth-p-our-mission' style={{ color: 'white' }}>
+                <p id='fourth-p-our-mission' style={{ color: 'white', position: 'relative' }}>
+                    <img src='/img/panel_5_i.png' style={{ position: 'absolute', bottom: '-23px', left: '-62px', transform: 'rotate(90deg)', width: '180px' }} />
+                    <img src='/img/panel_4_i.png' style={{ position: 'absolute', bottom: '-20px', right: '-35px', width: '90px' }} />
                     We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                 </p>
 
