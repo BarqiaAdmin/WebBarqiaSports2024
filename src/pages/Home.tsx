@@ -53,24 +53,21 @@ const Home = () => (
                          <img src='/img/home-1.PNG' />
                     </Col>
 
-                    <Col className='col-lg-5' style={{ marginTop: '-97%' }}>
+                    <Col className='col-lg-5' style={{ marginTop: '-104%' }}>
                         <p style={{ marginLeft: '-5%'}}>
-                            The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities.
-                        </p>
-
-                        <p style={{ marginLeft: '-5%'}}>
+                            The immersive platform that offers fans the opportunity to create a closer bond with athletes and sports entities. <br />
                             Offer innovative and technological services to your fans and they will return it to you.
+                        </p>
+                        <p style={{ marginLeft: '-5%'}}>
+                            We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
                         </p>
                     </Col>
 
                     <Col className='col-lg-6'>
-                        <p style={{ marginLeft: '25%', marginTop: '-90%', width: '90%' }}>
-                            We design tailor-made solutions to enhance the success of your company. We tailor our expertise to your specific requirements, delivering the product you really need and deserve.
-                        </p>
                     </Col>  
 
                     <Col className='col-lg-6' style={{ height: '1000px' }}>
-                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-165%', width: '90%'}} />
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-200%', width: '90%'}} />
                     </Col>
 
                     <Col className='col-lg-8'>
@@ -79,7 +76,7 @@ const Home = () => (
                 </Row>
             </Container>
 
-            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
+            <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', marginTop: '-475px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
                         <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
