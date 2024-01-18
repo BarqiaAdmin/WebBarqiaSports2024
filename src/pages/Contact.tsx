@@ -68,9 +68,15 @@ const Contact = () => {
                                 />
                             </InputGroup>
 
-                            <InputGroup style={{height:'35%'}}>
+                            <InputGroup>
                                 <Form.Control placeholder='Your inquiry' as="textarea" aria-label="With textarea" />
                             </InputGroup>
+
+                            <br />
+
+                            <Button type="submit">
+                                Submit
+                            </Button>
                         </Col>
                     </Row>
                 </Container>
