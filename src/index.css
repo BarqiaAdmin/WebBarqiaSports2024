@@ -123,6 +123,10 @@ p {
             background: #E338D6;
         }
 
+#barqia-footer-gif {
+  width: 375px;
+}
+
 @media only screen and (min-width: 600px) {
     #offcanvasNavbar-expand-xxl, .offcanvas-body, .navBar-nav, .navBar-toggle {
         display: none;

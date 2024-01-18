@@ -27,7 +27,7 @@ const Home = () => (
             <video autoPlay muted loop style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '0', marginBottom: '0', textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container id='home-body'>
@@ -37,19 +37,17 @@ const Home = () => (
                     </Col>
                     <Col className='col-lg-12'>
                         <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
-                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '100%', marginTop: '-340px'}} />
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '75%', marginTop: '-250px'}} />
                         </div>
                     </Col>
                     <Col className='col-lg-8' style={{marginTop: '-144%'}}>
                         <p>
-                            Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Baqia Sports.
-                        </p>
-                        <p>
-                            We are passionate about sports and technology. Barqia Sports wants to deliver you a moreinteractive and technological way to continue living sports to spread the same passion to you.
+                            Feel the passion for sports in a more immersive way. Interact with your sports entity and move up levels where you can grow your club and your passion. Live the emotion with Barqia Sports.<br />
+                            We are passionate about sports and technology. Barqia Sports wants to deliver you a more interactive and technological way to continue living sports to spread the same passion to you.
                         </p>
                     </Col>
 
-                    <Col className='col-lg-6' style={{ marginTop: '-118%', textAlign: 'center' }}>
+                    <Col className='col-lg-6' style={{ marginTop: '-115%', textAlign: 'center' }}>
                          <img src='/img/home-1.PNG' />
                     </Col>
 
