@@ -14,17 +14,17 @@ const AboutUs = () => {
     return(
         <div>
             <Container fluid className='container-desktop' id='container-about-us'>
-                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '2' }} />
+                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
                 <div id='nav-bar' style={{ padding: '20px 30px', zIndex: '1'}}>
                     <div style={{ display: 'inline-block' }}>
                         <img src='/img/barqia-symbol.png' />
                     </div>
                     <div style={{ float: 'right', position: 'relative', zIndex: '2' }}>
                         <a href='/'>home</a>
-                        <a href='AboutUs' className='nav-bar-selected-link' >about us</a>
-                        <a href='WhatWeDo'>what we do</a>
+                        <a href='/AboutUs' className='nav-bar-selected-link' >about us</a>
+                        <a href='/WhatWeDo'>what we do</a>
                         <a href='/Events'>events</a>
-                        <a href='Contact'>contact</a>
+                        <a href='/Contact'>contact</a>
                     </div>
                 </div>
 
