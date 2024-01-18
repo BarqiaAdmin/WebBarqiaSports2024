@@ -14,8 +14,8 @@ const AboutUs = () => {
     return(
         <div>
             <Container fluid className='container-desktop' id='container-about-us'>
-                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
-                <div id='nav-bar' style={{ padding: '20px 30px', zIndex: '1'}}>
+                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '2' }} />
+                <div id='nav-bar' style={{ padding: '20px 30px', zIndex: '2'}}>
                     <div style={{ display: 'inline-block' }}>
                         <img src='/img/barqia-symbol.png' />
                     </div>
