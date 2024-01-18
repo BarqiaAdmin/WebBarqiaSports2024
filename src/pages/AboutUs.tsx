@@ -138,12 +138,12 @@ const AboutUs = () => {
                                     We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                                 </p>
                             </div>
-                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', peadding: '15px 40px', position: 'absolute', top: '50%' }}>
+                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', top: '50%' }}>
                                 <Row>
-                                    <Col style={{ display: 'inline-block', width: '30%' }}>
-                                        <div>
+                                    <Col style={{ display: 'inline-block', width: '33%' }}>
+                                        <div style={{ textAlign: 'center', position: 'relative' }}>
                                             <div>
-                                                <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-felipe-barquin.png' />
+                                                <img style={{ borderRadius: '100%', width: '70%'}} src='/img/barqia-felipe-barquin.png' />
                                             </div>
                                             <h1>
                                                 Felipe Barquin
@@ -151,25 +151,25 @@ const AboutUs = () => {
                                             <h2>
                                                 CEO
                                             </h2>
-                                            <h3>
+                                            <h4>
                                                 Founder of Barqia
-                                            </h3>
+                                            </h4>
                                             <div style={{ fontStyle: 'italic' }}>
                                                 A technology company focused on development with AI.
                                             </div>
                                             <div>
                                                 <br /><br />
                                                 <a href='https://www.linkedin.com/in/felipebarquin/' target='_blank'>
-                                                    <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
+                                                    <img src='/img/view-my-linkedin-profile.png' style={{ width: '170px' }}/>
                                                 </a>
                                             </div>
                                         </div>
                                     </Col>
 
-                                    <Col style={{ display: 'inline-block', margin: '0 15px', width: '30%' }}>
-                                        <div>
+                                    <Col style={{ display: 'inline-block', margin: '0 15px', width: '33%' }}>
+                                        <div style={{ textAlign: 'center', position: 'relative' }}>
                                             <div>
-                                                <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-fernando-carmona.png' />
+                                                <img style={{ borderRadius: '100%', width: '70%'}} src='/img/barqia-fernando-carmona.png' />
                                             </div>
                                             <h1>
                                                 Fernando Carmona
@@ -177,9 +177,9 @@ const AboutUs = () => {
                                             <h2>
                                                 COO
                                             </h2>
-                                            <h3>
+                                            <h4>
                                                 Sports Business Management
-                                            </h3>
+                                            </h4>
                                             <div style={{ fontStyle: 'italic' }}>
                                                 Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.
                                             </div>
@@ -192,10 +192,10 @@ const AboutUs = () => {
                                         </div>
                                     </Col>
 
-                                    <Col style={{ display: 'inline-block', width: '30%' }}>
-                                        <div>
+                                    <Col style={{ display: 'inline-block', width: '33%' }}>
+                                        <div style={{ textAlign: 'center', position: 'relative' }}>
                                             <div>
-                                                <img style={{ borderRadius: '100%', width: '85%'}} src='/img/barqia-diego-gomez.png' />
+                                                <img style={{ borderRadius: '100%', width: '70%'}} src='/img/barqia-diego-gomez.png' />
                                             </div>
                                             <h1>
                                                 Diego Gomez
@@ -203,13 +203,13 @@ const AboutUs = () => {
                                             <h2>
                                                 CTO
                                             </h2>
-                                            <h3>
-                                                Degree in Information Systems
-                                            </h3>
+                                            <h4>
+                                                Project Manager
+                                            </h4>
                                             <div style={{ fontStyle: 'italic' }}>
-                                                Project Manager Specialist of Interactive Space in VR/AR
+                                                Interactive Spaces Specialist in VR/AR
                                             </div>
-                                            <div>
+                                            <div style={{ marginTop: '20px' }}>
                                                 <br /><br />
                                                 <a href='https://www.linkedin.com/in/diego-g%C3%B3mez-martil-8a0603268/' target='_blank'>
                                                     <img src='/img/view-my-linkedin-profile.png' style={{ width: '180px' }}/>
@@ -456,10 +456,10 @@ const AboutUs = () => {
                                     CTO
                                 </h2>
                                 <h3>
-                                    Degree in Information Systems
+                                    Project Manager
                                 </h3>
                                 <div style={{ fontStyle: 'italic' }}>
-                                    Project Manager Specialist of Interactive Space in VR/AR
+                                    Interactive Spaces Specialist in VR/AR
                                 </div>
                                 <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                                     <a href='https://www.linkedin.com/in/diego-g%C3%B3mez-martil-8a0603268/' target='_blank'>
