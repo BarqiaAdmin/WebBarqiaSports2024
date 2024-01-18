@@ -7,11 +7,10 @@ import { Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Button from 'react-bootstrap/Button';
 
 const Home = () => (
     <div>
-        <Container fluid className='container-desktop' id='home-container'>
+        <Container fluid className='container-desktop' id='home-container' style={{ overflow: 'hidden' }}>
             <img id='navbar-laser' src='/img/navbar_laser.png' />
             <div id='nav-bar' style={{ padding: '20px 30px'}}>
                 <div style={{ display: 'inline-block' }}>
@@ -71,7 +70,7 @@ const Home = () => (
                     </Col>  
 
                     <Col className='col-lg-6' style={{ height: '1000px' }}>
-                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-145%', width: '90%'}} />
+                        <img src='/img/home-3.PNG' style={{ height: '55%', marginLeft: '20%', marginTop: '-165%', width: '90%'}} />
                     </Col>
 
                     <Col className='col-lg-8'>
