@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button';
 const AboutUs = () => {
     return(
         <div>
-            <Container fluid className='container-desktop' id='container-about-us' style={{ background: '' }}>
+            <Container fluid className='container-desktop' id='container-about-us'>
                 <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
                 <div id='nav-bar' style={{ padding: '20px 30px'}}>
                     <div style={{ display: 'inline-block' }}>
@@ -72,9 +72,8 @@ const AboutUs = () => {
                     </Carousel.Item>
                 </Carousel>
 
-                <Container>
-                    
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >
+                <Container style={{ padding: '0' }}>
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', textAlign: 'center' }}  >
                         OUR MISSION
                     </h1>
 
