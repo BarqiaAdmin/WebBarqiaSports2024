@@ -14,8 +14,8 @@ const AboutUs = () => {
     return(
         <div>
             <Container fluid className='container-desktop' id='container-about-us'>
-                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
-                <div id='nav-bar' style={{ padding: '20px 30px'}}>
+                <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '2' }} />
+                <div id='nav-bar' style={{ padding: '20px 30px', zIndex: '1'}}>
                     <div style={{ display: 'inline-block' }}>
                         <img src='/img/barqia-symbol.png' />
                     </div>
@@ -28,7 +28,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <Carousel data-bs-theme="dark" style={{ marginTop: '-4%' }}>
+                <Carousel data-bs-theme="dark" style={{ marginTop: '-4%', zIndex: '1' }}>
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
@@ -73,21 +73,21 @@ const AboutUs = () => {
                 </Carousel>
 
                 <Container style={{ padding: '0' }}>
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', textAlign: 'center' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', position: 'relative', marginTop: '-6px', textAlign: 'center', zIndex: '1' }}  >
                         OUR MISSION
                     </h1>
 
-                    <div>
-                        <p style={{ color: 'white', display: 'inline-block', fontSize: '19px', width: '59%' }}>
+                    <div style={{ position: 'relative' }}>
+                        <p style={{ color: 'white', display: 'inline-block', fontSize: '19px', width: '60%' }}>
                             Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                         </p>
 
-                        <img id='panel_3_i' src='/img/panel_3_i.png' style={{ marginLeft: '92px', marginTop: '-205px', maxWidth: '34%', rotate: '180deg' }} />
+                        <img id='panel_3_i' src='/img/panel_4_i.png' style={{marginTop: '-530px', maxWidth: '25%', position: 'absolute', right: '0', rotate: '360deg', zIndex: '0' }} />
                     </div>
 
-                    <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <img src='/img/panel_3_n_i.png' style={{ maxWidth: '34%'}} />
-                        <p style={{ color: 'white', display: 'inline-block', fontSize: '19px', width: '59%'  }}>
+                    <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between', marginTop: '40px' }}>
+                        <img src='/img/panel_3_i.png' style={{ maxWidth: '40%'}} />
+                        <p style={{ color: 'white', display: 'inline-block', fontSize: '19px', width: '60%'  }}>
                             We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
                         </p>
                     </div>
