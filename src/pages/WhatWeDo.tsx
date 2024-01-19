@@ -47,7 +47,7 @@ const WhatWeDo = () => {
                             
 
                             <div style={{ display: 'inline-block', textAlign: 'center'}}>
-                                <video autoPlay muted loop style={{width: '100%'}}>
+                                <video autoPlay muted loop playsInline style={{width: '100%'}}>
                                     <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                                 </video>
                             </div>
@@ -178,7 +178,7 @@ const WhatWeDo = () => {
                 </div>
 
                 <div style={{ display: 'inline-block', textAlign: 'center'}}>
-                    <video autoPlay muted loop style={{width: '100%'}}>
+                    <video autoPlay muted loop playsInline style={{width: '100%'}}>
                         <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                     </video>
                 </div>

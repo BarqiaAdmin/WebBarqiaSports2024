@@ -24,7 +24,7 @@ const Home = () => (
                     <a href='Contact'>contact</a>
                 </div>
             </div>
-            <video autoPlay muted loop style={{ marginTop: '-138px', width: '100%' }} >
+            <video autoPlay muted loop playsInline style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
@@ -162,7 +162,7 @@ const Home = () => (
                     </Container>
                 </Navbar>
             ))}
-            <video autoPlay muted loop style={{ width: '100%' }} >
+            <video autoPlay muted loop playsInline style={{ width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', textAlign: 'center' }} >

@@ -104,7 +104,7 @@ const AboutUs = () => {
                                 <div id='div-img-story-title'>
                                     <img src='/img/story-title.png' />
                                     <div style={{ textAlign: 'center'}}>
-                                        <video autoPlay muted loop style={{width: '100%'}}>
+                                        <video autoPlay muted loop playsInline style={{width: '100%'}}>
                                             <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                                         </video>
                                     </div>
@@ -124,7 +124,7 @@ const AboutUs = () => {
                             <div id='div-img-story-title' style={{position: 'absolute', top: '10%', left: '5%'}}>
                                 <img src='/img/story-title.png' />
                                 <div style={{ textAlign: 'center'}}>
-                                    <video autoPlay muted loop style={{width: '100%'}}>
+                                    <video autoPlay muted loop playsInline style={{width: '100%'}}>
                                         <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                                     </video>
                                 </div>
