@@ -177,9 +177,17 @@ const WhatWeDo = () => {
                     </p>
                 </div>
 
-                <Row>
-                    <Col xs={12}>
+                <Row style={{ marginBottom: '80px', position: 'relative', zIndex: '1' }}>
+                    <Col xs={12} style={{ zIndex: '2' }}>
                         <img src='/img/poligonos_3.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                        <div className='banda-vertical'></div>
+                    </Col>
+                    
+                    <Col xs={6}>
+                        <div className='banda-vertical'></div>
                     </Col>
 
                     <Col xs={6}>

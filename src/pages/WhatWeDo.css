@@ -46,3 +46,12 @@
     }
 }
 
+.banda-vertical {
+    background: #0A111C;
+    height: 950px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: -80px;
+    position: absolute;
+    z-index: -1;
+}
