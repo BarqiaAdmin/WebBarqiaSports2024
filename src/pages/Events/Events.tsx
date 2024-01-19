@@ -40,20 +40,19 @@ const Events = () => {
                     <Col className='col-lg-6'>
                         <img src='/img/hackathon-2024-flyer.png' style={{ width: '100%' }} />
                     </Col>
-                    <Col className='col-lg-6'>
-                        <h1>
+                    <Col className='col-lg-6' style={{ textAlign: 'center', padding: '0 50px' }}>
+                        <h1 style={{ lineHeight: '85px' }}>
                             Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
                         </h1>
-                        <br />
                         <a href='/Hackathon2024'>
-                            <Button>
+                            <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
                                 Sitio del evento
                             </Button>
                         </a>
                     </Col>
 
                     <Col className='col-12'>
-                        <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
+                        <img src='/img/poligonos_3.png' style={{ width: '100%', marginTop: '-150px' }} />
                     </Col>
                     <Col style={{ textAlign: 'center'}}>
                         <h1>
@@ -61,7 +60,7 @@ const Events = () => {
                         </h1>
                         <p style={{ textAlign: 'center'}}>
                             <a href='/Contact'>
-                                <Button>
+                                <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
                                     Contacto
                                 </Button>
                             </a>
@@ -183,12 +182,12 @@ const Events = () => {
 
                         <img src='/img/poligonos_3.png' style={{ marginTop: '-35px', width: '100%', zIndex: '1' }} />
 
-                        <p style={{ padding: '-60px',  }}>
-                            <img src='/img/hackathon-2024-flyer.png' style={{ marginTop:'-4px', position: 'relative',    width: '100%', zIndex: '0' }} />
+                        <p style={{ padding: '-0px',  }}>
+                            <img src='/img/hackathon-2024-flyer.png' style={{ marginTop:'-40px', position: 'relative',    width: '100%', zIndex: '0' }} />
                         </p>
                         <p style={{ textAlign: 'center'}}>
-                            <a href='/Hackathonk2024'>
-                                <Button>
+                            <a href='/Hackathon2024'>
+                                <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
                                     Sitio del evento
                                 </Button>
                             </a>

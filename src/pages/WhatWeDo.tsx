@@ -166,7 +166,7 @@ const WhatWeDo = () => {
                 </div>
 
                 <div id='segundo-container' style={{display: 'inline-block' }}>
-                    <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >
+                    <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', marginTop: '40px', textAlign: 'center' }} >
                         WHAT WE DO
                     </h1>
 
