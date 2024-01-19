@@ -163,7 +163,7 @@ const WhatWeDo = () => {
                 ))}
                 
                 <div>
-                    <img id='img-home-2' src='/img/home-2.PNG' style={{ width: '100%' }} />
+                    <img id='img-home-2' src='/img/what-we-do/what-we-do.jpg' style={{ width: '100%' }} />
                 </div>
 
                 <div id='segundo-container' style={{display: 'inline-block' }}>
@@ -212,9 +212,6 @@ const WhatWeDo = () => {
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/beneficio-a-usuarios.png' />
-                    </Col>
-
-                    <Col xs={6}>
                     </Col>
                 </Row>
 
