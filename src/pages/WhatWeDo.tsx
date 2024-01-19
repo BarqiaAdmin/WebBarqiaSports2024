@@ -101,7 +101,7 @@ const WhatWeDo = () => {
 
             {/** */}
 
-            <Container className='container-mobile' id='home-container-mobile'>
+            <Container className='container-mobile' id='home-container-mobile' fluid>
                 {['xxl'].map((expand) => (
                     <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                         <Container fluid>
@@ -177,29 +177,46 @@ const WhatWeDo = () => {
                     </p>
                 </div>
 
-                <div style={{ display: 'inline-block', textAlign: 'center'}}>
-                    <video autoPlay muted loop playsInline style={{width: '100%'}}>
-                        <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                
-                <div style={{position: 'relative', textAlign: 'center'}}>
-                    <div style={{display: 'inline-block' }}>
-                        <img id='img-cascos-1' src='/img/cascos-1.png' />
-                        <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
-                            Technology consulting
-                        </p>
-                    </div>
+                <Row>
+                    <Col xs={12}>
+                        <img src='/img/poligonos_3.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                        <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' />
+                    </Col>
                     
-                    <div style={{display: 'inline-block' }}>
-                        <a href='/Events'>
-                            <img id='img-hackaton-esports' src='/img/hackathon-2024-flyer.png' />
-                            <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
-                                Events
-                            </p>
-                        </a>
-                    </div>
-                </div>
+                    <Col xs={6}>
+                    </Col>
+
+                    <Col xs={6}>
+                    </Col>
+
+                    <Col xs={6}>
+                        <img src='/img/what-we-do/eventos-hackathons-gaming.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                        <img src='/img/what-we-do/disfrutar-de-experiencias.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                    </Col>
+
+                    <Col xs={6}>
+                    </Col>
+
+                    <Col xs={6}>
+                        <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                        <img src='/img/what-we-do/beneficio-a-usuarios.png' />
+                    </Col>
+
+                    <Col xs={6}>
+                    </Col>
+                </Row>
 
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                     <Row>
