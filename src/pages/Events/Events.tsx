@@ -176,35 +176,20 @@ const Events = () => {
                     </Row>
 
                     <Row>
-                        <a href='/Hackathon2024'>
-                            <img src='/img/hackathon-2024-flyer.png' />
-
-                            <p style={{ textAlign: 'center'}}>
-                                Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
-                            </p>
-                            <p style={{ textAlign: 'center'}}>
-                                <a href='/Contact'>
-                                    <Button>
-                                        Sitio del evento
-                                    </Button>
-                                </a>
-                            </p>
-
-                            <img src='/img/poligonos_3.png' style={{ width: '100%' }} />
-                        </a>
-                    </Row>
-                </Col>
-
-                <Col>
-                    <Row>
-                        <p style={{ textAlign: 'center' }}>
-                            Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
+                        <p style={{ textAlign: 'center'}}>
+                            Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
                         </p>
 
-                        <p style={{ textAlign: 'center' }}>
-                            <a href='/Contact'>
+
+                        <img src='/img/poligonos_3.png' style={{ marginTop: '-35px', width: '100%', zIndex: '1' }} />
+
+                        <p style={{ padding: '-60px',  }}>
+                            <img src='/img/hackathon-2024-flyer.png' style={{ marginTop:'-4px', position: 'relative',    width: '100%', zIndex: '0' }} />
+                        </p>
+                        <p style={{ textAlign: 'center'}}>
+                            <a href='/Hackathonk2024'>
                                 <Button>
-                                    Contacto
+                                    Sitio del evento
                                 </Button>
                             </a>
                         </p>
