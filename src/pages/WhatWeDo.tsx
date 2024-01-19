@@ -125,8 +125,7 @@ const WhatWeDo = () => {
                                         color: 'white'}} href="/">HOME</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white'}} href="/AboutUs">ABOUT US</Nav.Link>
-                                        <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/WhatWeDo">WHAT WE DO</Nav.Link>
+                                        <Nav.Link className='nav-bar-selected-link' href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white' }} href="/Events">EVENTS</Nav.Link>
                                         <Nav.Link style={{

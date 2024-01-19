@@ -201,6 +201,12 @@ p {
     .form-control {
       padding: 20px;
     }
+
+    .nav-bar-selected-link {
+      background: white;
+      color: black;
+      text-decoration: none;
+    }
 }
 
 /* Símbolo en blanco - botón de navegación (mobile) */

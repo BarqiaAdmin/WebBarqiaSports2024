@@ -122,8 +122,7 @@ const Events = () => {
                                         color: 'white'}} href="/AboutUs">ABOUT US</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white'}} href="/WhatWeDo">WHAT WE DO</Nav.Link>
-                                        <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/Events">EVENTS</Nav.Link>
+                                        <Nav.Link className='nav-bar-selected-link' href="/Events">EVENTS</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white' }} href="/Contact">CONTACT</Nav.Link>
                                     </Nav>

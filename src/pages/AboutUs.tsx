@@ -272,8 +272,7 @@ const AboutUs = () => {
                                     <Nav className="justify-content-end flex-grow-1 pe-3" style={{textAlign: 'center'}}>
                                         <Nav.Link style={{
                                         color: 'white'}} href="/">HOME</Nav.Link>
-                                        <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/AboutUs">ABOUT US</Nav.Link>
+                                        <Nav.Link className='nav-bar-selected-link' href="/AboutUs">ABOUT US</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white' }} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{

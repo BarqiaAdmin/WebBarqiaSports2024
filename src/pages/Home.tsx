@@ -130,8 +130,7 @@ const Home = () => (
                                        color: 'white' }} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                     <Nav.Link style={{
                                        color: 'white' }} href="/Events">EVENTS</Nav.Link>
-                                    <Nav.Link style={{
-                                       color: 'white' }} href="/Contact">CONTACT</Nav.Link>
+                                    <Nav.Link className='nav-bar-selected-link'>CONTACT</Nav.Link>
                                 </Nav>
                             </Offcanvas.Body>
                             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
@@ -163,7 +162,7 @@ const Home = () => (
                 </Navbar>
             ))}
             <video autoPlay muted loop playsInline style={{ width: '100%' }} >
-                <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
+                <source src="/video/Video-BarqIA-Promo-resized.mp4" type="video/mp4" />
             </video>
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-7px', textAlign: 'center' }} >
                 WELCOME TO BARQIA
