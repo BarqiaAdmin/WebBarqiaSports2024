@@ -70,9 +70,7 @@ const Events = () => {
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                     <Row>
                         <Col style={{ textAlign: 'center' }}>
-                            <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                                <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
-                            </div>
+                           
                         </Col>
                     </Row>
                     <hr style={{ margin: '40px 0' }} />

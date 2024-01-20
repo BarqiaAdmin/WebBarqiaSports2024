@@ -27,11 +27,11 @@ const WhatWeDo = () => {
                     </div>
                 </div>
                 
-                <Container style={{ position: 'relative' }}>
+                <Container style={{ padding: '0', position: 'relative', overflow: 'hidden' }}>
                     <Row>
                         <Col>
                             <div>
-                                <img id='img-home-2' src='/img/home-2.PNG' style={{ width: '100%' }} />
+                                <img id='img-home-2' src='/img/what-we-do/what-we-do.jpg' style={{ width: '100%', marginTop: '-137px' }} />
                             </div>
 
                             <div id='segundo-container' style={{display: 'inline-block', float: 'left' }}>
@@ -51,24 +51,56 @@ const WhatWeDo = () => {
                                     <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
                                 </video>
                             </div>
-                            
-                            <div style={{position: 'relative', textAlign: 'center'}}>
-                                <div style={{display: 'inline-block', width: '50%'}}>
-                                    <img id='img-cascos-1' src='/img/cascos-1.png' style={{ marginRight: '-70px', width: '70%'}} />
-                                    <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
-                                        Technology consulting
-                                    </p>
-                                </div>
-                                
-                                <div style={{display: 'inline-block', width: '50%'}}>
-                                    <a href='/Events'>
-                                        <img id='img-hackaton-esports' src='/img/hackathon-2024-flyer.png' style={{ marginLeft: '-70px', width: '70%'}} />
-                                        <p style={{background: '#0C131E !important', color: 'white', textAlign: 'center', width: '100%'}}>
-                                            Events
-                                        </p>
-                                    </a>
-                                </div>
+                        </Col>
+                    </Row>
+
+                    <Row style={{ marginBottom: '80px', position: 'relative', zIndex: '1' }}>
+                        <Col xs={12} style={{ zIndex: '2' }}>
+                            <img src='/img/poligonos_3.png' />
+                        </Col>
+                    </Row>
+                    <Row style={{ textAlign: 'center' }}>
+                        <Col xs={6}>
+                            <div className='banda-vertical' style={{ marginLeft: '200px', marginTop: '-323px', height: '2500px', width: '263px', zIndex: '1' }}></div>
+                        </Col>
+                        
+                        <Col xs={6}>
+                            <div className='banda-vertical' style={{ marginLeft: '200px', marginTop: '-323px', height: '2500px', width: '263px', zIndex: '1' }}></div>
+                        </Col>
+
+                        <Col xs={6}>
+                            <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' style={{ position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '496px', zIndex: '2' }}>
+                                CLUBES DEPORTIVOS + PLATAFORMA INMERSIVA
                             </div>
+                        </Col>
+                        
+                        <Col xs={6}>
+                        </Col>
+
+                        <Col xs={6}>
+                        </Col>
+
+                        <Col xs={6}>
+                            <img src='/img/what-we-do/eventos-hackathons-gaming.png' style={{ position: 'relative', zIndex: '2' }}/>
+                        </Col>
+
+                        <Col xs={6}>
+                            <img src='/img/what-we-do/disfrutar-de-experiencias.png' style={{ position: 'relative', zIndex: '2' }}/>
+                        </Col>
+
+                        <Col xs={6}>
+                        </Col>
+
+                        <Col xs={6}>
+                        </Col>
+
+                        <Col xs={6}>
+                            <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' style={{ position: 'relative', zIndex: '2' }}/>
+                        </Col>
+
+                        <Col xs={6}>
+                            <img src='/img/what-we-do/beneficio-a-usuarios.png' style={{ position: 'relative', zIndex: '2' }}/>
                         </Col>
                     </Row>
                 </Container>

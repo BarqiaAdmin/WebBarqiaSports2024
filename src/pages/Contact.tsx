@@ -35,7 +35,7 @@ const Contact = () => {
                         </Col>
 
                         <Col style={{ display: 'inline-block' }}>
-                        <InputGroup className="mb-3">
+                            <InputGroup className="mb-3">
                                 <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
                                 <Form.Control
                                 placeholder="Email address"
@@ -137,14 +137,15 @@ const Contact = () => {
                                         color: 'white'}} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white'}} href="/Events">EVENTS</Nav.Link>
-                                        <Nav.Link className='nav-bar-selected-link' href="/Contact">CONTACT</Nav.Link>
+                                        <Nav.Link style={{
+                                        color: 'white', textDecoration: 'underline' }} href="/Contact">CONTACT</Nav.Link>
                                     </Nav>
                                 </Offcanvas.Body>
                                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
                                     <Row>
                                         <Col style={{ textAlign: 'center' }}>
-                                            <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                                                <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
+                                            <div>
+
                                             </div>
                                         </Col>
                                     </Row>
@@ -209,8 +210,8 @@ const Contact = () => {
                         <Form.Control placeholder='Your inquiry' as="textarea" aria-label="With textarea" />
                     </InputGroup>
 
-                    <InputGroup style={{ margin: '20px 0', textAlign: 'center' }}>
-                        <Button style={{ background: '#20B4E3', border: 'none', margin: '20px auto', padding: '15px 60px'}}>
+                    <InputGroup style={{ marginTop: '20x', textAlign: 'center' }}>
+                        <Button style={{ background: '#16525F', fontSize: '20px', margin: 'auto', padding: '20px', color: 'white', }} >
                             Submit
                         </Button>
                     </InputGroup>
