@@ -83,7 +83,7 @@ const AboutUs = () => {
                             Our mission is to drive a leading immersive fan engagement platform, where sports, clubs, athletes and fans from around the world converge to forge deeper, more realistic relationships between all parties involved. We seek to build a space where the passion for sport translates into authentic and meaningful connections, promoting the interaction and active participation of all actors in the sporting world.
                         </p>
 
-                        <img id='panel_3_i' src='/img/panel_4_i.png' style={{marginTop: '-530px', maxWidth: '25%', position: 'absolute', right: '0', rotate: '360deg', zIndex: '0' }} />
+                        <img id='panel_3_i' src='/img/panel_4_i.png' style={{marginTop: '-650px', maxWidth: '25%', position: 'absolute', right: '0', rotate: '360deg', zIndex: '0' }} />
                     </div>
 
                     <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between', marginTop: '40px' }}>
