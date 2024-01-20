@@ -12,7 +12,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const Contact = () => {
     return(
         <div>
-            <Container fluid className='container-desktop' style={{ background: '' }}>
+            <Container fluid className='container-desktop' style={{ padding: '0' }}>
                 <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
                 <div id='nav-bar' style={{ padding: '20px 30px'}}>
                     <div style={{ display: 'inline-block' }}>
@@ -27,14 +27,14 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <Container>
+                <Container style={{ marginBottom: '50px', padding: '0'}}>
                     <Row>
-                        <Col style={{ display: 'inline-block' }}>
-                            <h1 className='neonText' >Connect with us</h1>
-                            <img src='/img/world-map.png' />
+                        <Col className='col-lg-12' style={{ marginBottom: '50px' }}>
+                            <h1 className='neonText' style={{ textAlign: 'center' }}>Connect with us</h1>
                         </Col>
 
-                        <Col style={{ display: 'inline-block' }}>
+                        <Col className='col-lg-3'></Col>
+                        <Col className='col-lg-6'>
                             <InputGroup className="mb-3">
                                 <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
                                 <Form.Control
@@ -74,10 +74,13 @@ const Contact = () => {
 
                             <br />
 
-                            <Button type="submit">
-                                Submit
-                            </Button>
+                            <div style={{ marginTop: '20px', textAlign: 'center' }}>
+                                <Button type="submit" style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
+                                    Submit
+                                </Button>
+                            </div>
                         </Col>
+                        <Col className='col-lg-3'></Col>
                     </Row>
                 </Container>
 

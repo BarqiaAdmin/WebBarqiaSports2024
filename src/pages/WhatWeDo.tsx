@@ -27,12 +27,13 @@ const WhatWeDo = () => {
                     </div>
                 </div>
                 
+                <div>
+                    <img id='img-home-2' src='/img/what-we-do/what-we-do.jpg' style={{ width: '100%', marginTop: '-300px' }} />
+                </div>
+
                 <Container style={{ padding: '0', position: 'relative', overflow: 'hidden' }}>
                     <Row>
                         <Col>
-                            <div>
-                                <img id='img-home-2' src='/img/what-we-do/what-we-do.jpg' style={{ width: '100%', marginTop: '-137px' }} />
-                            </div>
 
                             <div id='segundo-container' style={{display: 'inline-block', float: 'left' }}>
                                 <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', textAlign: 'center' }} >

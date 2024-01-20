@@ -70,6 +70,7 @@ const AboutUs = () => {
                         </Carousel.Caption>
                         */}
                     </Carousel.Item>
+                    
                 </Carousel>
 
                 <Container style={{ padding: '0' }}>
