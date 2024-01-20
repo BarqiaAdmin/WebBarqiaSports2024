@@ -83,10 +83,16 @@ const WhatWeDo = () => {
 
                         <Col xs={6}>
                             <img src='/img/what-we-do/eventos-hackathons-gaming.png' style={{ position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-230px', padding: '10px 15px', position: 'absolute', left: '395px', zIndex: '2' }}>
+                                EVENTOS HACKATHONS GAMING
+                            </div>
                         </Col>
 
                         <Col xs={6}>
                             <img src='/img/what-we-do/disfrutar-de-experiencias.png' style={{ position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '497px', zIndex: '2' }}>
+                                DISFRUTAR DE EXPERIENCIAS
+                            </div>
                         </Col>
 
                         <Col xs={6}>
@@ -97,10 +103,16 @@ const WhatWeDo = () => {
 
                         <Col xs={6}>
                             <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' style={{ position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-230px', padding: '10px 15px', position: 'absolute', left: '432px', zIndex: '2' }}>
+                                SISTEMA DE NIVELES + SKINS
+                            </div>
                         </Col>
 
                         <Col xs={6}>
                             <img src='/img/what-we-do/beneficio-a-usuarios.png' style={{ position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '497px', zIndex: '2' }}>
+                                BENEFICIO A USUARIOS
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -223,6 +235,9 @@ const WhatWeDo = () => {
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' />
+                        <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '18px', marginTop: '-120px', marginLeft: '137px', padding: '10px 15px', textAlign: 'center', left: '496px', width: '240px' }}>
+                            CLUBES DEPORTIVOS + PLATAFORMA INMERSIVA
+                        </div>
                     </Col>
                     
                     <Col xs={6}>
@@ -233,10 +248,16 @@ const WhatWeDo = () => {
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/eventos-hackathons-gaming.png' />
+                        <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '18px', marginTop: '-120px', marginLeft: '-200px', padding: '10px 15px', textAlign: 'center', left: '496px', width: '240px' }}>
+                            EVENTOS HACKATHONS GAMING
+                        </div>
                     </Col>
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/disfrutar-de-experiencias.png' />
+                        <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '18px', marginTop: '-120px', marginLeft: '137px', padding: '10px 15px', textAlign: 'center', left: '496px', width: '240px' }}>
+                            DISFRUTAR DE EXPERIENCIAS
+                        </div>
                     </Col>
 
                     <Col xs={6}>
@@ -247,10 +268,16 @@ const WhatWeDo = () => {
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' />
+                        <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '18px', marginTop: '-120px', marginLeft: '-200px', padding: '10px 15px', textAlign: 'center', left: '496px', width: '240px' }}>
+                            SISTEMAS DE NIVELES + SKINS
+                        </div>
                     </Col>
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/beneficio-a-usuarios.png' />
+                        <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '18px', marginTop: '-120px', marginLeft: '137px', padding: '10px 15px', textAlign: 'center', left: '496px', width: '240px' }}>
+                            BENEFICIO A USUARIOS
+                        </div>
                     </Col>
                 </Row>
 
