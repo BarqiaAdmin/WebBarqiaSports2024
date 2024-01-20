@@ -32,7 +32,7 @@ const Events = () => {
                         <img src='/img/render-events.jpg' style={{ marginTop: '-47px', width: '100%' }} />
                     </Col>
                     <Col className='col-lg-12'>
-                        <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >
+                        <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '30px 0', textAlign: 'center' }}  >
                             EVENTS
                         </h1>
                     </Col>
@@ -43,7 +43,7 @@ const Events = () => {
                     <Col className='col-lg-6' style={{ textAlign: 'center', padding: '0 50px' }}>
                         <h1 style={{ lineHeight: '85px' }}>
                             Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
-                        </h1>
+                        </h1><br />
                         <a href='/Hackathon2024'>
                             <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
                                 Sitio del evento
@@ -54,17 +54,17 @@ const Events = () => {
                     <Col className='col-12'>
                         <img src='/img/poligonos_3.png' style={{ width: '100%', marginTop: '-150px' }} />
                     </Col>
-                    <Col style={{ textAlign: 'center'}}>
-                        <h1>
+                    <Col>
+                        <h1 style={{ margin: 'auto', lineHeight: '85px', textAlign: 'center', width: '50%'}}>
                             Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
-                        </h1>
+                        </h1><br />
                         <p style={{ textAlign: 'center'}}>
                             <a href='/Contact'>
                                 <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
                                     Contacto
                                 </Button>
                             </a>
-                        </p>
+                        </p><br />
                     </Col>
                 </Row>
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
