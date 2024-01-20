@@ -32,39 +32,46 @@ const Events = () => {
                         <img src='/img/render-events.jpg' style={{ marginTop: '-47px', width: '100%' }} />
                     </Col>
                     <Col className='col-lg-12'>
-                        <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '30px 0', textAlign: 'center' }}  >
+                        <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >
                             EVENTS
                         </h1>
                     </Col>
-
+                    <Col className='col-lg-12'>
+                        <h1 style={{ fontSize: '33px', margin: '35px', textAlign: 'center' }}>
+                            <a href='/Hackathon2024' target='_blank'>Next Event - 09/02 International Lab Madrid</a>
+                        </h1>
+                    </Col>
                     <Col className='col-lg-6'>
-                        <img src='/img/hackathon-2024-flyer.png' style={{ width: '100%' }} />
+                        <img src='/img/hackathon-2024-flyer.png' style={{ float: 'right', marginTop: '33px', width: '460px' }} />
                     </Col>
                     <Col className='col-lg-6' style={{ textAlign: 'center', padding: '0 50px' }}>
-                        <h1 style={{ lineHeight: '85px' }}>
-                            Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
-                        </h1><br />
+                        <p style={{ color: 'white', fontSize: '23px' }}>
+                            First international eSports event broadcast live where programmers and gamming developers will participate with the objective of creating a VR game within the immersive platform of Barqia Sports.
+                        </p><br />
                         <a href='/Hackathon2024'>
                             <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
-                                Sitio del evento
+                                Participate!
                             </Button>
                         </a>
+                        <img src='/img/panel_3_i.png' style={{ transform: 'rotate(180deg)', position: 'relative', top: '60px', right: '-56px', width: '550px' }} />
                     </Col>
 
+                    {/**
                     <Col className='col-12'>
                         <img src='/img/poligonos_3.png' style={{ width: '100%', marginTop: '-150px' }} />
                     </Col>
-                    <Col>
-                        <h1 style={{ margin: 'auto', lineHeight: '85px', textAlign: 'center', width: '50%'}}>
-                            Desde Barqia estamos elaborando una serie de eventos en distintas ciudades para encontrar nuevos talentos y su potencial para juegos de esports.
-                        </h1><br />
-                        <p style={{ textAlign: 'center'}}>
+                     */}
+                    <Col style={{ position: 'relative' }}>
+                        <img src='/img/panel_4_i.png' style={{ transform: 'rotate(180deg)', position: 'absolute', left: '0', top: '-35px', width: '337px' }} />
+                        <p style={{ color: 'white', margin: 'auto', marginTop: '70px', marginBottom: '70px', textAlign: 'center', lineHeight: '60px', fontSize: '35px', width: '50%'}}>
+                            From Barqia we are elaborating a series of events in different cities to find new talents and their potential for esports games.
+                            <br /><br />
                             <a href='/Contact'>
                                 <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
-                                    Contacto
+                                    Contact With Us
                                 </Button>
                             </a>
-                        </p><br />
+                        </p>
                     </Col>
                 </Row>
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
