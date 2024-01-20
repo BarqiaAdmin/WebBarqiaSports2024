@@ -13,9 +13,13 @@
 }
 
 #img-home-2 {
-    margin-bottom: 50px;
     margin-top: -149px;
     width: 100%;
+}
+
+.titulo-neon {
+    color: lightgray;
+    text-shadow: 0 0 3px #20B4E3, 0 0 5px #20B4E3, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 45px white, 0 0 50px white, 0 0 75px white;
 }
 
 @media screen and (min-width: 600px) {

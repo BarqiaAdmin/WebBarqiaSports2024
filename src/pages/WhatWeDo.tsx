@@ -34,33 +34,34 @@ const WhatWeDo = () => {
                 <Container style={{ padding: '0', position: 'relative', overflow: 'hidden' }}>
                     <Row>
                         <Col>
-
-                            <div id='segundo-container' style={{display: 'inline-block', float: 'left' }}>
-                                <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
-                                    WHAT WE DO
-                                </h1>
-
-                                <p style={{ color: 'white', lineHeight: '48px' }}>
-                                    We are the leading IMMERSIVE FAN ENGAMENT PLATFORM perfect for clubs, athletes and fans of all sports worldwide. Participate in all the immersive experiences, earn points, get benefits and help to grow your favorite club or athlete.
-                                    Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes.
-                                </p>
-                            </div>
-                            
-
-                            <div style={{ display: 'inline-block', textAlign: 'center'}}>
-                                <video autoPlay muted loop playsInline style={{width: '100%'}}>
-                                    <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
-                                </video>
-                            </div>
+                            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '0', textAlign: 'center' }} >
+                                WHAT WE DO
+                            </h1>
+                            <img src='/img/panel_4_i.png' style={{ position: 'absolute', transform: 'rotate(180deg)', width: '337px'}} />
+                            <img src='/img/panel_3_i.png' style={{ position: 'absolute', transform: 'rotate(180deg)', right: '0', marginTop: '450px', width: '515px'}} /> 
+                            <Row>
+                                <Col className='col-lg-6'>
+                                    <video autoPlay muted loop playsInline style={{ borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '8px', borderStyle: 'solid', float: 'right', marginTop: '60px', position: 'relative', zIndex: '1', width: '70%' }}>
+                                        <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
+                                    </video>
+                                </Col>
+                                <Col className='col-lg-6' style={{ marginTop: '5px' }}>
+                                    <p style={{ color: 'white', lineHeight: '48px', marginTop: '18px' }}>
+                                        We are the leading IMMERSIVE FAN ENGAMENT PLATFORM perfect for clubs, athletes and fans of all sports worldwide. Participate in all the immersive experiences, earn points, get benefits and help to grow your favorite club or athlete.
+                                        <br /><br />
+                                        Thanks to our cutting-edge technology, this allows us to capture the maximum attention of the fans and create a closer bond between them and their favourite clubs or athletes.
+                                    </p>
+                                </Col>
+                                <Col className='col-lg-12'>
+                                    <h1 className='titulo-neon' style={{ textAlign: 'center', fontSize: '70px', margin: '150px 0'}}>
+                                        OUR SERVICES
+                                    </h1>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
-
-                    <Row style={{ marginBottom: '80px', position: 'relative', zIndex: '1' }}>
-                        <Col xs={12} style={{ zIndex: '2' }}>
-                            <img src='/img/poligonos_3.png' />
-                        </Col>
-                    </Row>
-                    <Row style={{ textAlign: 'center' }}>
+                    <Row style={{ position: 'relative', textAlign: 'center' }}>
+                        {/**
                         <Col xs={6}>
                             <div className='banda-vertical' style={{ marginLeft: '200px', marginTop: '-323px', height: '2500px', width: '263px', zIndex: '1' }}></div>
                         </Col>
@@ -68,11 +69,13 @@ const WhatWeDo = () => {
                         <Col xs={6}>
                             <div className='banda-vertical' style={{ marginLeft: '200px', marginTop: '-323px', height: '2500px', width: '263px', zIndex: '1' }}></div>
                         </Col>
-
+                         */}    
+                        <img src='/img/panel_4_i.png' style={{ position: 'absolute', right: '0', top: '-265px', width: '337px' }} />
+                        <img src='/img/panel_5_i.png' style={{ position: 'absolute', left: '-226px', top: '450px', width: '690px', transform: 'rotate(90deg)'}} />
                         <Col xs={6}>
-                            <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' style={{ position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '496px', zIndex: '2' }}>
-                                CLUBES DEPORTIVOS + PLATAFORMA INMERSIVA
+                            <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' style={{ float: 'right', position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '161px', marginLeft: '190px', padding: '10px 15px', position: 'absolute', left: '496px', zIndex: '2' }}>
+                                IMMERSIVE PLATFORM
                             </div>
                         </Col>
                         
@@ -83,16 +86,16 @@ const WhatWeDo = () => {
                         </Col>
 
                         <Col xs={6}>
-                            <img src='/img/what-we-do/eventos-hackathons-gaming.png' style={{ position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-230px', padding: '10px 15px', position: 'absolute', left: '395px', zIndex: '2' }}>
-                                EVENTOS HACKATHONS GAMING
+                            <img src='/img/what-we-do/eventos-hackathons-gaming.png' style={{ float: 'left', position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '150px', marginLeft: '-168px', padding: '10px 15px', position: 'absolute', left: '395px', zIndex: '2' }}>
+                                HACKATHONS GAMING EVENTS
                             </div>
                         </Col>
 
                         <Col xs={6}>
-                            <img src='/img/what-we-do/disfrutar-de-experiencias.png' style={{ position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '497px', zIndex: '2' }}>
-                                DISFRUTAR DE EXPERIENCIAS
+                            <img src='/img/what-we-do/disfrutar-de-experiencias.png' style={{ float: 'right', position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '155px', marginLeft: '190px', padding: '10px 15px', position: 'absolute', left: '497px', zIndex: '2' }}>
+                                IMMERSIVE EXPERIENCIES
                             </div>
                         </Col>
 
@@ -103,16 +106,16 @@ const WhatWeDo = () => {
                         </Col>
 
                         <Col xs={6}>
-                            <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' style={{ position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-230px', padding: '10px 15px', position: 'absolute', left: '432px', zIndex: '2' }}>
-                                SISTEMA DE NIVELES + SKINS
+                            <img src='/img/what-we-do/sistema-de-niveles-+-skins.png' style={{  float: 'left', position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '160px', marginLeft: '-170px', padding: '10px 15px', position: 'absolute', left: '432px', zIndex: '2' }}>
+                                LEVELING SYSTEM + SKINS
                             </div>
                         </Col>
 
                         <Col xs={6}>
-                            <img src='/img/what-we-do/beneficio-a-usuarios.png' style={{ position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '-200px', padding: '10px 15px', position: 'absolute', left: '497px', zIndex: '2' }}>
-                                BENEFICIO A USUARIOS
+                            <img src='/img/what-we-do/beneficio-a-usuarios.png' style={{ float: 'right', position: 'relative', zIndex: '2' }}/>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '165px', marginLeft: '495px', padding: '10px 15px', position: 'absolute', left: '200px', zIndex: '2' }}>
+                                USER BENEFITS
                             </div>
                         </Col>
                     </Row>
