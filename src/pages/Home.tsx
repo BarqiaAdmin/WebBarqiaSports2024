@@ -27,7 +27,7 @@ const Home = () => (
             <video autoPlay muted loop playsInline style={{ marginTop: '-138px', width: '100%' }} >
                 <source src="video/Video_BarqIA_Promo.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '30px', marginTop: '30px', textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container id='home-body'>
@@ -173,7 +173,7 @@ const Home = () => (
             <video autoPlay muted loop playsInline style={{ width: '100%', marginTop: '-120px' }}> 
                 <source src="/video/Video-BarqIA-Promo-resized.mp4" type="video/mp4" />
             </video>
-            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'black', marginTop: '40px', textAlign: 'center' }} >
+            <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'black', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
             <Container>
