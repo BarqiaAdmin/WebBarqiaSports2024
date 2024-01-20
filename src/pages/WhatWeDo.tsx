@@ -36,7 +36,7 @@ const WhatWeDo = () => {
                         <Col>
 
                             <div id='segundo-container' style={{display: 'inline-block', float: 'left' }}>
-                                <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }} >
+                                <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginTop: '-6px', marginBottom: '0', textAlign: 'center' }} >
                                     WHAT WE DO
                                 </h1>
 
@@ -211,7 +211,7 @@ const WhatWeDo = () => {
                 </div>
 
                 <div id='segundo-container' style={{display: 'inline-block' }}>
-                    <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '-5px', marginTop: '40px', textAlign: 'center' }} >
+                    <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'white', marginBottom: '0', marginTop: '-6px', textAlign: 'center' }} >
                         WHAT WE DO
                     </h1>
 

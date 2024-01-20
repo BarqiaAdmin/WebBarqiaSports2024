@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button';
 const Hackathon2024 = () => {
     return (
         <div>
-            <Container fluid className='container-desktop' id='landing-evento'>
+            <Container fluid className='container-desktop' id='landing-evento' style={{ overflow: 'hidden'}}>
             {/* Barra de navegación */}
             <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '1' }} />
             <div id='nav-bar' style={{ padding: '20px 30px'}}>
@@ -39,7 +39,7 @@ const Hackathon2024 = () => {
             <Row style={{ padding: '0 160px', marginBottom: '60px', marginTop: '-125px' }}>
                 <Col>
                     <p>
-                        El 26 de enero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
+                        El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
                     </p>
 
                     <h2 style={{ color: '#CB6BE6' }}>
@@ -227,7 +227,7 @@ const Hackathon2024 = () => {
 
                     <p style={{ textAlign: 'center' }}>
                         ¿TE ATREVES A DESARROLLAR UN PERSONAJE EN UN DÍA?<br />
-                        INSCRIPCIONES ABIERTAS HASTA EL 24, ¡PLAZAS LIMITADAS!
+                        INSCRIPCIONES ABIERTAS HASTA EL 05/02, ¡PLAZAS LIMITADAS!
                     </p>
 
                     <p style={{ textAlign: 'center' }}>
@@ -237,7 +237,9 @@ const Hackathon2024 = () => {
                     <Row>
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
                             <h1 style={{ marginTop: '40px' }}>
-                                <span>Quiero inscribirme</span>
+                                <a href='https://m0mpetq8kon.typeform.com/to/kOgcrpYh' target='_blank'>
+                                    <span>Quiero inscribirme</span>
+                                </a>
                             </h1>
                         </Col>
 
@@ -255,7 +257,7 @@ const Hackathon2024 = () => {
                     </h1>
 
                     <p style={{ textAlign: 'center' }}>
-                        EL EVENTO TENDRÁ LUGAR EN EL CAMPUS DEL VIDEOJUEGO DE MADRID IN GAME, QUE SE UBICA EN LA CASA DE CAMPO Y CUENTA CON 3 PABELLONES.
+                        EL EVENTO TENDRA LUGAR EN LAS OFICINAS DEL INTERNATIONAL LAB DE MADRID, QUE SE UBICA EN LA ZONA CÉNTRICA DE LA CIUDAD, DIRECCIÓN:
                     </p>
                 </Col>
 
@@ -263,41 +265,16 @@ const Hackathon2024 = () => {
                     <h1>
                         C. DE BAILÉN, 41, 28005 MADRID
                     </h1>
-
-                    <p style={{ textAlign: 'center' }}>
-                        LLEGA AL CAMPUS CON LAS LÍNEAS DE BUS EMT 31, 33, 36 Y 39, PARADAS 879 Y 880. 
-                        LAS ESTACIONES DE METRO MÁS CERCANAS SON ALTO EXTREMADURA Y LAGO.
-                    </p>
-
-                    <p style={{ textAlign: 'center' }}>
-                        MADRID IN GAME TAMBIÉN OFRECE EL USO DE SU PARKING DURANTE LOS TRES DÍAS.
-                    </p>
                 </Col>
 
                 <Col style={{ textAlign: 'center', zIndex: '1' }}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} loading="lazy"></iframe>
                 </Col>
-
-                <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
-                    <p style={{ textAlign: 'center' }}>
-                        <a href='' style={{ color: 'white' }}>
-                            AVISOL LEGAL Y COOKIES
-                        </a>
-                    </p>
-                    
-                    <p style={{ textAlign: 'center' }}>
-                        <a href='' style={{ color: 'white' }}>
-                            PRIVACIDAD
-                        </a>
-                    </p>
-                </Col>
             </Row>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
-                <Row>
+                 <Row>
                     <Col style={{ textAlign: 'center' }}>
-                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
-                        </div>
+                        <img src='/img/Logo_Inicio.png' style={{ width: '80px' }} />
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />
@@ -401,7 +378,7 @@ const Hackathon2024 = () => {
             <Row>
                 <Col>
                     <p>
-                        El 26 de enero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
+                        El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
                     </p>
 
                     <h2 style={{ color: '#CB6BE6' }}>
@@ -589,7 +566,7 @@ const Hackathon2024 = () => {
 
                     <p style={{ color: 'white', textAlign: 'center' }}>
                         ¿TE ATREVES A DESARROLLAR UN PERSONAJE EN UN DÍA?<br />
-                        INSCRIPCIONES ABIERTAS HASTA EL 24, ¡PLAZAS LIMITADAS!
+                        INSCRIPCIONES ABIERTAS HASTA EL 05/02, ¡PLAZAS LIMITADAS!
                     </p>
 
                     <p style={{ color: 'white', textAlign: 'center' }}>
@@ -599,7 +576,9 @@ const Hackathon2024 = () => {
                     <Row>
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
                             <h1 style={{ marginTop: '40px' }}>
-                                <span>Quiero inscribirme</span>
+                                <a href='https://m0mpetq8kon.typeform.com/to/kOgcrpYh' target='_blank'>
+                                    <span>Quiero inscribirme</span>
+                                </a>
                             </h1>
                         </Col>
 
@@ -617,7 +596,7 @@ const Hackathon2024 = () => {
                     </h1>
 
                     <p style={{ color: 'white', textAlign: 'center' }}>
-                        EL EVENTO TENDRÁ LUGAR EN EL CAMPUS DEL VIDEOJUEGO DE MADRID IN GAME, QUE SE UBICA EN LA CASA DE CAMPO Y CUENTA CON 3 PABELLONES.
+                        EL EVENTO TENDRA LUGAR EN LAS OFICINAS DEL INTERNATIONAL LAB DE MADRID, QUE SE UBICA EN LA ZONA CENTRICA DE LA CIUDAD, DIRECCIÓN:
                     </p>
                 </Col>
 
@@ -625,42 +604,17 @@ const Hackathon2024 = () => {
                     <h1>
                         C. DE BAILÉN, 41, 28005 MADRID
                     </h1>
-
-                    <p style={{ color: 'white', textAlign: 'center' }}>
-                        LLEGA AL CAMPUS CON LAS LÍNEAS DE BUS EMT 31, 33, 36 Y 39, PARADAS 879 Y 880. 
-                        LAS ESTACIONES DE METRO MÁS CERCANAS SON ALTO EXTREMADURA Y LAGO.
-                    </p>
-
-                    <p style={{ color: 'white', textAlign: 'center' }}>
-                        MADRID IN GAME TAMBIÉN OFRECE EL USO DE SU PARKING DURANTE LOS TRES DÍAS.
-                    </p>
                 </Col>
 
                 <Col style={{ color: 'white', textAlign: 'center', zIndex: '1' }}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.695832667586!2d-3.7127015!3d40.4122198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227d80511300f%3A0x9e5733dc0a37043b!2sC.%20de%20Bail%C3%A9n%2C%2041%2C%2028005%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1699274897909!5m2!1sen!2sar" style={{ border: '0', height: '400px', margin: '40px 0', width: '100%'}} loading="lazy"></iframe>
-                </Col>
-
-                <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <p style={{ textAlign: 'center' }}>
-                        <a href='' style={{ color: 'white' }}>
-                            AVISOL LEGAL Y COOKIES
-                        </a>
-                    </p>
-                    
-                    <p style={{ textAlign: 'center' }}>
-                        <a href='' style={{ color: 'white' }}>
-                            PRIVACIDAD
-                        </a>
-                    </p>
                 </Col>
             </Row>
 
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
                     <Col style={{ textAlign: 'center' }}>
-                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
-                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
-                        </div>
+                        <img src='/img/Logo_Inicio.png' style={{ width: '80px' }} />
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />

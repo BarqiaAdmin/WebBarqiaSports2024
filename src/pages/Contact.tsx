@@ -140,8 +140,7 @@ const Contact = () => {
                                         color: 'white'}} href="/WhatWeDo">WHAT WE DO</Nav.Link>
                                         <Nav.Link style={{
                                         color: 'white'}} href="/Events">EVENTS</Nav.Link>
-                                        <Nav.Link style={{
-                                        color: 'white', textDecoration: 'underline' }} href="/Contact">CONTACT</Nav.Link>
+                                        <Nav.Link className='nav-bar-selected-link' href="/Contact">CONTACT</Nav.Link>
                                     </Nav>
                                 </Offcanvas.Body>
                                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', paddingBottom: '20px', position: 'relative', zIndex: '2' }}>
