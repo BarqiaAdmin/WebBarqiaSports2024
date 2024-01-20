@@ -43,9 +43,11 @@ const Home = () => (
                     </Col>
                      */}
                     <Col className='col-lg-12'>
-                        <div style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
-                            <img src='/img/hackathon-titulo.png' style={{ marginTop: '60px' }}/>
-                        </div>
+                        <a href='/Hackathon2024'>
+                            <div style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
+                                <img src='/img/hackathon-titulo.png' style={{ width: '50%', marginTop: '-85px'}}/>
+                            </div>
+                        </a>
                     </Col>
                     <Col className='col-lg-8' style={{marginTop: '-144%'}}>
                         <p>
@@ -174,6 +176,15 @@ const Home = () => (
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'black', marginTop: '40px', textAlign: 'center' }} >
                 WELCOME TO BARQIA
             </h1>
+            <Container>
+                <Col className='col-lg-12'>
+                    <a href='/Hackathon2024'>
+                        <div >
+                            <img src='/img/hackathon-titulo.png' style={{ padding: '40px 0'}} />
+                        </div>
+                    </a>
+                </Col>
+            </Container>
             <Container>
                 <div id='first-p-welcome-to-barqia'>
                     <p style={{ position: 'relative' }}>
