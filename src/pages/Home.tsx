@@ -35,9 +35,16 @@ const Home = () => (
                     <Col className='col-lg-12' style={{ padding: '0'}}>
                         <img src='/img/poligonos.png' style={{ width: '100%'}}/>
                     </Col>
+                    {/**
                     <Col className='col-lg-12'>
                         <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
                             <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ width: '75%', marginTop: '-250px'}} />
+                        </div>
+                    </Col>
+                     */}
+                    <Col className='col-lg-12'>
+                        <div style={{ textAlign: 'center', marginTop: '-168%', position: 'relative', zIndex: '2' }}>
+                            <img src='/img/hackathon-titulo.png' style={{ marginTop: '60px' }}/>
                         </div>
                     </Col>
                     <Col className='col-lg-8' style={{marginTop: '-144%'}}>
@@ -161,7 +168,7 @@ const Home = () => (
                     </Container>
                 </Navbar>
             ))}
-            <video autoPlay muted loop playsInline style={{ width: '100%' }} >
+            <video autoPlay muted loop playsInline style={{ width: '100%', marginTop: '-120px' }}> 
                 <source src="/video/Video-BarqIA-Promo-resized.mp4" type="video/mp4" />
             </video>
             <h1 id='h1-welcome-to-barqia' className='neonText' style={{ background: '#171618', color: 'black', marginTop: '40px', textAlign: 'center' }} >
