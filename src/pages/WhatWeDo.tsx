@@ -71,8 +71,12 @@ const WhatWeDo = () => {
                         </Col>
                          */}    
                         <img src='/img/panel_4_i.png' style={{ position: 'absolute', right: '0', top: '-265px', width: '337px' }} />
+                        <img src='/img/panel_4_i.png' style={{ position: 'absolute', left: '1', top: '1010px', width: '337px', transform: 'rotate(180deg)' }} />
                         <img src='/img/panel_5_i.png' style={{ position: 'absolute', left: '-226px', top: '450px', width: '690px', transform: 'rotate(90deg)'}} />
+                        <img src='/img/panel_5_i.png' style={{ position: 'absolute', right: '-227px', top: '1000px', width: '690px', transform: 'rotate(270deg)'}} />
+                        <img src='/img/panel_3_i.png' style={{ position: 'absolute', right: '-154px', top: '1533px', width: '690px', transform: 'rotate(270deg)'}} />
                         <Col xs={6}>
+                            
                             <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' style={{ float: 'right', position: 'relative', zIndex: '2' }}/>
                             <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '161px', marginLeft: '190px', padding: '10px 15px', position: 'absolute', left: '496px', zIndex: '2' }}>
                                 IMMERSIVE PLATFORM
