@@ -91,7 +91,7 @@ const Home = () => (
                         </div>
                     </Col>
                 </Row>
-                <hr style={{ margin: '40px 0' }} />
+                <hr style={{ color: '#404040', margin: '40px 0' }}  />
                 <Row id='barqia-social-networks'>
                     <Col style={{ textAlign: 'center' }}>
                         <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
@@ -150,7 +150,7 @@ const Home = () => (
                                         </div>
                                     </Col>
                                 </Row>
-                                <hr style={{ margin: '40px 0' }} />
+                                <hr style={{ color: '#404040', margin: '40px 0' }} />
                                 <Row id='barqia-social-networks'>
                                     <Col style={{ textAlign: 'center' }}>
                                         <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
@@ -218,7 +218,7 @@ const Home = () => (
                         <img src='/img/Logo_Inicio.png' style={{ width: '80px' }} />
                     </Col>
                 </Row>
-                <hr style={{ margin: '40px 0' }} />
+                <hr style={{ color: '#404040', margin: '40px 0' }} />
                 <Row id='barqia-social-networks'>
                     <Col style={{ textAlign: 'center' }}>
                         <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>

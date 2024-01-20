@@ -272,9 +272,11 @@ const Hackathon2024 = () => {
                 </Col>
             </Row>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
-                 <Row>
-                    <Col style={{ textAlign: 'center' }}>
-                        <img src='/img/Logo_Inicio.png' style={{ width: '80px' }} />
+                <Row>
+                    <Col style={{ textAlign: 'center', marginTop: '0' }}>
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', marginTop: '0', marginBottom: '0', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ marginTop: '-95px' }} />
+                        </div>
                     </Col>
                 </Row>
                 <hr style={{ margin: '40px 0' }} />

@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button';
 const AboutUs = () => {
     return(
         <div>
-            <Container fluid className='container-desktop' id='container-about-us'>
+            <Container fluid className='container-desktop' id='container-about-us' style={{ overflow: 'hidden' }}>
                 <img id='navbar-laser' src='/img/navbar_laser.png' style={{ position: 'relative', zIndex: '2' }} />
                 <div id='nav-bar' style={{ padding: '20px 30px', zIndex: '2'}}>
                     <div style={{ display: 'inline-block' }}>
@@ -106,7 +106,7 @@ const AboutUs = () => {
                                     <img src='/img/story-title.png' />
                                     <div style={{ textAlign: 'center'}}>
                                         <video autoPlay muted loop playsInline style={{width: '100%'}}>
-                                            <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
+                                            <source src="video/character-1.mp4" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
@@ -120,25 +120,23 @@ const AboutUs = () => {
                         </div>
 
                         <div id='story-desktop' className='hide-on-mobile' style={{position: 'relative'}}>
-                            <img src='/img/laser-2.png' style={{width: '100%'}} />
-                            <img src='/img/poligonos.png' style={{width: '100%'}} />
-                            <div id='div-img-story-title' style={{position: 'absolute', top: '10%', left: '5%'}}>
-                                <img src='/img/story-title.png' />
-                                <div style={{ textAlign: 'center'}}>
-                                    <video autoPlay muted loop playsInline style={{width: '100%'}}>
-                                        <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
-                                    </video>
-                                </div>
+                            <img src='/img/panel_4_i.png' style={{ position: 'absolute', top: '-140px', right: '0', width: '337px' }} />
+                            <p style={{ textAlign: 'center' }}>
+                                <img src='/img/story-title.png' style={{ position: 'relative', marginTop: '-85px' }} />
+                            </p>
+                            <div style={{ textAlign: 'center'}}>
+                                <video autoPlay muted loop playsInline style={{ marginTop: '-110px', marginLeft: '160px', marginBottom: '150px', width: '100%'}}>
+                                    <source src="video/character-1.mp4" type="video/mp4" />
+                                </video>
                             </div>
-                            <div id='about-us-content' style={{position: 'absolute', top: '10%', right: '10%', width: '50%'}}>
+                            <div id='about-us-content' style={{position: 'absolute', top: '10%', width: '50%'}}>
                                 <p style={{ color: 'white', marginTop: '5px', width: '100%'}}>
                                     Barqia Sports was born as a result of the merger of an Argentine company, known as Barqia, and a Spanish one, Padel Fantasy. Our contact occurred thanks to participation in a reference event for startups and entrepreneurs at an international level. After several months of conversations, reflections and exchange of passions, we had the extraordinary idea of founding Barqia Sports, a comprehensive fan engagement platform.
-                                </p>
-                                <p style={{ color: 'white', marginTop: '65px', width: '100%' }}>
+                                    <br/><br/>
                                     We share the same common interests and aspirations, focused on the application of cutting-edge and futuristic technology for the benefit of clubs, athletes and fans, with the purpose of creating a fully immersive platform with absolute connectivity between all the parties involved.
                                 </p>
                             </div>
-                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px', position: 'absolute', top: '50%' }}>
+                            <Container style={{ background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '15px 40px' }}>
                                 <Row>
                                     <Col style={{ display: 'inline-block', width: '33%' }}>
                                         <div style={{ textAlign: 'center', position: 'relative' }}>
@@ -231,7 +229,7 @@ const AboutUs = () => {
                             </div>
                         </Col>
                     </Row>
-                    <hr style={{ margin: '40px 0' }} />
+                    <hr style={{ color: '#404040', margin: '40px 0' }} />
                     <Row id='barqia-social-networks'>
                         <Col style={{ textAlign: 'center' }}>
                             <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
@@ -290,7 +288,7 @@ const AboutUs = () => {
                                             </div>
                                         </Col>
                                     </Row>
-                                    <hr style={{ margin: '40px 0' }} />
+                                    <hr style={{ color: '#404040', margin: '40px 0' }} />
                                     <Row id='barqia-social-networks'>
                                         <Col style={{ textAlign: 'center' }}>
                                             <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
@@ -376,7 +374,7 @@ const AboutUs = () => {
                 </div>
 
                 <video autoPlay muted loop style={{position: 'relative', width: '100%', zIndex: '1' }}>
-                    <source src="video/Alex_Promo_Juego.mp4" type="video/mp4" />
+                    <source src="video/character-1.mp4" type="video/mp4" />
                 </video>
                 <p id='third-p-our-mission' style={{ color: 'white', position: 'relative' }}>
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '85px', left: '-66px', transform: 'rotate(-270deg)', width: '193px', zIndex: '0' }} />
@@ -476,7 +474,7 @@ const AboutUs = () => {
                             <img src='/img/Logo_Inicio.png' style={{ width: '80px' }} />
                         </Col>
                     </Row>
-                    <hr style={{ margin: '40px 0' }} />
+                    <hr style={{ color: '#404040', margin: '40px 0' }} />
                     <Row id='barqia-social-networks'>
                         <Col style={{ textAlign: 'center' }}>
                             <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
