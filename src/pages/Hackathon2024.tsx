@@ -299,7 +299,7 @@ const Hackathon2024 = () => {
 
         {/** */}
 
-        <Container className='container-mobile' id='landing-evento-mobile'>
+        <Container className='container-mobile' id='landing-evento-mobile' style={{ overflow: 'hidden' }}>
             {['xxl'].map((expand) => (
                 <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                     <Container fluid>
