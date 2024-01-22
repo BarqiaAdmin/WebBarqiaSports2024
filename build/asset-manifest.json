@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c182a68f.css",
+    "main.js": "/static/js/main.f0f2ff23.js",
+    "static/js/787.b2468bc1.chunk.js": "/static/js/787.b2468bc1.chunk.js",
+    "static/media/fondo-landing.png": "/static/media/fondo-landing.538dae019cab20abdd36.png",
+    "index.html": "/index.html",
+    "main.c182a68f.css.map": "/static/css/main.c182a68f.css.map",
+    "main.f0f2ff23.js.map": "/static/js/main.f0f2ff23.js.map",
+    "787.b2468bc1.chunk.js.map": "/static/js/787.b2468bc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c182a68f.css",
+    "static/js/main.f0f2ff23.js"
+  ]
+}
