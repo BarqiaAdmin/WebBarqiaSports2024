@@ -74,7 +74,7 @@ const AboutUs = () => {
                 </Carousel>
 
                 <Container style={{ padding: '0' }}>
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', position: 'relative', marginTop: '-6px', marginBottom: '0', textAlign: 'center', zIndex: '1' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', position: 'relative', marginTop: '-7px', marginBottom: '0', textAlign: 'center', zIndex: '1' }}  >
                         OUR MISSION
                     </h1>
 

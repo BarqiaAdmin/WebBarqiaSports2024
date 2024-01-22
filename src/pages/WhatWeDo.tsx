@@ -229,7 +229,7 @@ const WhatWeDo = () => {
                 </div>
 
                 <Row style={{ marginBottom: '80px', position: 'relative', zIndex: '1' }}>
-                    <Col xs={12} style={{ zIndex: '2' }}>
+                    <Col xs={12} style={{ marginTop: '-40px', zIndex: '2' }}>
                         <img src='/img/poligonos_3.png' />
                     </Col>
 
@@ -240,6 +240,12 @@ const WhatWeDo = () => {
                     <Col xs={6}>
                         <div className='banda-vertical'></div>
                     </Col>
+
+                    <Col className='col-lg-12' style={{ marginBottom: '40px' }}>
+                        <h1 className='titulo-neon' style={{ textAlign: 'center', fontSize: '70px' }}>
+                            OUR SERVICES
+                        </h1>
+                    </Col>  
 
                     <Col xs={6}>
                         <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' />
