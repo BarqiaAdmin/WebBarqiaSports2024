@@ -102,7 +102,7 @@ const Events = () => {
 
             {/** */}
 
-            <Container className='container-mobile' id='home-container-mobile'>
+            <Container className='container-mobile' id='home-container-mobile' style={{ overflow: 'hidden' }}>
                 {['xxl'].map((expand) => (
                     <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                         <Container fluid>
@@ -206,8 +206,8 @@ const Events = () => {
                     </Row>
                 </Col>
 
-                <Col style={{ position: 'relative' }}>
-                    <img src='/img/panel_4_i.png' style={{ transform: 'rotate(180deg)', position: 'absolute', left: '0', top: '-110px', width: '80px' }} />
+                <Col style={{ position: 'relative', marginBottom: '-90px' }}>
+                    <img src='/img/panel_3_i.png' style={{ transform: 'rotate(180deg)', position: 'absolute', right: '0', top: '-40px', width: '100px' }} />
                     <p style={{ textAlign: 'center' }}>
                         From Barqia we are elaborating a series of events in different cities to find new talents and their potential for esports games.
                         <br /><br />
@@ -217,7 +217,7 @@ const Events = () => {
                             </Button>
                         </a>
                     </p>
-                    <img src='/img/panel_3_i.png' style={{ transform: 'rotate(180deg)', position: 'relative', top: '-25px', right: '-205px', width: '170px' }} />
+                    <img src='/img/panel_4_i.png' style={{ transform: 'rotate(180deg)', position: 'relative', top: '-140px', right: '-0px', width: '70px' }} />
                 </Col>
 
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
