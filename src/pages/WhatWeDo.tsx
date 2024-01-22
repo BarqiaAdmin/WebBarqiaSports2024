@@ -228,6 +228,14 @@ const WhatWeDo = () => {
                     </p>
                 </div>
 
+                <Row>
+                    <Col>
+                        <video autoPlay muted loop playsInline style={{ borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '8px', borderStyle: 'solid', marginBottom: '80px' }}>
+                            <source src="video/yenga-mobile.mp4" type="video/mp4" />
+                        </video>
+                    </Col>
+                </Row>
+
                 <Row style={{ marginBottom: '80px', position: 'relative', zIndex: '1' }}>
                     <Col xs={12} style={{ marginTop: '-40px', zIndex: '2' }}>
                         <img src='/img/poligonos_3.png' />

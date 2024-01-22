@@ -374,7 +374,7 @@ const AboutUs = () => {
                 </div>
 
                 <video autoPlay muted loop style={{position: 'relative', width: '100%', zIndex: '1' }}>
-                    <source src="video/character-1.mp4" type="video/mp4" />
+                    <source src="video/personaje-mobile.mp4" type="video/mp4" />
                 </video>
                 <p id='third-p-our-mission' style={{ color: 'white', position: 'relative' }}>
                     <img src='/img/panel_5_i.png' style={{ position: 'absolute', top: '85px', left: '-66px', transform: 'rotate(-270deg)', width: '193px', zIndex: '0' }} />
