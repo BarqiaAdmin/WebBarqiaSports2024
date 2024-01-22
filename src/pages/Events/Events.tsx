@@ -68,7 +68,7 @@ const Events = () => {
                             <br /><br />
                             <a href='/Contact'>
                                 <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
-                                    Contact With Us
+                                    Contact Us
                                 </Button>
                             </a>
                         </p>
@@ -175,31 +175,49 @@ const Events = () => {
                 <Col>
                     <Row>
                         <Col>
-                            <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '40px 0', textAlign: 'center' }}  >
+                            <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', margin: '0', textAlign: 'center' }}  >
                                 EVENTS
                             </h1>
                         </Col>
                     </Row>
 
                     <Row>
-                        <p style={{ textAlign: 'center'}}>
-                            Primer evento internacional de eSports transmitido en vivo en donde participarán programadores y desarrolladores gamming con el objetivo de crear un juego VR dentro de la plataforma inmersiva de Barqia Sports.
+                        <Col className='col-lg-12'>
+                            <h1 style={{ fontSize: '33px', marginTop: '30px', textAlign: 'center' }}>
+                                <a href='/Hackathon2024' target='_blank'>Next Event - 09/02 International Lab Madrid</a>
+                            </h1>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <p style={{ margin: '0 0 20px 0', textAlign: 'center'}}>
+                            First international eSports event broadcast live where programmers and gamming developers will participate with the objective of creating a VR game within the immersive platform of Barqia Sports.
                         </p>
-
-
-                        <img src='/img/poligonos_3.png' style={{ marginTop: '-35px', width: '100%', zIndex: '1' }} />
-
                         <p style={{ padding: '-0px',  }}>
                             <img src='/img/hackathon-2024-flyer.png' style={{ marginTop:'-40px', position: 'relative',    width: '100%', zIndex: '0' }} />
                         </p>
                         <p style={{ textAlign: 'center'}}>
                             <a href='/Hackathon2024'>
                                 <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
-                                    Sitio del evento
+                                    Participate!
                                 </Button>
                             </a>
                         </p>
                     </Row>
+                </Col>
+
+                <Col style={{ position: 'relative' }}>
+                    <img src='/img/panel_4_i.png' style={{ transform: 'rotate(180deg)', position: 'absolute', left: '0', top: '-110px', width: '80px' }} />
+                    <p style={{ textAlign: 'center' }}>
+                        From Barqia we are elaborating a series of events in different cities to find new talents and their potential for esports games.
+                        <br /><br />
+                        <a href='/Contact'>
+                            <Button style={{ background: '#16525F', fontSize: '20px', padding: '20px', color: 'white', }}>
+                                Contact Us
+                            </Button>
+                        </a>
+                    </p>
+                    <img src='/img/panel_3_i.png' style={{ transform: 'rotate(180deg)', position: 'relative', top: '-25px', right: '-205px', width: '170px' }} />
                 </Col>
 
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
