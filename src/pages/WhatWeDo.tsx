@@ -153,7 +153,7 @@ const WhatWeDo = () => {
 
             {/** */}
 
-            <Container className='container-mobile' id='home-container-mobile' fluid>
+            <Container fluid className='container-mobile' id='home-container-mobile' style={{ overflow: 'hidden' }}>
                 {['xxl'].map((expand) => (
                     <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
                         <Container fluid>
