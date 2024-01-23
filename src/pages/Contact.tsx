@@ -32,6 +32,7 @@ const Contact = () => {
                         <Col className='col-lg-12' style={{ marginBottom: '50px' }}>
                             <h1 className='neonText' style={{ textAlign: 'center' }}>Connect with us</h1>
                         </Col>
+                        {/**
 
                         <Col className='col-lg-3'></Col>
                         <Col className='col-lg-6'>
@@ -81,6 +82,17 @@ const Contact = () => {
                             </div>
                         </Col>
                         <Col className='col-lg-3'></Col>
+                        */}
+                        
+                        <Row>
+                            <Col style={{ textAlign: 'center' }}>
+                                <a href='mailto:hello@barqiasports.com'>
+                                    <Button style={{ background: '#16525F', fontSize: '20px', margin: 'auto', padding: '20px', color: 'white', }} >
+                                        CONTACT US
+                                    </Button>
+                                </a>
+                            </Col>
+                        </Row>
                     </Row>
                 </Container>
 
@@ -175,6 +187,7 @@ const Contact = () => {
                 <Container>
                     <h1 className='neonText' style={{ fontSize: '40px', textAlign: 'center' }}>Connect with us</h1>
                     <img src='/img/world-map.png' style={{ margin: '40px 0' }} />
+                    {/**
                     <InputGroup className="mb-12">
                         <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
                         <Form.Control
@@ -217,6 +230,16 @@ const Contact = () => {
                             Submit
                         </Button>
                     </InputGroup>
+                     */}
+                    <Row style={{ marginBottom: '20px' }}>
+                        <Col style={{ textAlign: 'center' }}>
+                            <a href='mailto:hello@barqiasports.com'>
+                                <Button style={{ background: '#16525F', fontSize: '20px', margin: 'auto', padding: '20px', color: 'white', }} >
+                                    CONTACT US
+                                </Button>
+                            </a>
+                        </Col>
+                    </Row>
                 </Container>
 
                 <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
