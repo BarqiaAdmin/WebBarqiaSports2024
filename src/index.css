@@ -127,6 +127,10 @@ p {
   width: 375px;
 }
 
+.container-desktop, .container-mobile {
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 600px) {
     #offcanvasNavbar-expand-xxl, .offcanvas-body, .navBar-nav, .navBar-toggle {
         display: none;

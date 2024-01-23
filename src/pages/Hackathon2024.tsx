@@ -30,11 +30,17 @@ const Hackathon2024 = () => {
             </div>
             {/* Barra de navegación */}
 
-            <div style={{ display: 'inline-block', marginTop: '-15%' }}>
-                <img src='/img/robot_3.png' style={{ marginLeft: '-14%', transform: 'rotate(20deg)', width: '478px' }} />
-                <img src='/img/hackathon-titulo.png' style={{ width: '700px' }} />
-                <img src='/img/robot_4.png' style={{ marginRight: '-82%', width: '560px' }} />
-            </div>
+            <Row>
+                <Col className='col-lg-4'>
+                    <img src='/img/robot_3.png' style={{ transform: 'rotate(20deg)', width: '100%'}} />
+                </Col>
+                <Col className='col-lg-4'>
+                    <img src='/img/hackathon-titulo.png' style={{ width: '100%' }} />
+                </Col>
+                <Col className='col-lg-4'>
+                    <img src='/img/robot_4.png' style={{ width: '100%'}} />
+                </Col>
+            </Row>
 
             <Row style={{ padding: '0 160px', marginBottom: '60px', marginTop: '-125px' }}>
                 <Col>
@@ -273,13 +279,13 @@ const Hackathon2024 = () => {
             </Row>
             <Container id='footer' style={{ background: 'black', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', padding: '50px', position: 'relative', zIndex: '2' }}>
                 <Row>
-                    <Col style={{ textAlign: 'center', marginTop: '0' }}>
-                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', marginTop: '0', marginBottom: '0', position: 'relative', zIndex: '1' }}>
-                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' style={{ marginTop: '-95px' }} />
+                    <Col style={{ textAlign: 'center' }}>
+                        <div id='barqia-symbol-gif-container' style={{ textAlign: 'center', position: 'relative', zIndex: '1' }}>
+                            <img id='barqia-footer-gif' src='/img/barqia-symbol-gif.gif' />
                         </div>
                     </Col>
                 </Row>
-                <hr style={{ margin: '40px 0' }} />
+                <hr style={{ color: '#404040', margin: '40px 0' }} />
                 <Row id='barqia-social-networks'>
                     <Col style={{ textAlign: 'center' }}>
                         <a target="_blank" href='https://www.youtube.com/@barqiasports'><img src='/img/icon-youtube.png' style={{ filter: 'brightness(0) invert(1)', width: '37px' }} /></a>
@@ -294,7 +300,7 @@ const Hackathon2024 = () => {
                         </p>
                     </Col>
                 </Row>
-            </Container>           
+            </Container>          
         </Container>
 
         {/** */}
