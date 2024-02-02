@@ -28,7 +28,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <Carousel data-bs-theme="dark" style={{ marginTop: '-138px', zIndex: '1' }}>
+                <Carousel data-bs-theme="dark" style={{ marginTop: '-184px', zIndex: '1' }}>
                     <Carousel.Item interval={2000}>
                         <img
                         className="d-block w-100"
@@ -74,7 +74,7 @@ const AboutUs = () => {
                 </Carousel>
 
                 <Container style={{ padding: '0' }}>
-                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', position: 'relative', marginTop: '-7px', marginBottom: '0', textAlign: 'center', zIndex: '1' }}  >
+                    <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', position: 'relative', marginTop: '-15px', marginBottom: '0', textAlign: 'center', zIndex: '1' }}  >
                         OUR MISSION
                     </h1>
 
@@ -88,7 +88,7 @@ const AboutUs = () => {
 
                     <div className='flex-container' style={{ display: 'flex', justifyContent: 'space-between', marginTop: '40px' }}>
                         <img src='/img/panel_3_i.png' style={{ maxWidth: '40%'}} />
-                        <p style={{ color: 'white', display: 'inline-block', fontSize: '19px', width: '60%'  }}>
+                        <p style={{ background: 'none', color: 'white', display: 'inline-block', fontSize: '19px', width: '60%', zIndex: '1' }}>
                             We strive to foster an environment that allows fans to have unique and enriching experiences, while providing sports, clubs and athletes with the tools and technology necessary to strengthen their bond with their audience and take their engagement to the next level. Ultimately, our mission is to drive the evolution of relationships in the world of sport, bringing about a deeper and more authentic approach between all those involved.
                         </p>
                     </div>
@@ -152,6 +152,7 @@ const AboutUs = () => {
                                             <h4>
                                                 Founder of Barqia
                                             </h4>
+                                            <hr />
                                             <div style={{ fontStyle: 'italic' }}>
                                                 A technology company focused on development with AI.
                                             </div>
@@ -178,6 +179,7 @@ const AboutUs = () => {
                                             <h4>
                                                 Sports Business Management
                                             </h4>
+                                            <hr />
                                             <div style={{ fontStyle: 'italic' }}>
                                                 Co-Founder of Padel Fantasy. Fantasy game app from the world of sports.
                                             </div>
@@ -204,6 +206,7 @@ const AboutUs = () => {
                                             <h4>
                                                 Project Manager
                                             </h4>
+                                            <hr />
                                             <div style={{ fontStyle: 'italic' }}>
                                                 Interactive Spaces Specialist in VR/AR
                                             </div>

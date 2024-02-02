@@ -78,7 +78,7 @@ const Home = () => (
                     </Col>
 
                     <Col className='col-lg-8'>
-                        <img src='/img/home-2.PNG' style={{ marginTop: '-202%', marginLeft: '-12px', width: '1100px' }} />
+                        <img src='/img/home-2.PNG' style={{ marginTop: '-202%', marginLeft: '-12px', width: '1200px' }} />
                     </Col>
                 </Row>
             </Container>
