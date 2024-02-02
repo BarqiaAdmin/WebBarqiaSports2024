@@ -29,7 +29,7 @@ const Events = () => {
 
                 <Row>
                     <Col>
-                        <img src='/img/render-events.jpg' style={{ marginTop: '-47px', width: '100%' }} />
+                        <img src='/img/render-events.jpg' style={{ marginTop: '-59px', width: '100%' }} />
                     </Col>
                     <Col className='col-lg-12'>
                         <h1 id='h1-about-us-our-mission' className='neonText' style={{ background: '#171618', color: 'white', textAlign: 'center' }}  >

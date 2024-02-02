@@ -5,13 +5,13 @@
 */
 
 #landing-evento {
-    background: url('../../public/img/fondo-landing.png');
+    background: url('../../public/img/landing/background.jpg');
     color: white;
     font-family: 'Jura';
 }
 
 #landing-evento-mobile {
-    background: url('../../public/img/fondo-landing.png');
+    background: url('../../public/img/landing/background.jpg');
 }
 
 #landing-evento p {

@@ -4,6 +4,10 @@ html, body {
   padding: 0;
 }
 
+html {
+  background: black;
+}
+
 p {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#020409+0,05101b+50,020409+100 */
   background: rgba(0, 0, 0, 0.3);
