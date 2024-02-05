@@ -237,7 +237,7 @@ const Hackathon2024 = () => {
                     <Row>
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
                             <h1 style={{ marginTop: '40px' }}>
-                                <a href='https://m0mpetq8kon.typeform.com/to/kOgcrpYh' target='_blank'>
+                                <a href='https://forms.gle/KowRNKY6Rh51W69N6' target='_blank'>
                                     <span>Quiero inscribirme</span>
                                 </a>
                             </h1>
