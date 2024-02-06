@@ -36,15 +36,17 @@ const Hackathon2024 = () => {
                 </Col>
             </Row>
 
-            <Row style={{ padding: '0 200px', marginBottom: '60px', marginTop: '-125px' }}>
-                <Col>
-                    <p>
+            <Row style={{ padding: '0 200px', marginTop: '-125px' }}>
+                <Col style={{ textAlign: 'center' }}>
+                    <p style={{ textAlign: 'center' }}>
                         El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
                     </p>
-
-                    <h2 style={{ color: '#CB6BE6' }}>
+                    <br />
+                    <br />
+                    <h2 style={{ color: '#CB6BE6', marginBottom: '70px' }}>
                         «Diseñando el futuro de las experiencias deportivas»
                     </h2>
+                    <br />
                 </Col>
             </Row>
 
@@ -97,11 +99,12 @@ const Hackathon2024 = () => {
 
             <Row style={{ padding: '0 120px' }}>
                 <Col>
-                    <p>
+                    <br />
+                    <p style={{ textAlign: 'center' }}>
                         Hackathon Esports es una emocionante competición en la que tu podrás desarrollar personajes originales para un  videojuego de realidad virtual en el <strong>ESTADIO BARQIA</strong>.
                     </p>
 
-                    <p>
+                    <p style={{ textAlign: 'center', marginBottom: '70px' }}>
                         En esta competición, podrás demostrar tus habilidades de diseño y programación al presentar personajes ante un jurado   de expertos.
                     </p>
                 </Col>
@@ -133,8 +136,11 @@ const Hackathon2024 = () => {
                     <img src='/img/barqia-certificate.jpg' />
                     */}
                 </Col>
-
                 <Col sm={12} lg={12}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1 style={{ textAlign: 'center' }}>
                         <strong>PREMIOS</strong> 
                     </h1>
@@ -144,6 +150,9 @@ const Hackathon2024 = () => {
                         <li>PREMIO GENERAL: MEJOR IMPLEMENTACIÓN ELEJIDO POR JUEZ</li>
                         <li>PREMIO GANADOR E SPORTS</li>
                     </ul>
+                    <br />
+                    <br />
+                    <br />
                 </Col>
                 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
@@ -162,6 +171,9 @@ const Hackathon2024 = () => {
                     <p style={{ textAlign: 'center' }}>
                         ¡DEL RESTO NOS ENCARGAMOS NOSOTROS!
                     </p>
+                    <br />
+                    <br />
+                    <br />
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
@@ -204,11 +216,15 @@ const Hackathon2024 = () => {
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1 style={{ textAlign: 'center' }}>
                         <strong>AGENDA</strong>
                     </h1>
 
-                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
+                    <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '30px', listStyleType: 'none', marginLeft: '-40px' }}>
                         <li>9:00 - ENTRADA AL EVENTO</li>
                         <li>9:30 - DISCURSO DE INICIO</li>
                         <li>10:00 - COMIENZO DESARROLLO</li>
@@ -221,6 +237,10 @@ const Hackathon2024 = () => {
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1 style={{ textAlign: 'center' }}>
                         <strong>¡PARTICIPA EN LA 1° EDICIÓN DE HACKATHON E SPORTS!</strong>
                     </h1>
@@ -233,6 +253,8 @@ const Hackathon2024 = () => {
                     <p style={{ textAlign: 'center' }}>
                         COMPLETA EL SIGUIENTE FORMULARIO E INDICA SI PARTICIPAS DE FORMA INDIVIDUAL O EN EQUIPO
                     </p>
+                    <br />
+                    <br />
 
                     <Row>
                         <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
@@ -252,6 +274,10 @@ const Hackathon2024 = () => {
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1>
                         CÓMO LLEGAR
                     </h1>
@@ -262,6 +288,10 @@ const Hackathon2024 = () => {
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <h1>
                         C. DE BAILÉN, 41, 28005 MADRID
                     </h1>
@@ -383,7 +413,7 @@ const Hackathon2024 = () => {
                         El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
                     </p>
 
-                    <h2 style={{ color: '#CB6BE6' }}>
+                    <h2 style={{ color: '#CB6BE6'}}>
                         «Diseñando el futuro de las experiencias deportivas»
                     </h2>
                 </Col>
@@ -474,7 +504,7 @@ const Hackathon2024 = () => {
                     <img src='/img/barqia-certificate.jpg' />
                     */}
                 </Col>
-
+                <br />
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
                     <h1 style={{ textAlign: 'center' }}>
                         <strong>PREMIOS</strong> 
