@@ -145,11 +145,12 @@ const Hackathon2024 = () => {
                         <strong>PREMIOS</strong> 
                     </h1>
 
-                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
+                    <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '30px', listStyleType: 'none', marginLeft: '-40px', textAlign: 'center' }}>
                         <li>PREMIO DEL PÚBLICO</li>
                         <li>PREMIO GENERAL: MEJOR IMPLEMENTACIÓN ELEJIDO POR JUEZ</li>
                         <li>PREMIO GANADOR E SPORTS</li>
                     </ul>
+                    <br />
                     <br />
                     <br />
                     <br />
@@ -171,7 +172,6 @@ const Hackathon2024 = () => {
                     <p style={{ textAlign: 'center' }}>
                         ¡DEL RESTO NOS ENCARGAMOS NOSOTROS!
                     </p>
-                    <br />
                     <br />
                     <br />
                 </Col>
@@ -225,14 +225,14 @@ const Hackathon2024 = () => {
                     </h1>
 
                     <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '30px', listStyleType: 'none', marginLeft: '-40px' }}>
-                        <li>9:00 - ENTRADA AL EVENTO</li>
-                        <li>9:30 - DISCURSO DE INICIO</li>
-                        <li>10:00 - COMIENZO DESARROLLO</li>
-                        <li>14:00 - DESCANSO PARA COMIDA</li>
-                        <li>18:00 - ENTREGA DE PROYECTO</li>
-                        <li>18:30 - CHARLAS</li>
-                        <li>19:30 - EMPIEZA CONCURSO</li>
-                        <li>20:30 - ENTREGA DE PREMIOS</li>
+                        <li><span style={{ fontWeight: 'bold' }}>9:00</span> - ENTRADA AL EVENTO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>9:30</span> - DISCURSO DE INICIO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>10:00</span> - COMIENZO DESARROLLO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>14:00</span> - DESCANSO PARA COMIDA</li>
+                        <li><span style={{ fontWeight: 'bold' }}>18:00</span> - ENTREGA DE PROYECTO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>18:30</span> - CHARLAS</li>
+                        <li><span style={{ fontWeight: 'bold' }}>19:30</span> - EMPIEZA CONCURSO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>20:30</span> - ENTREGA DE PREMIOS</li>
                     </ul>
                 </Col>
 
@@ -331,7 +331,7 @@ const Hackathon2024 = () => {
 
         <Container className='container-mobile' id='landing-evento-mobile' style={{ overflow: 'hidden' }}>
             {['xxl'].map((expand) => (
-                <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
+                <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary">
                     <Container fluid>
                         <img id='navbar-barqia-symbol' src='img/barqia-symbol.png' />
                         <Navbar.Toggle className='navBar-toggle' aria-controls={`offcanvasNavbar-expand-${expand}`}/>
@@ -408,12 +408,13 @@ const Hackathon2024 = () => {
             </Col>
 
             <Row>
-                <Col>
-                    <p>
-                        El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
+                <Col style={{ textAlign: 'center' }}>
+                    <br />
+                    <p style={{ textAlign: 'center' }}>
+                        El 9 de febrero marca el inicio de la emocionante I Edición Hackathon Esports, uniendo a talentos gamers y empresas colaboradoras para desarrollar videojuegos profesionales que revolucionarán la experiencia de los fanáticos más allá de las gradas. <br /><br />Este evento potencia ideas innovadoras en deportes, videojuegos y programación, creando oportunidades y tecnologías de vanguardia. ¡Explora el futuro del entretenimiento con nosotros!
                     </p>
-
-                    <h2 style={{ color: '#CB6BE6'}}>
+                    <br />
+                    <h2 style={{ color: '#CB6BE6', marginBottom: '70px' }}>
                         «Diseñando el futuro de las experiencias deportivas»
                     </h2>
                 </Col>
@@ -471,33 +472,32 @@ const Hackathon2024 = () => {
                     <p>
                         Hackathon Esports es una emocionante competición en la que tu podrás desarrollar personajes originales para un  videojuego de realidad virtual en el <strong>ESTADIO BARQIA</strong>.
                     </p>
-
                     <p>
-                        En esta competición, podrás demostrar tus habilidades de diseño y programación al presentar personajes ante un jurado   de expertos.
+                        En esta competición, podrás demostrar tus habilidades de diseño y programación al presentar personajes ante un jurado de expertos.
                     </p>
                 </Col>
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                     <Row>
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-certificate.png' style={{ width: '100%'}} />
-                            <h2 className='barqia-purple-text'>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 className='barqia-purple-text' style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 Certificados de participación
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-certificate.png' style={{ width: '30%'}} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-trophy.png' style={{ width: '100%'}} />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Trofeos</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-trophy.png' style={{ width: '30%'}} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-gift.png' style={{ width: '100%'}} />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)', borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Gift cards</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-gift.png' style={{ width: '30%'}} />
                         </Col>
                     </Row>
                     {/**
@@ -506,27 +506,33 @@ const Hackathon2024 = () => {
                 </Col>
                 <br />
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1 style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <h1 style={{ fontSize: '45px', textAlign: 'center' }}>
                         <strong>PREMIOS</strong> 
                     </h1>
 
-                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
-                        <li>PREMIO DEL PÚBLICO</li>
-                        <li>PREMIO GENERAL: MEJOR IMPLEMENTACIÓN ELEJIDO POR JUEZ</li>
-                        <li>PREMIO GANADOR E SPORTS</li>
+                    <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '23px', listStyleType: 'none', marginLeft: '-40px', textAlign: 'center' }}>
+                        <li style={{ fontWeight: 'bold' }}>PREMIO DEL PÚBLICO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>PREMIO GENERAL</span></li>
+                        <li style={{ fontWeight: 'bold' }}>PREMIO GANADOR E SPORTS</li>
                     </ul>
                 </Col>
                 
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1 style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <h1 style={{ fontSize: '45px', textAlign: 'center' }}>
                         <strong>¡VIVE UNA EXPERIENCIA REAL!</strong>
                     </h1>
 
-                    <p style={{ textAlign: 'center' }}>
+                    <p style={{ textAlign: 'center', marginBottom: '-30px' }}>
                         ¡INCLUYE COMIDA Y BEBIDA!
                     </p>
 
-                    <p style={{ textAlign: 'center' }}>
+                    <p style={{ textAlign: 'center', marginBottom: '-30px' }}>
                         ¡AH! NO TE OLVIDES DE TRAER TU ORDENADOR (HARDWARE Y SOFTWARE) Y CUALQUIER GADGET QUE NECESITES PARA PARTICIPAR Y DESARROLLAR EL VIDEOJUEGO DURANTE EL EVENTO.
                     </p>
 
@@ -537,66 +543,71 @@ const Hackathon2024 = () => {
 
                 <Col sm={12} lg={12} style={{ textAlign: 'center', zIndex: '1' }}>
                     <Row>
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-burger.png' />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Comida y bebida</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-burger.png' style={{ width: '30%' }} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-computer.png' />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Mesa de trabajo</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-computer.png' style={{ width: '30%' }} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-wifi.png' />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Conexión a internet</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-wifi.png' style={{ width: '30%' }} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-building.png' />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Zona de descanso</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-building.png' style={{ width: '30%' }} />
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
-                            <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' />
-                            <h2>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', margin: '5px', textAlign: 'center' }}>
+                            <h2 style={{ fontSize: '30px', paddingTop: '50px' }}>
                                 <span className='barqia-purple-text'>Kit de bienvenida</span>
                             </h2>
+                            <img className='img-symbol' src='/img/barqia-symbol-tshirt.png' style={{ width: '30%' }} />
                         </Col>
                     </Row>
                 </Col>
 
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1 style={{ textAlign: 'center' }}>
+                    <br />
+                    <br />
+                    <br />
+                    <h1 style={{ fontSize: '45px', textAlign: 'center' }}>
                         <strong>AGENDA</strong>
                     </h1>
 
-                    <ul style={{ listStyleType: 'none', textAlign: 'center' }}>
-                        <li>9:00 - ENTRADA AL EVENTO</li>
-                        <li>9:30 - DISCURSO DE INICIO</li>
-                        <li>10:00 - COMIENZO DESARROLLO</li>
-                        <li>14:00 - DESCANSO PARA COMIDA</li>
-                        <li>18:00 - ENTREGA DE PROYECTO</li>
-                        <li>18:30 - CHARLAS</li>
-                        <li>19:30 - EMPIEZA CONCURSO</li>
-                        <li>20:30 - ENTREGA DE PREMIOS</li>
+                    <ul style={{ listStyleType: 'none', fontSize: '21px', marginLeft: '-35px', textAlign: 'center' }}>
+                        <li><span style={{ fontWeight: 'bold' }}>9:00</span> - ENTRADA AL EVENTO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>9:30</span> - DISCURSO DE INICIO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>10:00</span> - COMIENZO DESARROLLO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>14:00</span> - DESCANSO PARA COMIDA</li>
+                        <li><span style={{ fontWeight: 'bold' }}>18:00</span> - ENTREGA DE PROYECTO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>18:30</span> - CHARLAS</li>
+                        <li><span style={{ fontWeight: 'bold' }}>19:30</span> - EMPIEZA CONCURSO</li>
+                        <li><span style={{ fontWeight: 'bold' }}>20:30</span> - ENTREGA DE PREMIOS</li>
                     </ul>
+                    <br />
+                    <br />
                 </Col>
 
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1 style={{ textAlign: 'center' }}>
+                    <h1 style={{ fontSize: '45px', padding: '0 20px', textAlign: 'center' }}>
                         <strong>¡PARTICIPA EN LA 1° EDICIÓN DE HACKATHON E SPORTS!</strong>
                     </h1>
 
-                    <p style={{ color: 'white', textAlign: 'center' }}>
+                    <p style={{ color: 'white', marginBottom: '-20px', textAlign: 'center' }}>
                         ¿TE ATREVES A DESARROLLAR UN PERSONAJE EN UN DÍA?<br />
                         INSCRIPCIONES ABIERTAS HASTA EL 05/02, ¡PLAZAS LIMITADAS!
                     </p>
@@ -606,34 +617,38 @@ const Hackathon2024 = () => {
                     </p>
 
                     <Row>
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
                             <h1 style={{ marginTop: '40px' }}>
-                                <a href='https://forms.gle/KowRNKY6Rh51W69N6' target='_blank'>
+                                <a href='https://forms.gle/KowRNKY6Rh51W69N6' target='_blank' style={{ fontSize: '35px', textDecoration: 'none' }}>
                                     <span>Quiero inscribirme</span>
                                 </a>
                             </h1>
                         </Col>
 
-                        <Col style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
+                        <Col sm={12} style={{ background: 'rgba(0, 0, 0, 0.6)', border: '1px solid rgba(256, 256, 256, 0.2)',  borderRadius: '10px', color: 'white', margin: '5px', textAlign: 'center' }}>
                             <h1 style={{ marginTop: '40px' }}>
-                                <span>Conoce las bases</span>
+                                <span style={{ fontSize: '35px' }}>Conoce las bases</span>
                             </h1>
                         </Col>
                     </Row>
                 </Col>
 
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1>
+                    <br />
+                    <br />
+                    <br />
+                    <h1 style={{ fontSize: '40px', marginBottom: '-20px' }}>
                         CÓMO LLEGAR
                     </h1>
 
-                    <p style={{ color: 'white', textAlign: 'center' }}>
+                    <p style={{ color: 'white', marginTop: '-20px', textAlign: 'center' }}>
                         EL EVENTO TENDRA LUGAR EN LAS OFICINAS DEL INTERNATIONAL LAB DE MADRID, QUE SE UBICA EN LA ZONA CENTRICA DE LA CIUDAD, DIRECCIÓN:
                     </p>
                 </Col>
 
                 <Col sm={12} lg={12} style={{ color: 'white', textAlign: 'center' }}>
-                    <h1>
+                    <br />
+                    <h1 style={{ fontSize: '40px' }}>
                         C. DE BAILÉN, 41, 28005 MADRID
                     </h1>
                 </Col>

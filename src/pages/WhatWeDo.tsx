@@ -155,7 +155,7 @@ const WhatWeDo = () => {
 
             <Container fluid className='container-mobile' id='home-container-mobile' style={{ overflow: 'hidden' }}>
                 {['xxl'].map((expand) => (
-                    <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary mb-3">
+                    <Navbar id='general-navbar' key={expand} expand={expand} className="bg-body-tertiary">
                         <Container fluid>
                             <img id='navbar-barqia-symbol' src='img/barqia-symbol.png' />
                             <Navbar.Toggle className='navBar-toggle' aria-controls={`offcanvasNavbar-expand-${expand}`}/>
