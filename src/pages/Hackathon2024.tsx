@@ -145,10 +145,10 @@ const Hackathon2024 = () => {
                         <strong>PREMIOS</strong> 
                     </h1>
 
-                    <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '30px', listStyleType: 'none', marginLeft: '-40px', textAlign: 'center' }}>
-                        <li>PREMIO DEL PÚBLICO</li>
-                        <li>PREMIO GENERAL: MEJOR IMPLEMENTACIÓN ELEJIDO POR JUEZ</li>
-                        <li>PREMIO GANADOR E SPORTS</li>
+                    <ul style={{ display: 'inline-block', margin: 'auto', fontSize: '30px', listStyleType: 'none', marginLeft: '90px', textAlign: 'center' }}>
+                        <li><span style={{ fontWeight: 'bold' }}>PREMIO DEL PÚBLICO</span></li>
+                        <li><span style={{ fontWeight: 'bold' }}>PREMIO GENERAL:</span> MEJOR IMPLEMENTACIÓN ELEJIDO - POR JUEZ</li>
+                        <li><span style={{ fontWeight: 'bold' }}>PREMIO GANADOR E SPORTS</span></li>
                     </ul>
                     <br />
                     <br />
