@@ -78,7 +78,7 @@ const WhatWeDo = () => {
                         <Col xs={6}>
                             
                             <img src='/img/what-we-do/clubes-deportivos+plataforma-inmersiva.png' style={{ float: 'right', position: 'relative', zIndex: '2' }}/>
-                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', marginTop: '161px', marginLeft: '190px', padding: '10px 15px', position: 'absolute', left: '496px', zIndex: '2' }}>
+                            <div style={{ background: 'black', borderRadius: '5px', borderImage: 'linear-gradient(#00415C, #681253) 30', borderWidth: '4px', borderStyle: 'solid', color: 'white', fontSize: '28px', padding: '10px 15px', position: 'absolute', right: '-310px', top: '160px', zIndex: '2' }}>
                                 IMMERSIVE PLATFORM
                             </div>
                         </Col>
